@@ -122,7 +122,7 @@ class Location_Lista():
         self.widoczne_quizy: list = []
         self.dodane_quizy: dict = {}
         self.ustawienia_quizow: dict = {}
-        self.all_folders: dict = {}
+        self.all_folders: dict = {'Quizzes': []}
         for root, dirs, files in os.walk('Quizzes'):
             if dirs == ['Obrazy'] and files == ['ustawienia.json']:
                 self.all_folders[root] = None
