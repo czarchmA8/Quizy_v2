@@ -1,5 +1,5 @@
 ![language](https://img.shields.io/badge/language-python-239120)
-[![GitHub release](https://img.shields.io/github/v/release/czarchmA8/Quizy_v2-pygame)](#)
+[![GitHub release](https://img.shields.io/github/v/release/czarchmA8/Quizy_v2)](#)
 
 ## 💻 Opis Quizy v2
 ![logo](https://github.com/user-attachments/assets/6d0198d8-4622-429a-b3e3-8e8334490a8b)
