@@ -1,0 +1,15 @@
+wersja = '1.0.7'
+data_aktualizacji = "2025-04-14, 18:26:31"
+run: bool = None
+lokalizacja: str = None
+clock = None
+ustawienia: dict = None
+jezyk: dict = None
+window = None
+Locations = None
+mouse_x: int = None
+mouse_y: int = None
+mouse_pressed: list = None
+mouse_scroll: int = None
+pressed_keys: list = None
+TextInput: list = None

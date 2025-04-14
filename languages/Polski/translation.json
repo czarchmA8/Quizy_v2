@@ -1,0 +1,50 @@
+{
+  "Nazwa okna": "Quizy",
+  "Ładowanie gry": "Ładowanie...",
+  "Ustawienia": {
+    "Język": "Język",
+    "Głośność ogólna": "Głośność ogólna",
+    "Głośność muzyki": "Głośność muzyki"
+  },
+  "Informacje": {
+    "Autor": "Autor",
+    "Data powstania": "Data powstania",
+    "Ostatnia aktualizacja": "Ostatnia aktualizacja",
+    "Wersja": "Wersja",
+    "Opis": "Quizy to program edukacyjny stworzony z użyciem biblioteki Pygame, zaprojektowany z myślą o nauce ptaków Polski, ale elastyczny i rozszerzalny także o inne tematy quizowe. GUI programu zostało opracowane z myślą o użytkownikach korzystających zarówno z komputerów, jak i urządzeń mobilnych."
+  },
+  "Lista pytań": {
+    "Zaznaczono": "Zaznaczono",
+    "Pytań": "pytań"
+  },
+  "Zapisywanie": {
+    "Niedostępne": "Zapisywanie listy pytań na chwilę obecną jest niedostępne"
+  },
+  "Wczytywanie": {
+    "Niedostępne": "Wczytywanie listy pytań na chwilę obecną jest niedostępne"
+  },
+  "Stwórz quiz": {
+    "Niedostępne": "Tworzenie quizów na chwilę obecną jest niedostępne"
+  },
+  "Pytanie": {
+    "Pytanie": "Pytanie",
+    "Punkty": "Pkt",
+    "Poprawne odpowiedzi": "Odp",
+    "Typ odpowiedzi": {
+      "Wpisz odpowiedz": "Wpisz odpowiedz"
+    }
+  },
+  "Odpowiedź": {
+    "Zła odpowiedź": "Zła odpowiedź",
+    "Poprawna odpowiedź": "Poprawna odpowiedź",
+    "Twoja odpowiedź": "Twoja odpowiedź",
+    "Poprawne odpowiedzi": "Poprawne odpowiedzi"
+  },
+  "Wyniki": {
+    "Ukończono quiz": "Ukończono quiz",
+    "Zdobyte punkty": "Zdobyte punkty",
+    "Poprawne odpowiedzi": "Poprawne odpowiedzi",
+    "Czas ukończenia": "Czas ukończenia",
+    "Średni czas odpowiedzi": "Średni czas odpowiedzi"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "J\u0119zyk": "Polski",
+  "Szeroko\u015b\u0107": 562,
+  "Wysoko\u015b\u0107": 1000,
+  "Pe\u0142ny ekran": false,
+  "Skalowanie": 0.9,
+  "FPS": {
+    "Poka\u017c FPS": false,
+    "Rozmiar FPS": 40,
+    "Rozmiar FPS cienia": 41,
+    "xy FPS": [
+      5,
+      5
+    ],
+    "xy FPS cienia": [
+      3,
+      3
+    ],
+    "Kolor FPS": [
+      150,
+      150,
+      150
+    ],
+    "Kolor FPS cienia": [
+      0,
+      0,
+      0
+    ]
+  },
+  "G\u0142o\u015bno\u015b\u0107": {
+    "Og\u00f3lne": 20,
+    "Muzyka": 5
+  }
+}
