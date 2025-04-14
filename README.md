@@ -20,7 +20,7 @@ Quizy to program edukacyjny stworzony przez czarchmA8 z użyciem biblioteki Pyga
 
 ### ⚙️ Instalacja kodu źródłowego
 
-Pobierz kod źródłowy [Quizy v2](https://github.com/czarchmA8/Quizy_v2-pygame/archive/refs/heads/master.zip)
+Pobierz kod źródłowy [Quizy v2](https://github.com/czarchmA8/Quizy_v2/archive/refs/heads/master.zip)
 
 Upewnij się, że masz zainstalowanego Pythona, a następnie wykonaj komendę aby zainstalować wymagane biblioteki
 ```bash
