@@ -16,7 +16,7 @@ Quizy to program edukacyjny stworzony przez czarchmA8 z użyciem biblioteki Pyga
  - [Quizy v2](https://mega.nz/file/ockVnBpb#BWLkAk0Myl9dQZ6BKKnboF3Z6SY6I5zEQbhEpsmMhsQ) (Mega)
 
 ### 🦅 Pobierz quiz o ptakach:
- - [Quizy v2](https://mega.nz/file/tB0zTawZ#8fMR0BCYoGplJ7XrdU4zX-mPqC_mraP0FKT5jp3ZhKI) (Mega)
+ - [Awifauna Polski (2025r)](https://mega.nz/file/tB0zTawZ#8fMR0BCYoGplJ7XrdU4zX-mPqC_mraP0FKT5jp3ZhKI) (Mega)
 
 ### ⚙️ Instalacja kodu źródłowego
 
