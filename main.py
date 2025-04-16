@@ -55,9 +55,9 @@ def main():
     variables.pressed_keys = {}
     while variables.run:
         variables.mouse_pressed = list(pygame.mouse.get_pressed())
-        variables.mouse_pressed[0] = int(variables.mouse_pressed[0])
-        variables.mouse_pressed[1] = int(variables.mouse_pressed[1])
-        variables.mouse_pressed[2] = int(variables.mouse_pressed[2])
+        variables.mouse_pressed[0] = int(variables.mouse_pressed[0]) * 2
+        variables.mouse_pressed[1] = int(variables.mouse_pressed[1]) * 2
+        variables.mouse_pressed[2] = int(variables.mouse_pressed[2]) * 2
 
         usun_key = []
         for key in variables.pressed_keys:
@@ -76,7 +76,7 @@ def main():
                 break
             elif event.type == pygame.MOUSEBUTTONDOWN:
                 if 1 <= event.button <= 3:
-                    variables.mouse_pressed[event.button - 1] = 2
+                    variables.mouse_pressed[event.button - 1] = 1
             elif event.type == pygame.MOUSEBUTTONUP:
                 if 1 <= event.button <= 3:
                     variables.mouse_pressed[event.button - 1] = 3
@@ -96,7 +96,6 @@ def main():
 
         pygame.display.update()
         variables.clock.tick(60)
-    pygame.display.quit()
 
 if __name__ == '__main__':
     variables.run = True
@@ -106,5 +105,6 @@ if __name__ == '__main__':
         main()
         if type(variables.run) is int and variables.run == 0:
             variables.run = True
+    pygame.display.quit()
 
 pygame.quit()

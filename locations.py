@@ -257,12 +257,12 @@ class Location_Lista():
             else:
                 self.slider_y.set_value(self.slider_y.value - variables.mouse_scroll * 25 * variables.ustawienia['Skalowanie'])
 
-        if variables.mouse_pressed[0] == 2:
+        if variables.mouse_pressed[0] == 1:
             rect = self.surface.get_rect()
             rect.x, rect.y = 15 * variables.ustawienia['Skalowanie'], 89 * variables.ustawienia['Skalowanie']
             if rect.collidepoint(variables.mouse_x, variables.mouse_y):
                 self.mouse_motion = None, variables.mouse_x, variables.mouse_y
-        elif self.mouse_motion is not None and variables.mouse_pressed[0] == 1:
+        elif self.mouse_motion is not None and variables.mouse_pressed[0] == 2:
             if self.mouse_motion[0] is None:
                 if abs(self.mouse_motion[2] - variables.mouse_y) - 5 * variables.ustawienia['Skalowanie'] > abs(self.mouse_motion[1] - variables.mouse_x):
                     self.mouse_motion = 'y', self.slider_y.value + self.mouse_motion[2]
@@ -393,12 +393,12 @@ class Location_Kolejnosc():
             else:
                 self.slider_y.set_value(self.slider_y.value - variables.mouse_scroll * 25 * variables.ustawienia['Skalowanie'])
 
-        if variables.mouse_pressed[0] == 2:
+        if variables.mouse_pressed[0] == 1:
             rect = self.surface.get_rect()
             rect.x, rect.y = 15 * variables.ustawienia['Skalowanie'], 89 * variables.ustawienia['Skalowanie']
             if rect.collidepoint(variables.mouse_x, variables.mouse_y):
                 self.mouse_motion = None, variables.mouse_x, variables.mouse_y
-        elif self.mouse_motion is not None and variables.mouse_pressed[0] == 1:
+        elif self.mouse_motion is not None and variables.mouse_pressed[0] == 2:
             if self.mouse_motion[0] is None:
                 if abs(self.mouse_motion[2] - variables.mouse_y) - 5 * variables.ustawienia['Skalowanie'] > abs(self.mouse_motion[1] - variables.mouse_x):
                     self.mouse_motion = 'y', self.slider_y.value + self.mouse_motion[2]

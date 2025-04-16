@@ -13,7 +13,7 @@ Quizy to program edukacyjny stworzony przez czarchmA8 z użyciem biblioteki Pyga
  - (Opcjonalnie) Pobierz quiz o ptakach Polski (około 1,04 GB, 474 pytania) i wypakuj go do folderu Quizzes.
 
 ### 🕹️ Pobierz program bez quizów:
- - [Quizy v2](https://mega.nz/file/FQV1xbKS#XwsPI06xAR2JW3r48fQBL6k-zXEGxWVW7Nt_ichdvW0) (Mega)
+ - [Quizy v2](https://mega.nz/file/ockVnBpb#BWLkAk0Myl9dQZ6BKKnboF3Z6SY6I5zEQbhEpsmMhsQ) (Mega)
 
 ### 🦅 Pobierz quiz o ptakach:
  - [Quizy v2](https://mega.nz/file/tB0zTawZ#8fMR0BCYoGplJ7XrdU4zX-mPqC_mraP0FKT5jp3ZhKI) (Mega)

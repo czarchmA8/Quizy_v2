@@ -1,5 +1,5 @@
-wersja = '1.0.7'
-data_aktualizacji = "2025-04-14, 20:40:11"
+wersja = '1.0.8'
+data_aktualizacji = "2025-04-16, 20:14:03"
 run: bool = None
 lokalizacja: str = None
 clock = None
