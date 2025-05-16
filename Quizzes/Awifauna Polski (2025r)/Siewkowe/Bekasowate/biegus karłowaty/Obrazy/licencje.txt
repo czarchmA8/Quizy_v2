@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Least_Sandpiper.jpg  , Autor: Donna Dewhurst, USFWS
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Least_Sandpiper_Don_Edwards_WR_1.jpg  , Autor: Britta from San Francisco Bay Area, California

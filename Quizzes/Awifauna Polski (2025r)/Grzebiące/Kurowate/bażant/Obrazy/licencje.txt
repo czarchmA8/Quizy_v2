@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Phasianus_colchicus_2_tom_(Lukasz_Lukasik).jpg  , Autor: Nie znaleziono autora
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Phasianus_colchicus_4_hen_(Lukasz_Lukasik).jpg  , Autor: Nie znaleziono autora

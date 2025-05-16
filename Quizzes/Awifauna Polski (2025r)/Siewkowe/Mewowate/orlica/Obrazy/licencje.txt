@@ -1,0 +1,2 @@
+ - obraz_1.png: https://pl.wikipedia.org/wiki/Plik:Larus_ichtyaetus_1.png  , Autor: Dmitry Mikhirev
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Larus_ichthyaetus.jpg  , Autor: Nepenthes

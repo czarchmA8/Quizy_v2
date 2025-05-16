@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Rostgans.jpg  , Autor: Holger Pfiffi
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Ruddy_Shelduck_(Tadorna_ferruginea)-_Female_at_Bharatpur_I_IMG_5336.jpg  , Autor: J.M.Garg

@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Monsax.jpg  , Autor: Pierre Dalous
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Common_Rock-Thrush_(Monticola_saxatilis)_f_(46527244482).jpg  , Autor: Dominic Sherony

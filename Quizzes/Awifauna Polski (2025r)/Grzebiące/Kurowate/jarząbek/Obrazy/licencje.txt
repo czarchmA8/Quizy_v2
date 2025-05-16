@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Haselhuhn-01.jpg  , Autor: Wilfried Berns
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Tetrastes_bonasia_2.jpg  , Autor: MichaelHaeckel

@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:American_Herring_Gull_-_natures_pics.jpg  , Autor: Alan D. Wilson, www.naturespicsonline.com
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:American_Herring_Gull.jpg  , Autor: Tim

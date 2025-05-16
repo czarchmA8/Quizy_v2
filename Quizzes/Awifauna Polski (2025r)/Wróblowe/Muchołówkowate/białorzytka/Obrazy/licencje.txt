@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Steinschmaetzer_Northern_wheatear_male.jpg  , Autor: Andreas Trepte
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Northern_wheatear_Oenanthe_oenanthe.jpg  , Autor: Andreas Trepte

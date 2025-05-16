@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Whinchat_-_Saxicola_rubetra_(51193350123).jpg  , Autor: caroline legg
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Saxicola_rubetra_2_(Martin_Mecnarowski).jpg  , Autor: Martin Mecnarowski (http://www.photomecan.eu/)

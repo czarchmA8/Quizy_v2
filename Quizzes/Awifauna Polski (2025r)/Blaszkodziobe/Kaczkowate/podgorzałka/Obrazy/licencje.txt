@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Aythya_nyroca_Bulgaria_4.jpg  , Autor: Nikolaj Petkov
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Ferruginous_Pochard_female_RWD.jpg  , Autor: DickDaniels (http://carolinabirds.org/)

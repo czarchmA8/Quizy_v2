@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Calidris_canutus_(summer).jpg  , Autor: Hans Hillewaert
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Red_Knot_1_-_Boat_Harbour.jpg  , Autor: JJ Harrison (https://www.jjharrison.com.au/)

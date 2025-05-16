@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Makol%C4%85gwa.jpg  , Autor: Katarzyna Stępniewska
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Carduelis_cannabina_female.jpg  , Autor: Tebdi

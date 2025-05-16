@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Long-tailed-duck.jpg  , Autor: Wolfgang Wander
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Clangula-hyemalis-011.jpg  , Autor: Autor nie został podany w rozpoznawalny automatycznie sposób. Założono, że to Mdf (w oparciu o szablon praw autorskich).

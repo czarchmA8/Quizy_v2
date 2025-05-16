@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Ficedula_parva.jpg  , Autor: Nie znaleziono autora
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Red_Breasted_Flycatcher,_female,_clicked_at_Nagpur_by_Dr._Tejinder_Singh_Rawal.jpg  , Autor: Tsrawal

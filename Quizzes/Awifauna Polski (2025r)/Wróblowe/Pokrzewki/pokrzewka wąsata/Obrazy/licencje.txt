@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:%CE%9A%CE%BF%CE%BA%CE%BA%CE%B9%CE%BD%CE%BF%CF%84%CF%83%CE%B9%CF%81%CE%BF%CE%B2%CE%AC%CE%BA%CE%BF%CF%82.jpg  , Autor: Antonios Tsaknakis
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Subalpine_warbler_(F).jpg  , Autor: Gary L. Clark

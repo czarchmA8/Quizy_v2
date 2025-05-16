@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Anas.formosa.4.jpg  , Autor: Sarefo
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Garganey,_female,_Zoo_Praha_0702.jpg  , Autor: Matěj Baťha

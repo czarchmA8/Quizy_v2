@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Turdus_torquatus2.jpg  , Autor: GabrielBuissart
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Turdus_torquatus,_Spain_5.jpg  , Autor: Paco Gómez from Castellón, Spain

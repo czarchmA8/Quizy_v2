@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Eastern_Yellow_Wagtail_(Motacilla_tschutschensis_tschutschensis),_Kamchatka,_Russia_06.jpg  , Autor: valerkov
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/File:2019-12-16_Eastern_Yellow_Wagtail_Motacilla_tschutschensis,_Prestwick_Carr,_Northumberland_12.jpg  , Autor: MPF

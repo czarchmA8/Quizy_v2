@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Azure_Tit_-_Parus_cyanus.jpg  , Autor: https://www.flickr.com/photos/jargals004
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Azure_tit_in_the_meadow.jpg  , Autor: Alpharius Omegon

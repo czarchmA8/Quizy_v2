@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Pluvialis_squatarola_(summer_plumage).jpg  , Autor: Hans Hillewaert
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Black-bellied_Plover_in_nonbreeding_plumage.jpg  , Autor: Alan Vernon

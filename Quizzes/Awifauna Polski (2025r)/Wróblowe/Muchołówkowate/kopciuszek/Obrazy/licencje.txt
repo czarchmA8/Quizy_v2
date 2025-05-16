@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:PhoenicurusOchrurosGuntherHasler01.jpg  , Autor: Gunther Hasler, Augsburg
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Phoenicurus_ochruros_female.jpg  , Autor: Michael Apel

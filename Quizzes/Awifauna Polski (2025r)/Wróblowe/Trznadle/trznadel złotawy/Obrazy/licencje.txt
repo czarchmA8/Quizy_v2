@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:%D0%95%D0%BC%D0%B5%D0%BD%D1%88%D1%96%D0%BB_%D1%81%D2%B1%D0%BB%D1%8B%D0%BA%D0%B5%D1%88.jpg  , Autor: Madina Arystanova
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:S%E1%BA%BB_%C4%91%E1%BB%93ng_ng%E1%BB%B1c_v%C3%A0ng.jpg  , Autor: Khoitran1957

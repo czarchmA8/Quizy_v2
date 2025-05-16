@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Parus_ater01.jpg  , Autor: Sławek Staszczuk
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Periparus_ater_(26205653537).jpg  , Autor: xulescu_g

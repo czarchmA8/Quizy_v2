@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Syrrhaptes_paradoxus_(J%C3%A1n_Svetl%C3%ADk).jpg  , Autor: Ján Svetlík
+ - obraz_2.JPG: https://pl.wikipedia.org/wiki/Plik:Syrrhaptes_paradoxus_2.JPG  , Autor: Bogomolov.PL

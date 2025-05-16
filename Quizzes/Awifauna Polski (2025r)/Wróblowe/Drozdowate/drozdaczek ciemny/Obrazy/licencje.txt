@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Turdus_sibiricus.jpg  , Autor: M.Nishimura
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Zoothera_sibirica,_ZOO_Praha_039.jpg  , Autor: Matěj Baťha

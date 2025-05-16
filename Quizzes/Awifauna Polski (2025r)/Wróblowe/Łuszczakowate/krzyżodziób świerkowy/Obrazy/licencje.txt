@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Red_Crossbills_(Male).jpg  , Autor: Elaine R. Wilson, www.naturespicsonline.com
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Red_Crossbill_(Female).jpg  , Autor: http://www.naturespicsonline.com/

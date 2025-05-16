@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Temmincks_Stint.jpg  , Autor: Andreas Trepte
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Temminck%27s_Stint_(Non-_breeding_plumage)_I_IMG_1477.jpg  , Autor: J.M.Garg

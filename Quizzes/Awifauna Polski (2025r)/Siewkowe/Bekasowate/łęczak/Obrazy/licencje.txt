@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Wood_Sandpiper_Safari_Park.jpg  , Autor: Abdul Momin
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Tringa_glareola_-_Laem_Phak_Bia.jpg  , Autor: JJ Harrison (https://www.jjharrison.com.au/)

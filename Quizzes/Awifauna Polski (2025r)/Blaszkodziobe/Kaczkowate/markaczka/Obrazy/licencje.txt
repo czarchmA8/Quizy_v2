@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Eurasian_common_scoter.jpg  , Autor: Jason Thompson
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Sj%C3%B6orre_-_Common_Scoter_2.jpg  , Autor: Stefan Berndtsson

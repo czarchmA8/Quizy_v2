@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Desert_Wheatear_(Oenanthe_deserti)_Photograph_by_Shantanu_Kuveskar.jpg  , Autor: Shantanu Kuveskar
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Desert_wheatear_oenanthe_deserti.jpg  , Autor: Andreas Trepte

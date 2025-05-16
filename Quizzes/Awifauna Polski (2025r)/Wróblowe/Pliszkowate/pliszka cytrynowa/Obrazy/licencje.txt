@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Citrine_Wagtail_(Motacilla_citreola)-_Breeding_Male_of_calcarata_race_at_Bharatpur_I_IMG_5752.jpg  , Autor: J.M.Garg
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Citrine_wagtail_I_IMG_8326.jpg  , Autor: J.M.Garg

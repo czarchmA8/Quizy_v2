@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Blue-Winged_Teal.jpg  , Autor: Alan D. Wilson, www.naturespicsonline.com
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:K%C3%A9ksz%C3%A1rny%C3%BA_r%C3%A9ce.jpg  , Autor: michelphoto53

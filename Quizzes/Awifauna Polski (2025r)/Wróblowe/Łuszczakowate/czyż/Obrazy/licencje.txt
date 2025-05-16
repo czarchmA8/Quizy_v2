@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Carduelis_spinus_2_(Martin_Mecnarowski).jpg  , Autor: Martin Mecnarowski (http://www.photomecan.eu/)
+ - obraz_2.JPG: https://pl.wikipedia.org/wiki/Plik:Czy%C5%BC_Zwyczajny.JPG  , Autor: Warmiak

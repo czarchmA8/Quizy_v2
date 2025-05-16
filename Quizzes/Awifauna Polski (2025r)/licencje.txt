@@ -1,0 +1,1071 @@
+Lokalizacja: "Blaszkodziobe\Kaczkowate\sterniczka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Oxyura_leucocephala,_Clot-de-Galvany,_Alicante_2.jpg  , Autor: Ferran Pestaña from Barcelona, España
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Weißkopfruderente_Oxyura_leucocephala_050324_Ausschnitt.jpg  , Autor: Benutzer:Else
+Lokalizacja: "Blaszkodziobe\Kaczkowate\łabędź niemy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Cygnus_olor_Adult_Lyngby_Denmark.jpg  , Autor: Christian Lylloff
+Lokalizacja: "Blaszkodziobe\Kaczkowate\łabędź czarnodzioby\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Whistling_Swan_RWD3.jpg  , Autor: DickDaniels (http://carolinabirds.org/)
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Cygnus_bewickii_01.jpg  , Autor: Maga-chan
+Lokalizacja: "Blaszkodziobe\Kaczkowate\łabędź krzykliwy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Singschwan.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Blaszkodziobe\Kaczkowate\bernikla obrożna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Branta_bernicla_bernicla_-_Brent_Goose.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Blaszkodziobe\Kaczkowate\bernikla białolica\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Barnacle-Goose.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Blaszkodziobe\Kaczkowate\bernikla rdzawoszyja\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Branta_ruficollis_001.jpg  , Autor: Lilly M
+Lokalizacja: "Blaszkodziobe\Kaczkowate\bernikla kanadyjska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Wild_goose.jpg  , Autor: Rudolf Ammann from Tsu-shi, Japan
+Lokalizacja: "Blaszkodziobe\Kaczkowate\gęgawa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Anser_anser_Chorzów.jpg  , Autor: Adrian Tync
+Lokalizacja: "Blaszkodziobe\Kaczkowate\gęś zbożowa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Bean.goose.600pix.jpg  , Autor: Adrian Pingstone
+Lokalizacja: "Blaszkodziobe\Kaczkowate\gęś tundrowa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:101777_豆雁來臨.jpg  , Autor: 邱文強
+Lokalizacja: "Blaszkodziobe\Kaczkowate\gęś krótkodzioba\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Anser_brachyrhynchus_(Norway).jpg  , Autor: Perivani
+Lokalizacja: "Blaszkodziobe\Kaczkowate\gęś białoczelna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Anser_albifrons_sponsa_Colusa_NWR.jpg  , Autor: Bill Bouton from San Luis Obispo, CA, USA
+Lokalizacja: "Blaszkodziobe\Kaczkowate\gęś mała\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Anser_erythropus.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Blaszkodziobe\Kaczkowate\lodówka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Long-tailed-duck.jpg  , Autor: Wolfgang Wander
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Clangula-hyemalis-011.jpg  , Autor: Autor nie został podany w rozpoznawalny automatycznie sposób. Założono, że to Mdf (w oparciu o szablon praw autorskich).
+Lokalizacja: "Blaszkodziobe\Kaczkowate\turkan\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Somateria_spectabilis_(King_Eider_-_Prachteiderente)_-_Weltvogelpark_Walsrode_2012-16.jpg  , Autor: Olaf Oliviero Riemer
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:King_Eider_female_RWD5.jpg  , Autor: DickDaniels (http://theworldbirds.org/)
+Lokalizacja: "Blaszkodziobe\Kaczkowate\edredon\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Somateria_mollissima_male_female.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Blaszkodziobe\Kaczkowate\birginiak\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Stellersdrake2.jpg  , Autor: a U.S. Fish and Wildlife Service employee
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Stellershen3.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Blaszkodziobe\Kaczkowate\uhla\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Velvet_Scoter,_Eyebrook_Reservoir,_Leics.jpg  , Autor: Vince
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Velvet_Scoter,_female,_Musselburgh.jpg  , Autor: D. Gordon E. Robertson
+Lokalizacja: "Blaszkodziobe\Kaczkowate\uhla azjatycka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Melanitta_stejnegeri_223375338_(cropped)_3.jpg  , Autor: Валерия Ковалева
+Lokalizacja: "Blaszkodziobe\Kaczkowate\markaczka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Eurasian_common_scoter.jpg  , Autor: Jason Thompson
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Sjöorre_-_Common_Scoter_2.jpg  , Autor: Stefan Berndtsson
+Lokalizacja: "Blaszkodziobe\Kaczkowate\markaczka amerykańska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Melanitta_americana_Barnegat_NJ.jpg  , Autor: Peter Massas
+Lokalizacja: "Blaszkodziobe\Kaczkowate\gągoł\Obrazy"
+ - obraz_1.tif: https://pl.wikipedia.org/wiki/Plik:Обыкновенный_гоголь_(Bucephala_clangula,_m),_Коломенское.tif  , Autor: Dion Art
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:HD_Wasservogel_4.jpg  , Autor: --Xocolatl (talk) 16:57, 29 November 2009 (UTC)
+Lokalizacja: "Blaszkodziobe\Kaczkowate\bielaczek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Smew.both.arp.600pix.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Blaszkodziobe\Kaczkowate\nurogęś\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Mergus_merganser_-Sandwell_-England_-male-8.jpg  , Autor: Tony Hisgett
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Common_Merganser_female_RWD.jpg  , Autor: DickDaniels (http://theworldbirds.org/)
+Lokalizacja: "Blaszkodziobe\Kaczkowate\szlachar\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Mergus_serrator_-New_Jersey_-USA_-winter-8.jpg  , Autor: Peter Massas
+ - obraz_2.JPG: https://pl.wikipedia.org/wiki/Plik:Mergus_serrator_female.JPG  , Autor: Arnstein Rønning
+Lokalizacja: "Blaszkodziobe\Kaczkowate\kamieniuszka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Histrionicus_histrionicus_drake_Barnegat.jpg  , Autor: Peter Massas
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Harlequin_duck_(female).jpg  , Autor: Emily Willoughby
+Lokalizacja: "Blaszkodziobe\Kaczkowate\gęsiówka egipska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Alopochen-aegyptiacus.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Blaszkodziobe\Kaczkowate\ohar\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Common.shelduck.2.arp.750pix.jpg  , Autor: Nie znaleziono autora
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Tadorna_tadorna_(aka).jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Blaszkodziobe\Kaczkowate\kazarka rdzawa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Rostgans.jpg  , Autor: Holger Pfiffi
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Ruddy_Shelduck_(Tadorna_ferruginea)-_Female_at_Bharatpur_I_IMG_5336.jpg  , Autor: J.M.Garg
+Lokalizacja: "Blaszkodziobe\Kaczkowate\hełmiatka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Red-crested.pochard.slimbridge.arp.jpg  , Autor: Arpingstone
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Female_Red-crested_Pochard_800.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Blaszkodziobe\Kaczkowate\głowienka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Красноголовый_нырок_(Aythya_ferina,_mas),_Белое_озеро.jpg  , Autor: Dion Art
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Aythya_ferina_02.jpg  , Autor: Maga-chan
+Lokalizacja: "Blaszkodziobe\Kaczkowate\podgorzałka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Aythya_nyroca_Bulgaria_4.jpg  , Autor: Nikolaj Petkov
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Ferruginous_Pochard_female_RWD.jpg  , Autor: DickDaniels (http://carolinabirds.org/)
+Lokalizacja: "Blaszkodziobe\Kaczkowate\czerniczka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Aythya-collaris-001.jpg  , Autor: Autor nie został podany w rozpoznawalny automatycznie sposób. Założono, że to Mdf (w oparciu o szablon praw autorskich).
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Ringneck.jpg  , Autor: Dave Menke, U.S. Fish and Wildlife Service
+Lokalizacja: "Blaszkodziobe\Kaczkowate\czernica\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Tufted-Duck-male-female.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Blaszkodziobe\Kaczkowate\ogorzałka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Greater-scaup-male2.jpg  , Autor: Calibas
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Greater_scaup_female.jpg  , Autor: Calibas
+Lokalizacja: "Blaszkodziobe\Kaczkowate\ogorzałka mała\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Veilchenente_Aythya_affinis_0505281.jpg  , Autor: BS Thurner Hof
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Aythya_affinis_female1.jpg  , Autor: JerryFriedman 05:09, 6 April 2008 (UTC)
+Lokalizacja: "Blaszkodziobe\Kaczkowate\bajkałówka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Anas.formosa.4.jpg  , Autor: Sarefo
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Garganey,_female,_Zoo_Praha_0702.jpg  , Autor: Matěj Baťha
+Lokalizacja: "Blaszkodziobe\Kaczkowate\cyranka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Garganey_(Anas_querquedula)_RWD3.jpg  , Autor: Dick Daniels (http://theworldbirds.org/)
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Anas_querquedula,_Llobregat_Delta,_Barcelona_6.jpg  , Autor: Ferran Pestaña from Barcelona, España
+Lokalizacja: "Blaszkodziobe\Kaczkowate\płaskonos\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Anas_clypeata_2.jpg  , Autor: Al Wilson, www.naturespicsonline.com
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Shovelerhen05.jpg  , Autor: David Menke, USFWS
+Lokalizacja: "Blaszkodziobe\Kaczkowate\cyranka modroskrzydła\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Blue-Winged_Teal.jpg  , Autor: Alan D. Wilson, www.naturespicsonline.com
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Kékszárnyú_réce.jpg  , Autor: michelphoto53
+Lokalizacja: "Blaszkodziobe\Kaczkowate\krakwa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Anas_strepera_FWS.jpg  , Autor: Nie znaleziono autora
+ - obraz_2.JPG: https://pl.wikipedia.org/wiki/Plik:Anas_strepera_06292.JPG  , Autor: Walter Siegmund
+Lokalizacja: "Blaszkodziobe\Kaczkowate\świstun\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Mareca_penelope_(33845004368).jpg  , Autor: Ekaterina Chernetsova (Papchinskaya) from Saint-Petersburg, Russia
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Mareca_penelope_female_s2.jpg  , Autor: Alpsdake
+Lokalizacja: "Blaszkodziobe\Kaczkowate\świstun amerykański\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Anas_americana_-_drake.jpg  , Autor: Donna Dewhurst, USFWS
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Anas-americana-004.jpg  , Autor: Mdf
+Lokalizacja: "Blaszkodziobe\Kaczkowate\krzyżówka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Пара_уток_крякв_(Anas_platyrhynchos),_Коломенское.jpg  , Autor: Dion Art
+Lokalizacja: "Blaszkodziobe\Kaczkowate\rożeniec\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Northern_Pintail.jpg  , Autor: United States Fish and Wildlife Service
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Northern_Pintail_(Female)-_Feeding_I_IMG_0910.jpg  , Autor: J.M.Garg
+Lokalizacja: "Blaszkodziobe\Kaczkowate\cyraneczka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Eurasian_teal.jpg  , Autor: Andreas Trepte
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Common_Teal_(Anas_crecca)_near_Hodal,_Haryana_W_IMG_6509.jpg  , Autor: J.M.Garg
+Lokalizacja: "Blaszkodziobe\Kaczkowate\cyraneczka karolińska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Anas_carolinensis_FWS.jpg  , Autor: Dave Menke / USFWS
+Lokalizacja: "Blaszkodziobe\Kaczkowate\mandarynka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Mandarin.duck.arp.jpg  , Autor: Adrian Pingstone
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Female_Mandarin_Duck_800.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Grzebiące\Kurowate\przepiórka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Coturnix_coturnix,_Fraunberg,_Bayern,_Deutschland_2,_Ausschnitt.jpg  , Autor: christoph_moning
+Lokalizacja: "Grzebiące\Kurowate\bażant\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Phasianus_colchicus_2_tom_(Lukasz_Lukasik).jpg  , Autor: Nie znaleziono autora
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Phasianus_colchicus_4_hen_(Lukasz_Lukasik).jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Grzebiące\Kurowate\kuropatwa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Perdix_perdix_(Marek_Szczepanek).jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Grzebiące\Kurowate\jarząbek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Haselhuhn-01.jpg  , Autor: Wilfried Berns
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Tetrastes_bonasia_2.jpg  , Autor: MichaelHaeckel
+Lokalizacja: "Grzebiące\Kurowate\pardwa mszarna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:WillowPtarmigan23.jpg  , Autor: National Park Service
+Lokalizacja: "Grzebiące\Kurowate\głuszec\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Capercaillie(1).jpg  , Autor: Capercaillie(2).JPG: Woodwalkerderivative work: MPF (talk)
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Tetrao_urogallus_-_Eurasian_Capercaille_-_Tjäder.jpg  , Autor: Lars Falkdalen Lindahl
+Lokalizacja: "Grzebiące\Kurowate\cietrzew\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Black_Grouse_Nationalpark_Bayerischer_Wald.jpg  , Autor: Aconcagua (talk)
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Teeri.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Flamingowe\Flamingi\flaming różowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Phoenicopterus_roseus_(Walvis_Bay).jpg  , Autor: Hans Hillewaert
+Lokalizacja: "Perkozowe\Perkozowe\perkoz grubodzioby\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Pied-billed_Grebe_0561.jpg  , Autor: Dori
+Lokalizacja: "Perkozowe\Perkozowe\perkozek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Little_grebe_Zwergtaucher.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Perkozowe\Perkozowe\perkoz rdzawoszyi\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Podiceps_griseigena_1_(Marek_Szczepanek).jpg  , Autor: Marek Szczepanek
+Lokalizacja: "Perkozowe\Perkozowe\perkoz dwuczuby\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Flickr_-_Rainbirder_-_Great_Crested_Grebe_(Podiceps_cristatus).jpg  , Autor: Steve Garvie from Dunfermline, Fife, Scotland
+Lokalizacja: "Perkozowe\Perkozowe\perkoz rogaty\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Horned_Grebe_Pair_(5300913515).jpg  , Autor: Denali National Park and Preserve (NPS Photo/Ken Conger)
+Lokalizacja: "Perkozowe\Perkozowe\zausznik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Podiceps_nigricollis_(Marek_Szczepanek).jpg  , Autor: Marek Szczepanek
+Lokalizacja: "Gołębiowe\Gołębiowate\gołąb miejski\Obrazy"
+Lokalizacja: "Gołębiowe\Gołębiowate\siniak\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:ColumbaOenas.jpg  , Autor: jim.gifford
+Lokalizacja: "Gołębiowe\Gołębiowate\grzywacz\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Paloma_torcaz_(Columba_palumbus),_Hartelholz,_Múnich,_Alemania,_2016-04-03,_DD_04.jpg  , Autor: Diego Delso (1974–)    Inne nazwiska i pseudonimyPoco a pocoOpishiszpański free-license photographer i wikimedianinData urodzenia19 maja 1974 Miejsce urodzeniaAlicanteWykaz autorytatywny: Q28147777creator QS:P170,Q28147777
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Wood_Pigeon,_juvenile_(Columba_palumbus)_golub_grivnaš,_mladi.jpg  , Autor: Nemanja Časar
+Lokalizacja: "Gołębiowe\Gołębiowate\turkawka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:European_Turtle_Dove_(Streptopelia_turtur)_(cropped).jpg  , Autor: Yuvalr
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Streptopelia_turtur_on_a_branch.jpg  , Autor: David King
+Lokalizacja: "Gołębiowe\Gołębiowate\turkawka wschodnia\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Streptopelia_orientalis_2007.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Gołębiowe\Gołębiowate\sierpówka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Collared.dove.jpg  , Autor: Adrian Pingstone
+Lokalizacja: "stepówki\Stepówki\pustynnik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Syrrhaptes_paradoxus_(Ján_Svetlík).jpg  , Autor: Ján Svetlík
+ - obraz_2.JPG: https://pl.wikipedia.org/wiki/Plik:Syrrhaptes_paradoxus_2.JPG  , Autor: Bogomolov.PL
+Lokalizacja: "Lelkowe\Lelkowate\lelek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Caprimulgus_europaeus.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Krótkonogie\Jerzykowate\jerzyk alpejski\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Avo_apumel10.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Krótkonogie\Jerzykowate\jerzyk blady\Obrazy"
+ - obraz_1.JPG: https://pl.wikipedia.org/wiki/Plik:Apuspallidus_9043.JPG  , Autor: Bogbumper
+Lokalizacja: "Krótkonogie\Jerzykowate\jerzyk\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Apus_apus_-Barcelona,_Spain-8_(1).jpg  , Autor: pau.artigas
+Lokalizacja: "Kukułkowe\Kukułkowate\kukułka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Cuculus_canorus2.jpg  , Autor: GabrielBuissart
+Lokalizacja: "Żurawiowe\Chruściele (ptaki)\wodnik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Rallus_aquaticus_1_(Marek_Szczepanek).jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Żurawiowe\Chruściele (ptaki)\derkacz\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Corncrake2.jpg  , Autor: Rachel Davies
+Lokalizacja: "Żurawiowe\Chruściele (ptaki)\kropiatka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:MG_019417--1-0--2009.jpg  , Autor: Clément Caiveau
+Lokalizacja: "Żurawiowe\Chruściele (ptaki)\zielonka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Porzana_parva.jpg  , Autor: HTalpa
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Porzana_parva_(50).jpg  , Autor: ΝΙΚΟΣ ΣΑΜΑΡΙΤΑΚΗΣ from CHANIA, GREECE
+Lokalizacja: "Żurawiowe\Chruściele (ptaki)\karliczka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Porzana_pusilla_-_Mount_Annan_Botanical_Garden.jpg  , Autor: JJ Harrison (https://www.jjharrison.com.au/)
+Lokalizacja: "Żurawiowe\Chruściele (ptaki)\kokoszka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Gallinula_chloropus_PC085754_MASTER.jpg  , Autor: Alnus
+Lokalizacja: "Żurawiowe\Chruściele (ptaki)\łyska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Лысуха_(Fulica_atra),_Калининград.jpg  , Autor: Dion Art
+Lokalizacja: "Żurawiowe\Żurawie (ptaki)\żuraw stepowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Demoiselle_Cranes_at_Tal_Chappar.jpg  , Autor: Sumeet Moghe
+Lokalizacja: "Żurawiowe\Żurawie (ptaki)\żuraw\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Common_crane_grus_grus.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Dropie\Dropie\strepet\Obrazy"
+ - obraz_1.JPG: https://pl.wikipedia.org/wiki/Plik:Tetrax_male_1.JPG  , Autor: Renato Pacchioni
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Tetrax_tetrax_femella.jpg  , Autor: Joan Carles Hinojosa Galisteo
+Lokalizacja: "Dropie\Dropie\drop\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Drofa_(1).jpg  , Autor: Администрация Волгоградской области
+Lokalizacja: "Dropie\Dropie\hubara arabska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:MacQueens_Bustard_in_Greater_Rann_of_Kutch,_Gujarat,_India.jpg  , Autor: Kannan AS
+Lokalizacja: "Siewkowe\Kulony\kulon\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Eurasian_stone-curlew_(Burhinus_oedicnemus)_Dobruja.jpg  , Autor: Charles J Sharp (1951–)    Inne nazwiska i pseudonimyCharles James Sharp; Charlesjsharp; Charles James Sharp Bentley; Charles BentleyOpisbrytyjski wildlife photographerData urodzeniawrzesień 1951 Okres działalnościod 2003date QS:P,+2003-00-00T00:00:00Z/7,P580,+2003-00-00T00:00:00Z/9Wykaz autorytatywny: Q54800218creator QS:P170,Q54800218
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Eurasian_Stone-curlew_chick_(Burhinus_oedicnemus).jpg  , Autor: Yuvalr
+Lokalizacja: "Siewkowe\Ostrygojady\ostrygojad\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Haematopus_ostralegus_He.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Siewkowe\Szczudłonogi\szczudłak\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Himantopus_himantopus_-_Pak_Thale.jpg  , Autor: JJ Harrison (https://www.jjharrison.com.au/)
+Lokalizacja: "Siewkowe\Szczudłonogi\szablodziób\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Recurvirostra_avosetta_-_Zoo_Frankfurt_4.jpg  , Autor: Jutta234
+Lokalizacja: "Siewkowe\Sieweczkowate\siewnica\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Pluvialis_squatarola_(summer_plumage).jpg  , Autor: Hans Hillewaert
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Black-bellied_Plover_in_nonbreeding_plumage.jpg  , Autor: Alan Vernon
+Lokalizacja: "Siewkowe\Sieweczkowate\siewka złota\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Kulík_zlatý_(Pluvialis_apricaria)_a_(3949776435).jpg  , Autor: Andrej Chudý from Slovakia
+Lokalizacja: "Siewkowe\Sieweczkowate\siewka złotawa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Pluvialis_fulvaUSFWS003413A.jpg  , Autor: OW Johnson, USFWS
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Pluvialis_fulva_2_-_Laem_Pak_Bia.jpg  , Autor: JJ Harrison (https://tiny.jjharrison.com.au/t/3CuTyj5LtxrKUxYI)
+Lokalizacja: "Siewkowe\Sieweczkowate\siewka szara\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Pluvialis_fulvaUSFWS003413A.jpg  , Autor: OW Johnson, USFWS
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Pluvialis_fulva_2_-_Laem_Pak_Bia.jpg  , Autor: JJ Harrison (https://tiny.jjharrison.com.au/t/3CuTyj5LtxrKUxYI)
+Lokalizacja: "Siewkowe\Sieweczkowate\mornel\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Charadrius_morinellus_Varanger_1.jpg  , Autor: Lutz Lücker
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Charadrius_morinellus_male_with_chicks.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Siewkowe\Sieweczkowate\sieweczka obrożna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Sieweczka.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Siewkowe\Sieweczkowate\sieweczka rzeczna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Charadrius_dubius_4_(Marek_Szczepanek).jpg  , Autor: Marek Szczepanek
+Lokalizacja: "Siewkowe\Sieweczkowate\czajka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Flickr_-_Rainbirder_-_Lapwing_(Vanellus_vanellus).jpg  , Autor: Steve Garvie from Dunfermline, Fife, Scotland
+Lokalizacja: "Siewkowe\Sieweczkowate\czajka szponiasta\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Spur-winged_Lapwing_(Vanellus_spinosus)_(21152292885).jpg  , Autor: Lip Kee from Singapore, Republic of Singapore
+Lokalizacja: "Siewkowe\Sieweczkowate\czajka towarzyska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Vanelus_gregarius.jpg  , Autor: Johann Friedrich Naumann (1780-1857)
+Lokalizacja: "Siewkowe\Sieweczkowate\czajka stepowa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Weissschwanzkiebitz.jpg  , Autor: Oryginalnym przesyłającym był Baldhur z niemieckiej Wikipedii
+Lokalizacja: "Siewkowe\Sieweczkowate\sieweczka długonoga\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Wermutregenpfeifer_(Charadrius_asiaticus)_206737679.jpg  , Autor: Kudaibergen Amirekul
+Lokalizacja: "Siewkowe\Sieweczkowate\sieweczka tybetańska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Lesser_Sand_Plover_(Charadrius_mongolus)_(50027164456).jpg  , Autor: Imran Shah from Islamabad, Pakistan
+Lokalizacja: "Siewkowe\Sieweczkowate\sieweczka pustynna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:2024-07-26_Anarhynchus_leschenaultii_leschenaultii,_Newbiggin,_Northumberland_1.jpg  , Autor: MPF
+Lokalizacja: "Siewkowe\Sieweczkowate\sieweczka morska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Kentish_Plover_Charadrius_alexandrinus,_India.jpg  , Autor: Original: Davidvraju, edit: MPF
+Lokalizacja: "Siewkowe\Bekasowate\kulik mniejszy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Whimbrel_Numenius_phaeopus.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Siewkowe\Bekasowate\kulik cienkodzioby\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Numenius_tenuirostris.jpg  , Autor: Elizabeth Gould & Edward Lear
+Lokalizacja: "Siewkowe\Bekasowate\kulik wielki\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Numenius_arquata_Reculver.jpg  , Autor: Neil Phillips from uk
+Lokalizacja: "Siewkowe\Bekasowate\szlamnik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Bar-tailed_Godwit.jpg  , Autor: Andreas Trepte
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Limosa_lapponica1.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Siewkowe\Bekasowate\rycyk\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Black-tailed_Godwit_(Limosa_limosa).jpg  , Autor: peterichman
+Lokalizacja: "Siewkowe\Bekasowate\kamusznik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Arenaria_interpres_(habitus).jpg  , Autor: Hans Hillewaert
+Lokalizacja: "Siewkowe\Bekasowate\biegus wielki\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Calidris_tenuirostris_-_Laem_Phak_Bia.jpg  , Autor: JJ Harrison (https://www.jjharrison.com.au/)
+Lokalizacja: "Siewkowe\Bekasowate\biegus rdzawy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Calidris_canutus_(summer).jpg  , Autor: Hans Hillewaert
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Red_Knot_1_-_Boat_Harbour.jpg  , Autor: JJ Harrison (https://www.jjharrison.com.au/)
+Lokalizacja: "Siewkowe\Bekasowate\batalion\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Calidris_pugnax_03(js).jpg  , Autor: Jerzy Strzelecki
+Lokalizacja: "Siewkowe\Bekasowate\biegus płaskodzioby\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Broad-biil_sandpiper_4.jpg  , Autor: Afsarnayakkan
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Broad-billed_Sandpiper_among_Curlew_Sandps_-_Thailand_S4E5685_(15655837170).jpg  , Autor: Francesco Veronesi from Italy
+Lokalizacja: "Siewkowe\Bekasowate\biegus ostrosterny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Calidris_acuminata_P4278959.jpg  , Autor: Alnus
+Lokalizacja: "Siewkowe\Bekasowate\biegus krzywodzioby\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Calidris_ferruginea_(Marek_Szczepanek).jpg  , Autor: Marek Szczepanek
+Lokalizacja: "Siewkowe\Bekasowate\biegus mały\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Temmincks_Stint.jpg  , Autor: Andreas Trepte
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Temminck's_Stint_(Non-_breeding_plumage)_I_IMG_1477.jpg  , Autor: J.M.Garg
+Lokalizacja: "Siewkowe\Bekasowate\piaskowiec\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Sanderling_(Calidris_alba)_breeding_plumage.jpg  , Autor: Charles J Sharp (1951–)    Inne nazwiska i pseudonimyCharles James Sharp; Charlesjsharp; Charles James Sharp Bentley; Charles BentleyOpisbrytyjski wildlife photographerData urodzeniawrzesień 1951 Okres działalnościod 2003date QS:P,+2003-00-00T00:00:00Z/7,P580,+2003-00-00T00:00:00Z/9Wykaz autorytatywny: Q54800218creator QS:P170,Q54800218
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Calidris-alba-001.jpg  , Autor: Original photo by Mdf
+Lokalizacja: "Siewkowe\Bekasowate\biegus zmienny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Calidris_alpina03.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Siewkowe\Bekasowate\biegus morski\Obrazy"
+ - obraz_1.JPG: https://pl.wikipedia.org/wiki/Plik:Calidris_maritima_IMG_3724_fjäreplytt_longyearbyen.JPG  , Autor: Bjoertvedt
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Purple_Sandpiper_winter.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Siewkowe\Bekasowate\biegus długoskrzydły\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Bairds_Sandpiper_(Calidris_bairdii)_(3972162983)_(2).jpg  , Autor: Dominic Sherony
+Lokalizacja: "Siewkowe\Bekasowate\biegus malutki\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Little-Stint.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Siewkowe\Bekasowate\biegus karłowaty\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Least_Sandpiper.jpg  , Autor: Donna Dewhurst, USFWS
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Least_Sandpiper_Don_Edwards_WR_1.jpg  , Autor: Britta from San Francisco Bay Area, California
+Lokalizacja: "Siewkowe\Bekasowate\biegus białorzytny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:White-rumped_Sandpiper.jpg  , Autor: Tim Bowman, USFWS
+Lokalizacja: "Siewkowe\Bekasowate\biegus płowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Buff-breasted_Sandpiper.jpg  , Autor: Tim Lenz
+Lokalizacja: "Siewkowe\Bekasowate\biegus arktyczny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Pectoral_Sandpiper3.jpg  , Autor: Andreas Trepte
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Pectoral-sandpiper-floreana.jpg  , Autor: Benjamint444
+Lokalizacja: "Siewkowe\Bekasowate\biegus tundrowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Calidris-pusilla-001.jpg  , Autor: Autor nie został podany w rozpoznawalny automatycznie sposób. Założono, że to Mdf (w oparciu o szablon praw autorskich).
+Lokalizacja: "Siewkowe\Bekasowate\szlamiec długodzioby\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Long_Billed_Dowitcher_(7569920384).jpg  , Autor: Mike's Birds from Riverside, CA, US
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Limnodromus_scolopaceus.jpg  , Autor: Basar
+Lokalizacja: "Siewkowe\Bekasowate\słonka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Woodcock_earthworm.jpg  , Autor: Ronald Slabke
+Lokalizacja: "Siewkowe\Bekasowate\dubelt\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Greatsnipe_1000_(cropped).jpg  , Autor: Thho46
+Lokalizacja: "Siewkowe\Bekasowate\kszyk\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Gallinago_gallinago_1_(Marek_Szczepanek).jpg  , Autor: Marek Szczepanek
+Lokalizacja: "Siewkowe\Bekasowate\bekasik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Lymnocryptes_minimus_(Marek_Szczepanek).jpg  , Autor: Marek Szczepanek
+Lokalizacja: "Siewkowe\Bekasowate\terekia\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Xenus_cinereus_(Alnus).jpg  , Autor: Alnus
+Lokalizacja: "Siewkowe\Bekasowate\brodziec piskliwy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Actitis_hypoleucos_-_Laem_Pak_Bia.jpg  , Autor: JJ Harrison (https://www.jjharrison.com.au/)
+Lokalizacja: "Siewkowe\Bekasowate\brodziec plamisty\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Actitis-macularia-005.jpg  , Autor: Autor nie został podany w rozpoznawalny automatycznie sposób. Założono, że to Factumquintus (w oparciu o szablon praw autorskich).
+Lokalizacja: "Siewkowe\Bekasowate\samotnik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Tringa_ochropus_1_(Marek_Szczepanek).jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Siewkowe\Bekasowate\brodziec żółtonogi\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Lesser_Yellowlegs.jpg  , Autor: Wwcsig
+Lokalizacja: "Siewkowe\Bekasowate\brodziec śniady\Obrazy"
+ - obraz_1.JPG: https://pl.wikipedia.org/wiki/Plik:Dunkler_Wasserlaeufer1.JPG  , Autor: Kaeptn chemnitz
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Tringa_erythropus_-_Laem_Pak_Bia.jpg  , Autor: JJ Harrison (https://www.jjharrison.com.au/)
+Lokalizacja: "Siewkowe\Bekasowate\kwokacz\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Greenshank_(Tringa_nebularia).jpg  , Autor: Charles J Sharp (1951–)    Inne nazwiska i pseudonimyCharles James Sharp; Charlesjsharp; Charles James Sharp Bentley; Charles BentleyOpisbrytyjski wildlife photographerData urodzeniawrzesień 1951 Okres działalnościod 2003date QS:P,+2003-00-00T00:00:00Z/7,P580,+2003-00-00T00:00:00Z/9Wykaz autorytatywny: Q54800218creator QS:P170,Q54800218
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Tringa_nebularia_-_Laem_Phak_Bia.jpg  , Autor: JJ Harrison (https://www.jjharrison.com.au/)
+Lokalizacja: "Siewkowe\Bekasowate\brodziec piegowaty\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Greater_Yellowlegs2.jpg  , Autor: Mike Baird (bairdphotos.com)
+Lokalizacja: "Siewkowe\Bekasowate\krwawodziób\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Common_Redshank_Tringa_totanus.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Siewkowe\Bekasowate\łęczak\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Wood_Sandpiper_Safari_Park.jpg  , Autor: Abdul Momin
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Tringa_glareola_-_Laem_Phak_Bia.jpg  , Autor: JJ Harrison (https://www.jjharrison.com.au/)
+Lokalizacja: "Siewkowe\Bekasowate\brodziec pławny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Tringa_stagnatilis_P4278989.jpg  , Autor: Alnus
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Tringa_stagnatilis.jpg  , Autor: Jason Girvan
+Lokalizacja: "Siewkowe\Bekasowate\płatkonóg szydłodzioby\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Phalaropus_lobatus.jpg  , Autor: U.S. Fish & Wildlife Service
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Red-necked_Phalarope_winter_plumage.jpg  , Autor: Teddy Llovet
+Lokalizacja: "Siewkowe\Bekasowate\płatkonóg płaskodzioby\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Phalaropus_fulicaria1.jpg  , Autor: Nie znaleziono autora
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Phalaropus_fulicarius_2.jpg  , Autor: Lee Karney
+Lokalizacja: "Siewkowe\Żwirowcowate\żwirowiec łąkowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Żwirowiec_łąkowy_(Glareola_pratincola).jpg  , Autor: Piotr Matyga
+Lokalizacja: "Siewkowe\Żwirowcowate\żwirowiec stepowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Glareola_nordmanni.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Siewkowe\Alki\maskonur\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Papageitaucher_Fratercula_arctica.jpg  , Autor: Richard Bartz
+Lokalizacja: "Siewkowe\Alki\nurnik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Tystie1.jpg  , Autor: Autor nie został podany w rozpoznawalny automatycznie sposób. Założono, że to Kelson (w oparciu o szablon praw autorskich).
+Lokalizacja: "Siewkowe\Alki\alka\Obrazy"
+ - obraz_1.JPG: https://pl.wikipedia.org/wiki/Plik:Razorbill_iceland.JPG  , Autor: Nie znaleziono autora
+Lokalizacja: "Siewkowe\Alki\alczyk\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:AlleAlle_2.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Siewkowe\Alki\nurzyk polarny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Uria_lomvia5.jpg  , Autor: Vernon Byrd
+Lokalizacja: "Siewkowe\Alki\nurzyk\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Uria_aalge6.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Siewkowe\Wydrzyki\wydrzyk długosterny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Stercorarius_longicaudus2.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Siewkowe\Wydrzyki\wydrzyk ostrosterny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Arcticskua2.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Siewkowe\Wydrzyki\wydrzyk tęposterny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Stercorarius_pomarinusPCCA20070623-3985B.jpg  , Autor: Patrick Coin (Patrick Coin)
+Lokalizacja: "Siewkowe\Wydrzyki\wydrzyk wielki\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Skua_Runde2.jpg  , Autor: T. Müller
+Lokalizacja: "Siewkowe\Mewowate\mewa modrodzioba\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Ivory_Gull_Portrait.jpg  , Autor: jomilo75
+Lokalizacja: "Siewkowe\Mewowate\mewa obrożna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:XemaSabini.jpg  , Autor: Alastair Rae z London, UK
+Lokalizacja: "Siewkowe\Mewowate\mewa trójpalczasta\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Bulbjerg_rider.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Siewkowe\Mewowate\mewa cienkodzioba\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Larus_genei.jpg  , Autor: GabrielBuissart
+Lokalizacja: "Siewkowe\Mewowate\śmieszka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Chroicocephalus_ridibundus_(summer).jpg  , Autor: Hans Hillewaert
+ - obraz_2.JPG: https://pl.wikipedia.org/wiki/Plik:Annecy's_Lake_-_20111229_-_Larus_ridibundus_01.JPG  , Autor: PierreSelim
+Lokalizacja: "Siewkowe\Mewowate\mewa mała\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Čajka_malá_(Larus_minutus)_a_(4834254958).jpg  , Autor: Andrej Chudý from Slovakia
+Lokalizacja: "Siewkowe\Mewowate\mewa różowa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Ross's_Gull_(Rhodostethia_rosea).jpg  , Autor: Seabamirum
+Lokalizacja: "Siewkowe\Mewowate\mewa karaibska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Laughing_Gull_-_mating_plumage.jpg  , Autor: Andy Reago & Chrissy McClarren
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Laughing_gull_-_natures_pics.jpg  , Autor: Alan D. Wilson, www.naturespicsonline.com
+Lokalizacja: "Siewkowe\Mewowate\mewa śródziemnomorska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Ichthyaetus_audouinii.jpg  , Autor: @pintafontes
+Lokalizacja: "Siewkowe\Mewowate\mewa czarnogłowa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Larus_melanocephalus_aka_Mediterranean_Gull_rare_guest_in_Sweden2.jpg  , Autor: Martin Olsson (mnemo on en/sv wikipedia and commons, martin@minimum.se).
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Ichthyaetus_melanocephalus_070120_LR.jpg  , Autor: Pascal Aleixandre
+Lokalizacja: "Siewkowe\Mewowate\orlica\Obrazy"
+ - obraz_1.png: https://pl.wikipedia.org/wiki/Plik:Larus_ichtyaetus_1.png  , Autor: Dmitry Mikhirev
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Larus_ichthyaetus.jpg  , Autor: Nepenthes
+Lokalizacja: "Siewkowe\Mewowate\mewa siwa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Sturmmöwe_-_Auenlandschaft_Hohenrode_HA_222_Landkreis_Schaumburg.jpg  , Autor: Kathy2408
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Larus_canus_winter_plumage.jpg  , Autor: NotFromUtrecht
+Lokalizacja: "Siewkowe\Mewowate\mewa delawarska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Larus-delawarensis-021.jpg  , Autor: User:Mdf
+Lokalizacja: "Siewkowe\Mewowate\mewa żółtonoga\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Larus-fuscus-graellsii-He.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Siewkowe\Mewowate\mewa srebrzysta\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Larus_argentatus_argenteus01.jpg  , Autor: Lukasz Lukomski
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:European_herring_gull_(Larus_argentatus)_adult_non-breeding_plumage.jpg  , Autor: Charles J Sharp (1951–)    Inne nazwiska i pseudonimyCharles James Sharp; Charlesjsharp; Charles James Sharp Bentley; Charles BentleyOpisbrytyjski wildlife photographerData urodzeniawrzesień 1951 Okres działalnościod 2003date QS:P,+2003-00-00T00:00:00Z/7,P580,+2003-00-00T00:00:00Z/9Wykaz autorytatywny: Q54800218creator QS:P170,Q54800218
+Lokalizacja: "Siewkowe\Mewowate\mewa popielata\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:American_Herring_Gull_-_natures_pics.jpg  , Autor: Alan D. Wilson, www.naturespicsonline.com
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:American_Herring_Gull.jpg  , Autor: Tim
+Lokalizacja: "Siewkowe\Mewowate\mewa romańska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:2004-04-10_Larus_michahellis_ad.jpg  , Autor: Júlio Reis
+Lokalizacja: "Siewkowe\Mewowate\mewa białogłowa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Larus_cachinnans_3_(Marek_Szczepanek).jpg  , Autor: Marek Szczepanek
+Lokalizacja: "Siewkowe\Mewowate\mewa blada\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Larus_hyperboreus-USFWS.jpg  , Autor: Sowls, Art
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Wiki-shirokamome.jpg  , Autor: Tokum  Ohsaka
+Lokalizacja: "Siewkowe\Mewowate\mewa polarna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Larus_glaucoides_IthacaNY.jpg  , Autor: Seabamirum on Flickr
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Larus-glaucoides-002.jpg  , Autor: Mdf
+Lokalizacja: "Siewkowe\Mewowate\mewa ochocka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Ooseguro-kamome.jpg  , Autor: E-190　
+Lokalizacja: "Siewkowe\Mewowate\mewa siodłata\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Great_Black-backed_Gull.jpg  , Autor: Len Blumin from Mill Valley, California, United States
+Lokalizacja: "Siewkowe\Mewowate\rybitwa krótkodzioba\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Gelochelidon_nilotica_1.jpg  , Autor: leppyone (Vincent P. Lucas)
+Lokalizacja: "Siewkowe\Mewowate\rybitwa wielkodzioba\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Sterna-caspia-010.jpg  , Autor: Mdf
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Caspian_tern_(Hydroprogne_caspia)_non-breeding.jpg  , Autor: Charles J Sharp (1951–)    Inne nazwiska i pseudonimyCharles James Sharp; Charlesjsharp; Charles James Sharp Bentley; Charles BentleyOpisbrytyjski wildlife photographerData urodzeniawrzesień 1951 Okres działalnościod 2003date QS:P,+2003-00-00T00:00:00Z/7,P580,+2003-00-00T00:00:00Z/9Wykaz autorytatywny: Q54800218creator QS:P170,Q54800218
+Lokalizacja: "Siewkowe\Mewowate\rybitwa czubata\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Thalasseus_sandvicensis_StMarys.jpg  , Autor: MPF
+Lokalizacja: "Siewkowe\Mewowate\rybitwa różowa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:2021-07-10_Sterna_dougallii,_St_Marys_Island,_Northumberland_17.jpg  , Autor: MPF
+Lokalizacja: "Siewkowe\Mewowate\rybitwa rzeczna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Sterna_hirundo_-_Common_Tern.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Siewkowe\Mewowate\rybitwa popielata\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Sterna_paradisaea-Norderoog.jpg  , Autor: Claudius Tesch
+Lokalizacja: "Siewkowe\Mewowate\rybitwa białoczelna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Koajisashi_05a2432s.jpg  , Autor: ISAKA Yoji ( cory )[ Recent works / Other works ]
+Lokalizacja: "Siewkowe\Mewowate\rybitwa białowąsa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Chlidonias_hybrida_3_(Marek_Szczepanek).jpg  , Autor: Marek Szczepanek
+Lokalizacja: "Siewkowe\Mewowate\rybitwa czarna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Čorík_čierny_(Chlidonias_niger)_a_(4644831482).jpg  , Autor: Andrej Chudý from Slovakia
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Black_Tern_RWD.jpg  , Autor: DickDaniels (http://theworldbirds.org/)
+Lokalizacja: "Siewkowe\Mewowate\rybitwa białoskrzydła\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:White-winged_Tern,_Mścichy,_Biebrzański_Park_Narodowy,_Polska.jpg  , Autor: Frank Vassen
+Lokalizacja: "Nury\Nury\nur rdzawoszyi\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Gavia_stellata_-Iceland_-swimming-8.jpg  , Autor: Ómar Runólfsson
+Lokalizacja: "Nury\Nury\nur czarnoszyi\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Gavia_arctica_(Black-throated_Loon_or_Black-throated_Diver)_on_nest.jpg  , Autor: Åsa Berndtsson
+Lokalizacja: "Nury\Nury\nur pacyficzny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Pacific_Loon_imported_from_iNaturalist_photo_2959562_on_31_December_2023.jpg  , Autor: (c) Nigel Voaden, some rights reserved (CC BY)
+Lokalizacja: "Nury\Nury\lodowiec\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Gavia_immer1_BS.jpg  , Autor: Cephas
+Lokalizacja: "Nury\Nury\nur białodzioby\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Yellow-billed_Loon_Chipp_South_8-12-13_Ryan_Askren.jpg  , Autor: Ryan AskrenUSGS, Alaska Science Center
+Lokalizacja: "Rurkonose\Oceanniki\oceannik żółtopłetwy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Oceanites_oceanicus_-_SE_Tasmania.jpg  , Autor: JJ Harrison (https://www.jjharrison.com.au/)
+Lokalizacja: "Rurkonose\Nawałniki\nawałnik burzowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Hydrobates_pelagicus.jpg  , Autor: Júlio Reis
+Lokalizacja: "Rurkonose\Nawałniki\nawałnik duży\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Lesp1.jpg  , Autor: Schlawe, C
+Lokalizacja: "Rurkonose\Burzykowate\fulmar\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Eissturmvogel02.jpg  , Autor: T. Müller
+Lokalizacja: "Rurkonose\Burzykowate\burzyk żółtodzioby\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Calonectris_diomedea,_Cabrera_National_Park_(12076283283).jpg  , Autor: Marcabrera
+Lokalizacja: "Rurkonose\Burzykowate\burzyk szary\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Sooty_Shearwater.jpg  , Autor: Mike Baird from Morro Bay, USA
+Lokalizacja: "Rurkonose\Burzykowate\burzyk północny\Obrazy"
+ - obraz_1.JPG: https://pl.wikipedia.org/wiki/Plik:Manx_Shearwater.JPG  , Autor: Martin Reith
+Lokalizacja: "Rurkonose\Burzykowate\burzyk balearski\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Puffinus_mauretanicus.jpg  , Autor: Conselleria de Medi Ambient i Mobilitat, Govern des Illes Balears
+Lokalizacja: "Bocianowe\Bociany (ptaki)\bocian czarny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Ciconia_nigra_1_(Lukasz_Lukasik)_edit.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Bocianowe\Bociany (ptaki)\bocian biały\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Ciconia_ciconia_-_01.jpg  , Autor: Carlos Delgado
+Lokalizacja: "Pelikanowe\Pelikany\pelikan różowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Pelikan_Walvis_Bay.jpg  , Autor: Rui Ornelas from Lisboa, Portugal
+Lokalizacja: "Pelikanowe\Pelikany\pelikan kędzierzawy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:ComputerHotline_-_Pelecanus_crispus_(by)_(1).jpg  , Autor: Thomas Bresson from Belfort, FranceThomas Bresson   Inne nazwiska i pseudonimyComputerHotlineOpisfrancuski fotografikData urodzenia31 grudnia 1982Miejsce urodzeniaBelfortOkres działalnościod 2008date QS:P,+2008-00-00T00:00:00Z/7,P580,+2008-00-00T00:00:00Z/9	; recognized photographer on Wikimedia Commons od 21 lipca 2009date QS:P,+2009-07-21T00:00:00Z/7,P580,+2009-07-21T00:00:00Z/11This photo / video was taken by Thomas Bresson.Please credit this with : Photo : Thomas Bresson or Video : Thomas Bresson in the immediate vicinity of the image.If you use one of my photos, please email me (account needed) or leave me a short message on my discussion page.It would be greatly appreciated.Do not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain.If you would like special permission to use, license, or purchase the image please contact me to negotiate terms.العربية | বাংলা | English | français | македонски | Nederlands | Türkçe | +/−
+Lokalizacja: "Pelikanowe\Czaplowate\bąk\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Botaurus_stellaris_(Marek_Szczepanek).jpg  , Autor: Marek Szczepanek
+Lokalizacja: "Pelikanowe\Czaplowate\bączek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Zwergdommel.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Pelikanowe\Czaplowate\ślepowron\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Nycticorax-nycticorax-004.jpg  , Autor: Mdf z angielskiej Wikipedii
+Lokalizacja: "Pelikanowe\Czaplowate\czapla modronosa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Flickr_-_Rainbirder_-_Squacco_Heron_(Ardeola_ralloides).jpg  , Autor: Steve Garvie from Dunfermline, Fife, Scotland
+Lokalizacja: "Pelikanowe\Czaplowate\czapla złotawa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Western_Cattle_Egret_in_Dallas_2.jpg  , Autor: FeaturingDallas
+Lokalizacja: "Pelikanowe\Czaplowate\czapla siwa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Grey_heron,_October_2015_II.jpg  , Autor: Laitche
+Lokalizacja: "Pelikanowe\Czaplowate\czapla purpurowa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Ardpur2.jpg  , Autor: Pierre Dalous
+Lokalizacja: "Pelikanowe\Czaplowate\czapla biała\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Ardea_alba4.jpg  , Autor: Calibas
+Lokalizacja: "Pelikanowe\Czaplowate\czapla nadobna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Little_Egret_Reflection.jpg  , Autor: Birdman1
+Lokalizacja: "Pelikanowe\Ibisy\warzęcha\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Eurasian_Spoonbill_(Platalea_leucorodia)_(20710449456).jpg  , Autor: Bernard DUPONT from FRANCE
+Lokalizacja: "Pelikanowe\Ibisy\ibis kasztanowaty\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Plegadis_falcinellus_Syracuse.jpg  , Autor: Egretta_garzetta_Plegadis_falcinellus_Syracuse.jpg: Gabriele  Iuvaraderivative work: MPF
+Lokalizacja: "Głuptakowe\Głuptaki\głuptak\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Northern-Gannet-6.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Głuptakowe\Głuptaki\głuptak białobrzuchy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Brown_booby.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Głuptakowe\Kormorany\kormoran mały\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Phalacrocorax_pygmeus_1_(Martin_Mecnarowski).jpg  , Autor: Martin Mecnarowski (http://www.photomecan.eu/)
+Lokalizacja: "Głuptakowe\Kormorany\kormoran czubaty\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Shag_Phalacrocorax_aristotelis.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Głuptakowe\Kormorany\kormoran\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Phalacrocorax_carbo_Vic.jpg  , Autor: JJ Harrison (https://www.jjharrison.com.au/)
+Lokalizacja: "Szponiaste\Rybołowy\rybołów\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Osprey_mg_9605.jpg  , Autor: Mike Baird from Morro Bay, USA
+Lokalizacja: "Szponiaste\Jastrzębiowate\kaniuk\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Black-shouldered_Kite_(Elanus_caeruleus)_in_Kawal_WS,_AP_W_IMG_1681.jpg  , Autor: J.M.Garg
+Lokalizacja: "Szponiaste\Jastrzębiowate\trzmielojad\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Wespenbussard_Pernis_apivorus_by_A._Görtler_edit2.jpg  , Autor: Antje Görtler
+Lokalizacja: "Szponiaste\Jastrzębiowate\orłosęp\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Bearded_Vulture_-_Catalan_Pyrenees_-_Spain_(25098398432).jpg  , Autor: Francesco Veronesi from Italy
+Lokalizacja: "Szponiaste\Jastrzębiowate\ścierwnik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:20191213_Neophron_percnopterus,_Jor_Beed_Bird_Sanctuary,_Bikaner_0925_8260.jpg  , Autor: Jakub Hałun
+Lokalizacja: "Szponiaste\Jastrzębiowate\gadożer\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Circaetus_gallicus_02.jpg  , Autor: MarioM
+Lokalizacja: "Szponiaste\Jastrzębiowate\sęp płowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Gyps-fulvus.jpg  , Autor: Chrumps
+Lokalizacja: "Szponiaste\Jastrzębiowate\sęp kasztanowaty\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Cinereous.vulture1.jpg  , Autor: Mistvan
+Lokalizacja: "Szponiaste\Jastrzębiowate\orlik krzykliwy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Clanga_pomarina,_Belarus_1.jpg  , Autor: Ron Knight from Seaford, East Sussex, United Kingdom
+Lokalizacja: "Szponiaste\Jastrzębiowate\orlik grubodzioby\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Clanga_clanga_91594689.jpg  , Autor: Christoph Moning
+Lokalizacja: "Szponiaste\Jastrzębiowate\orzeł stepowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Steppenadler.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Szponiaste\Jastrzębiowate\orzeł cesarski\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Kaiseradler_Aquila_heliaca_2_amk.jpg  , Autor: user:AngMoKio
+Lokalizacja: "Szponiaste\Jastrzębiowate\orzeł przedni\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Aquila_chrysaetos_Flickr.jpg  , Autor: Rocky
+Lokalizacja: "Szponiaste\Jastrzębiowate\orzeł południowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Bonelli's_Eagle_I-_Himachal-_IMG_3231.jpg  , Autor: J.M.Garg
+Lokalizacja: "Szponiaste\Jastrzębiowate\orzełek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Booted_Eagle_NAUMANN.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Szponiaste\Jastrzębiowate\błotniak stawowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Circus_aeruginosus_samiec4.jpg  , Autor: Artur Mikołajewski
+Lokalizacja: "Szponiaste\Jastrzębiowate\błotniak zbożowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Weibliche_Kornweihe_(circus_cyaneus)_-_Spiekeroog,_Nationalpark_Niedersächsisches_Wattenmeer.jpg  , Autor: Stephan Sprinz
+Lokalizacja: "Szponiaste\Jastrzębiowate\błotniak stepowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Pallid_Harrier_Male.jpg  , Autor: Mprasannak
+Lokalizacja: "Szponiaste\Jastrzębiowate\błotniak łąkowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Flickr_-_don_macauley_-_Bird_015.jpg  , Autor: Donald Macauley
+Lokalizacja: "Szponiaste\Jastrzębiowate\krogulec krótkonogi\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Accipiter_brevipes_1.jpg  , Autor: Lajos.rozsa
+Lokalizacja: "Szponiaste\Jastrzębiowate\krogulec\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Ястреб-перепелятник_(Accipiter_nisus,_m),_Измайловский_парк.jpg  , Autor: Dion Art
+Lokalizacja: "Szponiaste\Jastrzębiowate\jastrząb\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Northern_Goshawk_ad_M2.jpg  , Autor: Norbert Kenntner, Berlin
+Lokalizacja: "Szponiaste\Jastrzębiowate\bielik wschodni\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Pallas's_Fish_Eagle_(_Haliaeetus_leucoryphus).jpg  , Autor: Lip Kee Yap
+Lokalizacja: "Szponiaste\Jastrzębiowate\bielik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Merikotkas_kanarbikus.jpg  , Autor: Karl Adami
+Lokalizacja: "Szponiaste\Jastrzębiowate\kania ruda\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Milvus_milvus_R(ThKraft).jpg  , Autor: Thomas Kraft (ThKraft)
+Lokalizacja: "Szponiaste\Jastrzębiowate\kania czarna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Milvus_migrans_front(ThKraft).jpg  , Autor: Thomas Kraft (ThKraft)
+Lokalizacja: "Szponiaste\Jastrzębiowate\myszołów włochaty\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Buteo_lagopus_Iona1.jpg  , Autor: Greg7 on Flickr
+Lokalizacja: "Szponiaste\Jastrzębiowate\myszołów\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Common_Buzzard_(Buteo_buteo)_(50789048302).jpg  , Autor: Imran Shah from Islamabad, Pakistan
+Lokalizacja: "Szponiaste\Jastrzębiowate\kurhannik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Long-legged_Buzzard,female.jpg  , Autor: C.Robiller / www.naturlichter.de
+Lokalizacja: "Sowy\Płomykówkowate\płomykówka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Tyto_alba_close_up.jpg  , Autor: Stevie B
+Lokalizacja: "Sowy\Puszczykowate\sowa jarzębata\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Sperbereule1a.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Sowy\Puszczykowate\sóweczka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Воробьиный_сыч_(Glaucidium_passerinum),_Битцевский_лес.jpg  , Autor: Dion Art
+Lokalizacja: "Sowy\Puszczykowate\pójdźka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Mochuelo_Común_(_Athene_noctua_)(1).jpg  , Autor: Arturo Nikolai z Galicia, Spain
+Lokalizacja: "Sowy\Puszczykowate\włochatka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Aegolius-funereus-001.jpg  , Autor: Mdf
+Lokalizacja: "Sowy\Puszczykowate\syczek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Centro_provinciale_(2).jpg  , Autor: Autor nie został podany w rozpoznawalny automatycznie sposób. Założono, że to Andrea Lupo (w oparciu o szablon praw autorskich).
+Lokalizacja: "Sowy\Puszczykowate\uszatka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Waldohreule_in_freier_Wildbahn.jpg  , Autor: de:User:Sascha Rösner
+Lokalizacja: "Sowy\Puszczykowate\uszatka błotna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Asio_flammeus_-Fazenda_Campo_de_Ouro,_Piraju,_Sao_Paulo,_Brasil-8.jpg  , Autor: Dario Sanches from São Paulo, Brazil
+Lokalizacja: "Sowy\Puszczykowate\puszczyk\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Strix_aluco_3_(Martin_Mecnarowski).jpg  , Autor: Martin Mecnarowski (http://www.photomecan.eu/)
+Lokalizacja: "Sowy\Puszczykowate\puszczyk uralski\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Strix_uralensis.jpg  , Autor: Hans Hillewaert
+Lokalizacja: "Sowy\Puszczykowate\puszczyk mszarny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Бородатая_неясыть_(Strix_nebulosa,_m),_Ботанический_сад.jpg  , Autor: Dion Art
+Lokalizacja: "Sowy\Puszczykowate\puchacz śnieżny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Bubo_scandiacus_male_Muskegon.jpg  , Autor: Bill Bouton from San Luis Obispo, CA, USA
+ - obraz_2.jpeg: https://pl.wikipedia.org/wiki/Plik:Snowy_Owl_(240866707).jpeg  , Autor: Jongsun Lee
+Lokalizacja: "Sowy\Puszczykowate\puchacz\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Bubo_bubo_winter_1.jpg  , Autor: Kamil.Corrections: Piotr_J
+Lokalizacja: "Dzioborożcowe\Dudki (rodzina)\dudek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:ABUBILLA_(Upupa_epops).jpg  , Autor: Arturo Nikolai
+Lokalizacja: "Dzięciołowe\Dzięciołowate\krętogłów\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:22804_Draaihals_(3318438707).jpg  , Autor: Martien Brand from Mariënberg, The Netherlands
+Lokalizacja: "Dzięciołowe\Dzięciołowate\dzięcioł zielonosiwy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Седой_дятел_у_болота_речки_Зимёнки.jpg  , Autor: Dion Art
+Lokalizacja: "Dzięciołowe\Dzięciołowate\dzięcioł zielony\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:03_vgrue-10-11.jpg  , Autor: User:Hans-Jörg Hellwig
+Lokalizacja: "Dzięciołowe\Dzięciołowate\dzięcioł czarny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Schwarzspecht.jpg  , Autor: Steffen Hannert
+Lokalizacja: "Dzięciołowe\Dzięciołowate\dzięcioł średni\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Средний_пёстрый_дятел_(Dendrocoptes_medius),_Битцевский_лес.jpg  , Autor: Dion Art
+Lokalizacja: "Dzięciołowe\Dzięciołowate\dzięciołek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Dendrocopos_minor_291108.jpg  , Autor: Zaltys
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Малый_пёстрый_дятел_на_репейнике_(Dendrocopos_minor,_fem),_Крылатские_холмы.jpg  , Autor: Dion Art
+Lokalizacja: "Dzięciołowe\Dzięciołowate\dzięcioł duży\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Dendrocopos_major_4_(Marek_Szczepanek).jpg  , Autor: Marek Szczepanek
+Lokalizacja: "Dzięciołowe\Dzięciołowate\dzięcioł białoszyi\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Dendrocopos_syriacus.jpg  , Autor: מינוזיג
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Syrian_Woodpecker_(Dendrocopos_syriacus)_(14180500490).jpg  , Autor: Ron Knight from Seaford, East Sussex, United Kingdom
+Lokalizacja: "Dzięciołowe\Dzięciołowate\dzięcioł białogrzbiety\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Dendrocopos_leucotos_2.jpg  , Autor: Alastair Rae
+Lokalizacja: "Dzięciołowe\Dzięciołowate\dzięcioł trójpalczasty\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Трёхпалый_дятел_(Picoides_tridactylus)_с_побережья_Малого_Моря.jpg  , Autor: Dion Art
+Lokalizacja: "Kraskowe\Żołny\żołna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Şahlûr-33.jpg  , Autor: Dûrzan cîrano
+Lokalizacja: "Kraskowe\Kraski (ptaki)\kraska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:European_Roller_-_Coracias_garrulus.jpg  , Autor: Source: User:Rajkimar99Derivative: User:MathKnight
+Lokalizacja: "Kraskowe\Zimorodkowate\zimorodek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Alcedo_Atthis.jpg  , Autor: Artemy Voikhansky
+Lokalizacja: "Kraskowe\Zimorodkowate\rybaczek srokaty\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Ceryle_rudis_(male).jpg  , Autor: Hans Hillewaert
+Lokalizacja: "Sokołowe\Sokołowate\pustułeczka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Male_and_female_Lesser_Kestrels.jpg  , Autor: Neil Gray
+Lokalizacja: "Sokołowe\Sokołowate\pustułka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Common_kestrel_falco_tinnunculus.jpg  , Autor: Andreas Trepte
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Falco_tinnunculus_eating_Paslières_20210414_t160305.jpg  , Autor: Marie-Lan Taÿ Pamart
+Lokalizacja: "Sokołowe\Sokołowate\kobczyk\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Falco_vespertinus.jpg  , Autor: Daniel Pettersson
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Falco_vespertinus_2_(Martin_Mecnarowski).jpg  , Autor: Martin Mecnarowski (http://www.photomecan.eu/)
+Lokalizacja: "Sokołowe\Sokołowate\drzemlik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Merlin_(Falco_columbarius_richardsonii)_(2276417896).jpg  , Autor: Gregory "Slobirdr" Smith
+Lokalizacja: "Sokołowe\Sokołowate\kobuz\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Falco_subbuteo_NAUMANN.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Sokołowe\Sokołowate\sokół skalny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Falco_eleonorae_Balearic_Islands.jpg  , Autor: Conselleria de Medi Ambient i Mobilitat, Govern des Illes Balears
+Lokalizacja: "Sokołowe\Sokołowate\raróg\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Falco_cherrug_1_(Bohuš_Číčel).jpg  , Autor: Bohuš Číčel (https://www.flickr.com/photos/bcicel/)
+Lokalizacja: "Sokołowe\Sokołowate\raróg górski\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Lanner_Falcon_800.jpg  , Autor: Oryginalnym przesyłającym był Sannse z angielskiej Wikipedii
+Lokalizacja: "Sokołowe\Sokołowate\białozór\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Falco_rusticolus_1.jpg  , Autor: Elena Gaillard from New York, USA
+Lokalizacja: "Sokołowe\Sokołowate\sokół wędrowny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Falco_peregrinus_-_01.jpg  , Autor: Carlos Delgado
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Peregrine_falcon_roland_park_tower_6.4.23_DSC_2919-topaz-denoiseraw-sharpen.jpg  , Autor: lwolfartist
+Lokalizacja: "Wróblowe\Wireonkowate\wireonek czerwonooki\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Red-eyed_Vireo_-_Texas_-_Usa_H8O0679_(22586282717).jpg  , Autor: Francesco Veronesi from Italy
+Lokalizacja: "Wróblowe\Wilgowate\wilga\Obrazy"
+ - obraz_1.png: https://pl.wikipedia.org/wiki/Plik:Rigogolo-(Oriolus_oriolus)_Lazio,_isola_di_Ventotene_(LT)_19.4.2024.png  , Autor: Apatura1955
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Oriolus_oriolus_Ayodar_2.jpg  , Autor: Paco Gómez from Castellón, Spain
+Lokalizacja: "Wróblowe\Dzierzby\gąsiorek\Obrazy"
+ - obraz_1.JPG: https://pl.wikipedia.org/wiki/Plik:Neuntoeter.JPG  , Autor: Kaeptn chemnitz
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Lanius_collurio_-Poland_-female-8-4c.jpg  , Autor: Lanius_collurio_-Poland_-female-8.jpg: mmlolekderivative work: Snowmanradio (talk)
+Lokalizacja: "Wróblowe\Dzierzby\dzierzba rdzawosterna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:0T4A6719.jpg  , Autor: Jrrobinantony
+Lokalizacja: "Wróblowe\Dzierzby\dzierzba pustynna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Isabelline_Shrike_(15214160368).jpg  , Autor: Koshy Koshy from Faridabad, Haryana, India
+Lokalizacja: "Wróblowe\Dzierzby\dzierzba czarnoczelna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Schwarzstirnwuerger.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Wróblowe\Dzierzby\srokosz północny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Northern_Shrike,_Arvada,_Jefferson,_Colorado.jpg  , Autor: Paul Hurtado
+Lokalizacja: "Wróblowe\Dzierzby\srokosz\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Lanius_excubitor_1_(Marek_Szczepanek).jpg  , Autor: Marek Szczepanek
+Lokalizacja: "Wróblowe\Dzierzby\dzierzba rudogłowa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Lanius_senator.jpg  , Autor: Oryginalnym przesyłającym był Valternet z portugalskiej Wikipedii
+Lokalizacja: "Wróblowe\Krukowate\wieszczek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Alpendohle.jpg  , Autor: Günter Hildebrandt aka Hulle
+Lokalizacja: "Wróblowe\Krukowate\sójka syberyjska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Perisoreus_infaustus2.jpg  , Autor: Daniel Pettersson
+Lokalizacja: "Wróblowe\Krukowate\sójka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Garrulus_glandarius_1_Luc_Viatour.jpg  , Autor: Luc Viatour
+Lokalizacja: "Wróblowe\Krukowate\sroka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Pica_pica_-_Compans_Caffarelli_-_2012-03-16.jpg  , Autor: Pierre-Selim
+Lokalizacja: "Wróblowe\Krukowate\orzechówka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Orzechówka_zwyczajna_nad_Morskim_Okiem.jpg  , Autor: bbartlomiej
+Lokalizacja: "Wróblowe\Krukowate\kawka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Kawka_Nowa_Sól.jpg  , Autor: Anna Czarnecka
+Lokalizacja: "Wróblowe\Krukowate\gawron\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Corvus_frugilegus_2.jpg  , Autor: Rafał Komorowski
+Lokalizacja: "Wróblowe\Krukowate\kruk\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Corvus_corax_by_David_Hofmann.jpg  , Autor: David Hofmann
+Lokalizacja: "Wróblowe\Krukowate\czarnowron\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Wikikraai.jpg  , Autor: Original uploader was Evanherk at nl.wikipediaLater version(s) were uploaded by Josh at nl.wikipedia.
+Lokalizacja: "Wróblowe\Krukowate\wrona siwa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Hooded_Crow_(Corvus_cornix)_(11).jpg  , Autor: Ken Billington
+Lokalizacja: "Wróblowe\Sikory (ptaki)\sosnówka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Parus_ater01.jpg  , Autor: Sławek Staszczuk
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Periparus_ater_(26205653537).jpg  , Autor: xulescu_g
+Lokalizacja: "Wróblowe\Sikory (ptaki)\czubatka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Lophophanes_cristatus_Luc_Viatour_2.jpg  , Autor: Luc Viatour
+Lokalizacja: "Wróblowe\Sikory (ptaki)\sikora uboga\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Parus_palustris.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Wróblowe\Sikory (ptaki)\czarnogłówka\Obrazy"
+ - obraz_1.JPG: https://pl.wikipedia.org/wiki/Plik:Poecile_Montanus_Kittila_20120307.JPG  , Autor: Estormiz
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Willow_Tit_Lancashire.jpg  , Autor: Francis Franklin
+Lokalizacja: "Wróblowe\Sikory (ptaki)\modraszka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Parus_caeruleus1.jpg  , Autor: Sławek Staszczuk
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Blue_tit_-_Juvenile_-_Cyanistes_caeruleus_(53000661500).jpg  , Autor: caroline legg
+Lokalizacja: "Wróblowe\Sikory (ptaki)\sikora lazurowa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Azure_Tit_-_Parus_cyanus.jpg  , Autor: https://www.flickr.com/photos/jargals004
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Azure_tit_in_the_meadow.jpg  , Autor: Alpharius Omegon
+Lokalizacja: "Wróblowe\Sikory (ptaki)\bogatka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Great_tit_(Parus_major)_gender.jpg  , Autor: Mirus255
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:13_bis_15_Zentimeter_wird_eine_Kohlmeise_lang._06.jpg  , Autor: Holger Uwe Schmitt
+Lokalizacja: "Wróblowe\Remizy\remiz\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Remiz_pendulinus_3_(Martin_Mecnarowski).jpg  , Autor: Martin Mecnarowski (http://www.photomecan.eu/)
+Lokalizacja: "Wróblowe\Skowronki\lerka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Lullula_arborea_(Ján_Svetlík).jpg  , Autor: Ján Svetlík
+Lokalizacja: "Wróblowe\Skowronki\skowronek białoskrzydły\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Melanocorypha_leucoptera2.jpg  , Autor: Melanocorypha_leucoptera.jpg: See belowderivative work: Osado
+Lokalizacja: "Wróblowe\Skowronki\skowronek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Alauda_arvensis_2.jpg  , Autor: Daniel Pettersson
+Lokalizacja: "Wróblowe\Skowronki\dzierlatka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Cotovia-de-poupa.jpg  , Autor: Valternet
+Lokalizacja: "Wróblowe\Skowronki\górniczek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Eremophila_alpestris2.jpg  , Autor: Daniel Pettersson
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Horned_Lark,_female_(24802473921).jpg  , Autor: dfaulder
+Lokalizacja: "Wróblowe\Skowronki\skowrończyk krótkopalcowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Alondra.jpg  , Autor: Juan Lacruz
+Lokalizacja: "Wróblowe\Skowronki\kalandra dwuplamista\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Melanocorypha_bimaculata_117209398.jpg  , Autor: Jan Ebr
+Lokalizacja: "Wróblowe\Skowronki\kalandra szara\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Bereşe.jpg  , Autor: Dûrzan cîrano
+Lokalizacja: "Wróblowe\Skowronki\kalandra czarna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Black_Lark_-_Kazakistan_S4E9836_(16946135312)-cropped.jpg  , Autor: Original: Francesco Veronesi from ItalyDerivative: باسم
+Lokalizacja: "Wróblowe\Wąsatka\wąsatka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Male_bearded_tit_(51674159346).jpg  , Autor: Andrey Gulivanov
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Female_beard_tit_(30095279126).jpg  , Autor: joe m devereux from Ipswich, suffolk
+Lokalizacja: "Wróblowe\Świerszczaki\świerszczak melodyjny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Rusty-rumped_Warbler_(Locustella_certhiola)_I_IMG_2750.jpg  , Autor: J.M.Garg
+Lokalizacja: "Wróblowe\Świerszczaki\brzęczka\Obrazy"
+Lokalizacja: "Wróblowe\Świerszczaki\strumieniówka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Flodsangare.jpg  , Autor: Lasse Olsson
+Lokalizacja: "Wróblowe\Świerszczaki\świerszczak\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Grashoppsangare-070512.jpg  , Autor: Stefan Hage, Birds.se
+Lokalizacja: "Wróblowe\Trzciniaki\zaganiacz mały\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Booted_Warbler_-_Kazakistan_S4E0786_(17330623545).jpg  , Autor: Francesco Veronesi from Italy
+Lokalizacja: "Wróblowe\Trzciniaki\zaganiacz blady\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Eastern_olivaceous_warbler_(Iduna_pallida)_by_Lior_Kislev.jpg  , Autor: Lior Kislev
+Lokalizacja: "Wróblowe\Trzciniaki\zaganiacz szczebiotliwy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Hippolais_polyglotta.jpg  , Autor: aigledayres
+Lokalizacja: "Wróblowe\Trzciniaki\zaganiacz\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Hippolais_icterina_vogelartinfo_chris_romeiks_R7F2916.jpg  , Autor: Vogelartinfo
+Lokalizacja: "Wróblowe\Trzciniaki\wodniczka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Seggenrohrsaenger_hand.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Wróblowe\Trzciniaki\tamaryszka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Acrocephalus_melanopogon_ad03_CB.jpg  , Autor: ChristopheBernier30
+Lokalizacja: "Wróblowe\Trzciniaki\rokitniczka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Sedge_warbler_(Acrocephalus_schoenobaenus)_3.jpg  , Autor: Charles J Sharp (1951–)    Inne nazwiska i pseudonimyCharles James Sharp; Charlesjsharp; Charles James Sharp Bentley; Charles BentleyOpisbrytyjski wildlife photographerData urodzeniawrzesień 1951 Okres działalnościod 2003date QS:P,+2003-00-00T00:00:00Z/7,P580,+2003-00-00T00:00:00Z/9Wykaz autorytatywny: Q54800218creator QS:P170,Q54800218
+ - obraz_2.JPG: https://pl.wikipedia.org/wiki/Plik:Juvenile_Sedge_Warbler_(Acrocephalus_schoenobaenus)_(13).JPG  , Autor: Ken Billington
+Lokalizacja: "Wróblowe\Trzciniaki\zaroślówka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Blyth's_Reed_Warbler.jpg  , Autor: Shankar70
+Lokalizacja: "Wróblowe\Trzciniaki\łozówka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Animal_(19465258733).jpg  , Autor: Aleksey Gnilenkov from Moscow, Russia
+Lokalizacja: "Wróblowe\Trzciniaki\trzcinniczek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:4566.reed_warbler_holding_food.jpg  , Autor: Oryginalnym przesyłającym był Furrfu z angielskiej Wikipedii
+Lokalizacja: "Wróblowe\Trzciniaki\trzcinniczek kaspijski\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Paddyfield_Warbler_(Acrocephalus_agricola)_in_Kolkata_Im_IMG_0496.jpg  , Autor: J.M.Garg
+Lokalizacja: "Wróblowe\Trzciniaki\trzciniak\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Acrocephalus_arundinaceus_(Marek_Szczepanek).jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Wróblowe\Jaskółkowate\oknówka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Delichon_urbica_NRM.jpg  , Autor: English:  Uploaded by Aelwyn with the permission of the Author, who works with an expert in a bird ringing station in northern Italy (no harm was done to the animals depicted). Italiano:  Caricata da Aelwyn con il permesso dell' Autore, che lavora con un esperto in una stazione di inanellamento del nord Italia (nessun maltrattamento è stato affto nei confronti degli animali ritratti.)
+Lokalizacja: "Wróblowe\Jaskółkowate\jaskółka śródziemnomorska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:RED-RUMPED_SWALLOW_Hirundo_daurica_rufula_(8467592335).jpg  , Autor: Len Worthington
+Lokalizacja: "Wróblowe\Jaskółkowate\dymówka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Деревенская_ласточка_(Hirundo_rustica),_Мелихово.jpg  , Autor: Dion Art
+Lokalizacja: "Wróblowe\Jaskółkowate\brzegówka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Sand-Martin2.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Wróblowe\Świstunki\świstunka górska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Western_Bonelli's_Warbler_-_Aosta_Valley_-_Italy_S4E5346_(19079885220).jpg  , Autor: Francesco Veronesi from Italy
+Lokalizacja: "Wróblowe\Świstunki\świstunka leśna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Phylloscopus_sibilatrix_Barco_Reale_1.jpg  , Autor: GregorioW
+Lokalizacja: "Wróblowe\Świstunki\świstunka żółtawa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Phylloscopus_inornatus_(Yellow-browed_Warbler).jpg  , Autor: E.HOBA
+Lokalizacja: "Wróblowe\Świstunki\świstunka ałtajska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Hume's_Warbler_I2_IMG_3401.jpg  , Autor: J.M.Garg
+Lokalizacja: "Wróblowe\Świstunki\świstunka złotawa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:20070304贵阳-黄腰柳莺.jpg  , Autor: 孟宪伟
+Lokalizacja: "Wróblowe\Świstunki\świstunka brunatna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Phylloscopus_fuscatus.jpg  , Autor: Charles Lam
+Lokalizacja: "Wróblowe\Świstunki\piecuszek\Obrazy"
+ - obraz_1.JPG: https://pl.wikipedia.org/wiki/Plik:Willow_warbler_UK09.JPG  , Autor: Aviceda
+Lokalizacja: "Wróblowe\Świstunki\świstunka iberyjska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Phylloscopus_ibericus.jpg  , Autor: Rodrigo Saldanha de Almeida
+Lokalizacja: "Wróblowe\Świstunki\pierwiosnek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Phylloscopus_collybita_(taxobox).jpg  , Autor: Hans Hillewaert
+Lokalizacja: "Wróblowe\Świstunki\świstunka grubodzioba\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Radde's_Warbler_(Phylloscopus_schwarzi).jpg  , Autor: Lip Kee Yap
+Lokalizacja: "Wróblowe\Świstunki\wójcik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Greenish_Warbler_I_IMG_0565.jpg  , Autor: J.M.Garg
+Lokalizacja: "Wróblowe\Świstunki\świstunka północna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Phylloscopus_borealis_P4274142.jpg  , Autor: Alnus
+Lokalizacja: "Wróblowe\Raniuszki\raniuszek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Long-tailed_Tit_Aegithalos_caudatus.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Wróblowe\Pokrzewki\kapturka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Curruca_Capirotada.(_Sylvia_atricapilla_heineken)(♂)_(5215354550).jpg  , Autor: Juan Emilio from Las Palmas de Gran Canaria, España
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Sylvia_atricappila_vogelartinfo_chris_romeiks_R7F4015.jpg  , Autor: Vogelartinfo
+Lokalizacja: "Wróblowe\Pokrzewki\gajówka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Sylvia_borin_(Örebro_County).jpg  , Autor: Biillyboy
+Lokalizacja: "Wróblowe\Pokrzewki\jarzębatka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Sylvia_nisoria.jpg  , Autor: photo taken by Artur Mikołajewski
+Lokalizacja: "Wróblowe\Pokrzewki\piegża\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Lesser_whitethroat_(40735963543).jpg  , Autor: hedera.baltica from Wrocław, Poland
+Lokalizacja: "Wróblowe\Pokrzewki\pokrzewka wąsata\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Κοκκινοτσιροβάκος.jpg  , Autor: Antonios Tsaknakis
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Subalpine_warbler_(F).jpg  , Autor: Gary L. Clark
+Lokalizacja: "Wróblowe\Pokrzewki\pokrzewka iberyjska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Subalpine_Warbler_-_Monfrague_-_Spain_2669_(19110069408).jpg  , Autor: Francesco Veronesi from Italy
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/File:Western_Subalpine_Warbler_Sylvia_inornata,_Aiguamolls_de_l'Empordà.jpg  , Autor: BirdingInSpain
+Lokalizacja: "Wróblowe\Pokrzewki\pokrzewka aksamitna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Sardinian_Warbler.jpg  , Autor: Andreas Trepte
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/File:Sardinian_warbler_(Sylvia_melanocephala)_female.jpg  , Autor: Charles J Sharp (1951–)    Inne nazwiska i pseudonimyCharles James Sharp; Charlesjsharp; Charles James Sharp Bentley; Charles BentleyOpisbrytyjski wildlife photographerData urodzeniawrzesień 1951 Okres działalnościod 2003date QS:P,+2003-00-00T00:00:00Z/7,P580,+2003-00-00T00:00:00Z/9Wykaz autorytatywny: Q54800218creator QS:P170,Q54800218
+Lokalizacja: "Wróblowe\Pokrzewki\cierniówka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Tallareta_vulgar_01_(Sylvia_communis).jpg  , Autor: markkilner
+Lokalizacja: "Wróblowe\Mysikróliki\mysikrólik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Желтоголовый_королёк_(Regulus_regulus),_Битцевский_лес.jpg  , Autor: Dion Art
+Lokalizacja: "Wróblowe\Mysikróliki\zniczek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Regulus_ignicapillus2.jpg  , Autor: Ben Skála
+Lokalizacja: "Wróblowe\Jemiołuszki\jemiołuszka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Bohemian_Wax_Wing.jpg  , Autor: Randen Pederson
+Lokalizacja: "Wróblowe\Kowaliki (ptaki)\kowalik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Sitta_europaea_Luc_Viatour.jpg  , Autor: Luc Viatour
+Lokalizacja: "Wróblowe\Pełzacze (ptaki)\pełzacz leśny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Certhia_familiaris_-climbing_tree-8_(cropped_version).jpg  , Autor: Certhia_familiaris_-climbing_tree-8.jpg: Peter Mulliganderivative work: Totodu74 (talk)
+Lokalizacja: "Wróblowe\Pełzacze (ptaki)\pełzacz ogrodowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Short-toed_Treecreeper_(Certhia_brachydactyla)_(cropped_version).jpg  , Autor: Short-toed_Treecreeper_(Certhia_brachydactyla).jpg: א (Aleph)derivative work: Totodu74 (talk)
+Lokalizacja: "Wróblowe\Pomurnik\pomurnik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Tichodroma_muraria_NAUMANN.jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Wróblowe\Strzyżyki\strzyżyk\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Zaunkoenig-photo.jpg  , Autor: Robert Lorch
+Lokalizacja: "Wróblowe\Szpakowate\szpak\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Common_Starling_(Sturnus_vulgaris)_Leek_Wootton.jpg  , Autor: Charles J Sharp (1951–)    Inne nazwiska i pseudonimyCharles James Sharp; Charlesjsharp; Charles James Sharp Bentley; Charles BentleyOpisbrytyjski wildlife photographerData urodzeniawrzesień 1951 Okres działalnościod 2003date QS:P,+2003-00-00T00:00:00Z/7,P580,+2003-00-00T00:00:00Z/9Wykaz autorytatywny: Q54800218creator QS:P170,Q54800218
+Lokalizacja: "Wróblowe\Szpakowate\szpak jednobarwny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Estornino_Negro._Casa_de_Campo._Madrid..jpg  , Autor: Luis Egido
+Lokalizacja: "Wróblowe\Szpakowate\pasterz\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Rosy_Starling_(Pastor_roseus)_(8079444740).jpg  , Autor: Ron Knight from Seaford, East Sussex, United Kingdom
+Lokalizacja: "Wróblowe\Pluszcze\pluszcz\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Cinclus_cinclus_-Scotland-4-4c.jpg  , Autor: derivative work: Snowmanradio (talk)Dipper01.jpg: Sean Murray
+Lokalizacja: "Wróblowe\Muchołówkowate\muchołówka szara\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:SpottedFlycatcheronfence.jpg  , Autor: Andrew Easton
+Lokalizacja: "Wróblowe\Muchołówkowate\rudzik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Erithacus_rubecula_with_cocked_head.jpg  , Autor: Francis C. Franklin
+ - obraz_2.JPG: https://pl.wikipedia.org/wiki/Plik:Erithacus_rubecula_juvenile.JPG  , Autor: Francis C. Franklin
+Lokalizacja: "Wróblowe\Muchołówkowate\słowik syberyjski\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Luscinia_sibilans_-_Khao_Yai.jpg  , Autor: JJ Harrison (https://www.jjharrison.com.au/)
+Lokalizacja: "Wróblowe\Muchołówkowate\słowik rdzawy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Luscinia_megarhynchos_vogelartinfo_chris_romeiks_CHR4443.jpg  , Autor: Vogelartinfo
+Lokalizacja: "Wróblowe\Muchołówkowate\słowik szary\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Восточный_соловей_(Luscinia_luscinia),_Битцевский_лес.jpg  , Autor: Dion Art
+Lokalizacja: "Wróblowe\Muchołówkowate\podróżniczek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Luscinia_svecica_volgae.jpg  , Autor: Bogomolov.PL
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Bluethroat_(Luscinia_svecica)-_Female_at_Bharatpur_I_IMG_5484.jpg  , Autor: J.M.Garg
+Lokalizacja: "Wróblowe\Muchołówkowate\modraczek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Tarsiger_cyanurus_(male_capturing_insect).jpg  , Autor: Alpsdake
+ - obraz_2.JPG: https://pl.wikipedia.org/wiki/Plik:Ruribitakif1.JPG  , Autor: Materialscientist (talk)
+Lokalizacja: "Wróblowe\Muchołówkowate\muchołówka mała\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Ficedula_parva.jpg  , Autor: Nie znaleziono autora
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Red_Breasted_Flycatcher,_female,_clicked_at_Nagpur_by_Dr._Tejinder_Singh_Rawal.jpg  , Autor: Tsrawal
+Lokalizacja: "Wróblowe\Muchołówkowate\muchołówka żałobna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Trauerschnäpper_auf_Esche_cutted.jpg  , Autor: Simon Eugster --Simon 18:45, 1 July 2006 (UTC)
+Lokalizacja: "Wróblowe\Muchołówkowate\muchołówka białoszyja\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Muchołówka_białoszyja_(samiec).jpg  , Autor: Katarzyna Stępniewska
+Lokalizacja: "Wróblowe\Muchołówkowate\pleszka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Phoenicurus_phoenicurus_male(js).jpg  , Autor: Jerzy Strzelecki
+Lokalizacja: "Wróblowe\Muchołówkowate\kopciuszek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:PhoenicurusOchrurosGuntherHasler01.jpg  , Autor: Gunther Hasler, Augsburg
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Phoenicurus_ochruros_female.jpg  , Autor: Michael Apel
+Lokalizacja: "Wróblowe\Muchołówkowate\nagórnik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Monsax.jpg  , Autor: Pierre Dalous
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Common_Rock-Thrush_(Monticola_saxatilis)_f_(46527244482).jpg  , Autor: Dominic Sherony
+Lokalizacja: "Wróblowe\Muchołówkowate\pokląskwa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Whinchat_-_Saxicola_rubetra_(51193350123).jpg  , Autor: caroline legg
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Saxicola_rubetra_2_(Martin_Mecnarowski).jpg  , Autor: Martin Mecnarowski (http://www.photomecan.eu/)
+Lokalizacja: "Wróblowe\Muchołówkowate\kląskawka syberyjska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Common_Stonechat_I_-Haryana_IMG_9865.jpg  , Autor: J.M.Garg
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Siberian_Stonechat_(Saxicola_maurus)_female,_Salai,_UP,_India.jpg  , Autor: Charles J Sharp (1951–)    Inne nazwiska i pseudonimyCharles James Sharp; Charlesjsharp; Charles James Sharp Bentley; Charles BentleyOpisbrytyjski wildlife photographerData urodzeniawrzesień 1951 Okres działalnościod 2003date QS:P,+2003-00-00T00:00:00Z/7,P580,+2003-00-00T00:00:00Z/9Wykaz autorytatywny: Q54800218creator QS:P170,Q54800218
+Lokalizacja: "Wróblowe\Muchołówkowate\kląskawka\Obrazy"
+ - obraz_1.JPG: https://pl.wikipedia.org/wiki/Plik:Malestonechatseaham.JPG  , Autor: Myosotis Scorpioides
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Saxicola_rubicola_-Belgium_-female-8_(1).jpg  , Autor: Frank Vassen from Brussels, Belgium
+Lokalizacja: "Wróblowe\Muchołówkowate\białorzytka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Steinschmaetzer_Northern_wheatear_male.jpg  , Autor: Andreas Trepte
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Northern_wheatear_Oenanthe_oenanthe.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Wróblowe\Muchołówkowate\białorzytka płowa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Isabelline_wheatear_(Oenanthe_isabellina)_male,_non-breeding.jpg  , Autor: Lip Kee Yap
+Lokalizacja: "Wróblowe\Muchołówkowate\białorzytka pustynna\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Desert_Wheatear_(Oenanthe_deserti)_Photograph_by_Shantanu_Kuveskar.jpg  , Autor: Shantanu Kuveskar
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Desert_wheatear_oenanthe_deserti.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Wróblowe\Muchołówkowate\białorzytka rdzawa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:45-090506-black-eared-wheatear-at-Ipsilou-Monastery-.jpg  , Autor: Mark S Jobling
+Lokalizacja: "Wróblowe\Muchołówkowate\białorzytka pstra\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Pied_Wheatear_(Oenanthe_pleschanka)_(8079431820).jpg  , Autor: Ron Knight from Seaford, East Sussex, United Kingdom
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:BGOenantheOenantheFemale.jpg  , Autor: Autor nie został podany w rozpoznawalny automatycznie sposób. Założono, że to IvanGeoPetrov~commonswiki (w oparciu o szablon praw autorskich).
+Lokalizacja: "Wróblowe\Muchołówkowate\białorzytka saharyjska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Oenanthe_leucopyga.jpg  , Autor: Nir Ofir - GlassOWater
+Lokalizacja: "Wróblowe\Drozdowate\drozdoń tajgowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Toratsugumi_05z5249a.jpg  , Autor: ISAKA Yoji ( cory )[ Recent works / Other works ]
+Lokalizacja: "Wróblowe\Drozdowate\drozdaczek ciemny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Turdus_sibiricus.jpg  , Autor: M.Nishimura
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Zoothera_sibirica,_ZOO_Praha_039.jpg  , Autor: Matěj Baťha
+Lokalizacja: "Wróblowe\Drozdowate\paszkot\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Turdus_viscivorus_1.jpg  , Autor: Neil Phillips from uk
+Lokalizacja: "Wróblowe\Drozdowate\śpiewak\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Певчий_дрозд_на_пеньке_(Turdus_philomelos),_Битцевский_лес.jpg  , Autor: Dion Art
+Lokalizacja: "Wróblowe\Drozdowate\droździk\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Redwing_Turdus_iliacus.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Wróblowe\Drozdowate\kos\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Чёрный_дрозд_(Turdus_merula,_mas),_Битцевский_лес.jpg  , Autor: Dion Art
+Lokalizacja: "Wróblowe\Drozdowate\drozd oliwkowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Eyebrowed_Thrush.jpg  , Autor: Robert tdc
+Lokalizacja: "Wróblowe\Drozdowate\kwiczoł\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Turdus_pilaris2.jpg  , Autor: Adam Kumiszcza
+Lokalizacja: "Wróblowe\Drozdowate\drozd obrożny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Turdus_torquatus2.jpg  , Autor: GabrielBuissart
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Turdus_torquatus,_Spain_5.jpg  , Autor: Paco Gómez from Castellón, Spain
+Lokalizacja: "Wróblowe\Drozdowate\drozd rdzawy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Turdus_naumanni_naumanni.jpg  , Autor: M.Nishimura
+Lokalizacja: "Wróblowe\Drozdowate\drozd rdzawoskrzydły\Obrazy"
+ - obraz_1.JPG: https://pl.wikipedia.org/wiki/Plik:Tsugumi1.JPG  , Autor: Materialscientist (talk)
+Lokalizacja: "Wróblowe\Drozdowate\drozd czarnogardły\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:A_dark-throated_Thrush_female_-_Dhanachuli,_Uttarakhand_India.jpg  , Autor: soumyajit nandy from Kolkata, India
+Lokalizacja: "Wróblowe\Drozdowate\drozd rdzawogardły\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Red-throated_thrush_in_Nepal_(1)_(cropped).jpg  , Autor: सन्देश थापा
+Lokalizacja: "Wróblowe\Płochacze\płochacz halny\Obrazy"
+ - obraz_1.JPG: https://pl.wikipedia.org/wiki/Plik:Prunella_collaris_Pic_Saint-Loup.JPG  , Autor: Thomas Koffel
+Lokalizacja: "Wróblowe\Płochacze\płochacz syberyjski\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Siberian_Accentor_(Prunella_montanella)_-_Сибирийн_хайруулдай_(16435139700).jpg  , Autor: Jargal Lamjav from Ulaanbaatar, Mongolia
+Lokalizacja: "Wróblowe\Płochacze\płochacz czarnogardły\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Black-throated_Accentor_(Prunella_atrogularis)_(15275386173).jpg  , Autor: Imran Shah from Islamabad, Pakistan
+Lokalizacja: "Wróblowe\Płochacze\pokrzywnica\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Dunnock_crop2.jpg  , Autor: Smalljim
+Lokalizacja: "Wróblowe\Wróble\wróbel\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Huismus,_man.jpg  , Autor: JrPol
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Huismus,_vrouw.jpg  , Autor: JrPol
+Lokalizacja: "Wróblowe\Wróble\mazurek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Tree-Sparrow-2009-16-02.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Wróblowe\Wróble\wróbel skalny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Petronia_petronia_Martien_Brand.jpg  , Autor: Martien Brand from Mariënberg, The Netherlands
+Lokalizacja: "Wróblowe\Wróble\śnieżka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Snowfinch.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Wróblowe\Pliszkowate\świergotek drzewny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Anthus_triviallis_(Marek_Szczepanek).jpg  , Autor: Nie znaleziono autora
+Lokalizacja: "Wróblowe\Pliszkowate\świergotek tajgowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Olive_backed_Pipit.jpg  , Autor: Charles Lam from Hong Kong, China
+Lokalizacja: "Wróblowe\Pliszkowate\świergotek rdzawogardły\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Red-throated_Pipit_(Anthus_cervinus).jpg  , Autor: Charles Lam
+Lokalizacja: "Wróblowe\Pliszkowate\świergotek łąkowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Meadow-Pipit.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Wróblowe\Pliszkowate\siwerniak\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Anthus_spinoletta.jpg  , Autor: Original uploader was Marboline at pl.wikipedia
+Lokalizacja: "Wróblowe\Pliszkowate\świergotek nadmorski\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Faroe_Island.1.bird.jpg  , Autor: User:Erik
+Lokalizacja: "Wróblowe\Pliszkowate\świergotek szponiasty\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Richard's_Pipit_I_-Haryana_IMG_9961.jpg  , Autor: J.M.Garg
+Lokalizacja: "Wróblowe\Pliszkowate\świergotek stepowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Blyth's_Pipit_Pangolakha_Wildlife_Sanctuary_East_Sikkim_05.05.2016.jpg  , Autor: Dibyendu Ash
+Lokalizacja: "Wróblowe\Pliszkowate\świergotek polny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:AnthusCampestris_cropped.jpg  , Autor: AnthusCampestris.jpg: Lip Keederivative work: Bogbumper (talk)
+Lokalizacja: "Wróblowe\Pliszkowate\pliszka żółta\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Western_yellow_wagtail_(Motacilla_flava_thunbergi)_male_Oppdal.jpg  , Autor: Charles J Sharp (1951–)    Inne nazwiska i pseudonimyCharles James Sharp; Charlesjsharp; Charles James Sharp Bentley; Charles BentleyOpisbrytyjski wildlife photographerData urodzeniawrzesień 1951 Okres działalnościod 2003date QS:P,+2003-00-00T00:00:00Z/7,P580,+2003-00-00T00:00:00Z/9Wykaz autorytatywny: Q54800218creator QS:P170,Q54800218
+Lokalizacja: "Wróblowe\Pliszkowate\pliszka górska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Grey_Wagtail_(Breeding_female)_I_IMG_3079.jpg  , Autor: J.M.Garg
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Grey_Wagtail-_Breeding_Male_I_IMG_6705.jpg  , Autor: J.M.Garg
+Lokalizacja: "Wróblowe\Pliszkowate\pliszka cytrynowa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Citrine_Wagtail_(Motacilla_citreola)-_Breeding_Male_of_calcarata_race_at_Bharatpur_I_IMG_5752.jpg  , Autor: J.M.Garg
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Citrine_wagtail_I_IMG_8326.jpg  , Autor: J.M.Garg
+Lokalizacja: "Wróblowe\Pliszkowate\pliszka syberyjska\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Eastern_Yellow_Wagtail_(Motacilla_tschutschensis_tschutschensis),_Kamchatka,_Russia_06.jpg  , Autor: valerkov
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/File:2019-12-16_Eastern_Yellow_Wagtail_Motacilla_tschutschensis,_Prestwick_Carr,_Northumberland_12.jpg  , Autor: MPF
+Lokalizacja: "Wróblowe\Pliszkowate\pliszka siwa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:White_wagtail_(Motacilla_alba).jpg  , Autor: Hobbyfotowiki
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Bachstelze4ib.jpg  , Autor: PeterRohrbeck
+Lokalizacja: "Wróblowe\Łuszczakowate\zięba\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Chaffinch_(Fringilla_coelebs)_male.jpg  , Autor: Charles J Sharp (1951–)    Inne nazwiska i pseudonimyCharles James Sharp; Charlesjsharp; Charles James Sharp Bentley; Charles BentleyOpisbrytyjski wildlife photographerData urodzeniawrzesień 1951 Okres działalnościod 2003date QS:P,+2003-00-00T00:00:00Z/7,P580,+2003-00-00T00:00:00Z/9Wykaz autorytatywny: Q54800218creator QS:P170,Q54800218
+ - obraz_2.JPG: https://pl.wikipedia.org/wiki/Plik:Fulda_Buchfinkweibchen_Juni_2012.JPG  , Autor: 4028mdk09
+Lokalizacja: "Wróblowe\Łuszczakowate\jer\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Bjorkefink_0003.jpg  , Autor: Perhols z angielskiej Wikipedii
+Lokalizacja: "Wróblowe\Łuszczakowate\grubodziób\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Grubodziób_Zwyczajny.jpg  , Autor: Hubert Joswowitz-Niemierski
+Lokalizacja: "Wróblowe\Łuszczakowate\dziwonia\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Carpodacus_erythrinus_20060623.jpg  , Autor: Adam Kumiszcza
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Common_Rosefinch_Carpodacus_erythrinus_Female_by_Dr_Raju_Kasambe_(1).jpg  , Autor: Dr. Raju Kasambe
+Lokalizacja: "Wróblowe\Łuszczakowate\łuskowiec\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Pinicola-enucleator-001B.jpg  , Autor: mdf
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Pinicola-enucleator-002.jpg  , Autor: Mdf
+Lokalizacja: "Wróblowe\Łuszczakowate\gil\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:26_Gramm_etwa_wiegt_ein_Dompfaff_Weibchen._01.jpg  , Autor: Holger Uwe Schmitt
+Lokalizacja: "Wróblowe\Łuszczakowate\gilak pustynny\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Bucanetes_githagineus,_Gran_Canaria_2.jpg  , Autor: Juan Emilio from Las Palmas de Gran Canaria, España
+Lokalizacja: "Wróblowe\Łuszczakowate\dzwoniec\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:European_Greenfinch_male_female.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Wróblowe\Łuszczakowate\makolągwa\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Makolągwa.jpg  , Autor: Katarzyna Stępniewska
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Carduelis_cannabina_female.jpg  , Autor: Tebdi
+Lokalizacja: "Wróblowe\Łuszczakowate\rzepołuch\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Carduelis_flavirostris.jpg  , Autor: MPF
+Lokalizacja: "Wróblowe\Łuszczakowate\czeczotka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Acanthis_flammea,_Kotka,_Finland_3.jpg  , Autor: Jyrki Salmi from Finland
+Lokalizacja: "Wróblowe\Łuszczakowate\krzyżodziób sosnowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Furukorsnebb._Hann.jpg  , Autor: Marton Berntsen
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Furukorsnebb.jpg  , Autor: Marton Berntsen
+Lokalizacja: "Wróblowe\Łuszczakowate\krzyżodziób świerkowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Red_Crossbills_(Male).jpg  , Autor: Elaine R. Wilson, www.naturespicsonline.com
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Red_Crossbill_(Female).jpg  , Autor: http://www.naturespicsonline.com/
+Lokalizacja: "Wróblowe\Łuszczakowate\krzyżodziób modrzewiowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Whitewingedcrossbillmale09.jpg  , Autor: John Harrison at https://www.flickr.com/photos/15512543@N04/
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:White-winged_Crossbill_-_adult_female_(8256114683).jpg  , Autor: Andy Reago & Chrissy McClarren
+Lokalizacja: "Wróblowe\Łuszczakowate\szczygieł\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:European_goldfinch_in_winter.jpg  , Autor: DmitriyGuryanov
+Lokalizacja: "Wróblowe\Łuszczakowate\osetnik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Carduelis_citrinella_-Plateau_de_Beille,_Ariege,_Midi-Pyrenee,_France-8_(2).jpg  , Autor: Sandra from France
+Lokalizacja: "Wróblowe\Łuszczakowate\kulczyk\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:European_serin_(Serinus_serinus)_male.jpg  , Autor: Charles J Sharp (1951–)    Inne nazwiska i pseudonimyCharles James Sharp; Charlesjsharp; Charles James Sharp Bentley; Charles BentleyOpisbrytyjski wildlife photographerData urodzeniawrzesień 1951 Okres działalnościod 2003date QS:P,+2003-00-00T00:00:00Z/7,P580,+2003-00-00T00:00:00Z/9Wykaz autorytatywny: Q54800218creator QS:P170,Q54800218
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:European_serin_(Serinus_serinus)_female.jpg  , Autor: Charles J Sharp (1951–)    Inne nazwiska i pseudonimyCharles James Sharp; Charlesjsharp; Charles James Sharp Bentley; Charles BentleyOpisbrytyjski wildlife photographerData urodzeniawrzesień 1951 Okres działalnościod 2003date QS:P,+2003-00-00T00:00:00Z/7,P580,+2003-00-00T00:00:00Z/9Wykaz autorytatywny: Q54800218creator QS:P170,Q54800218
+Lokalizacja: "Wróblowe\Łuszczakowate\czyż\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Carduelis_spinus_2_(Martin_Mecnarowski).jpg  , Autor: Martin Mecnarowski (http://www.photomecan.eu/)
+ - obraz_2.JPG: https://pl.wikipedia.org/wiki/Plik:Czyż_Zwyczajny.JPG  , Autor: Warmiak
+Lokalizacja: "Wróblowe\Poświerki\poświerka\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Laplandbunting67.jpg  , Autor: U.S. Fish and Wildlife Service
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Calcarius_lapponicus_(female)_1996-07-25.jpg  , Autor: Ansgar Walk
+Lokalizacja: "Wróblowe\Poświerki\śnieguła\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Snow_Bunting_(Plectrophenax_nivalis),_Thule,_Greenland_1.jpg  , Autor: Drew Avery
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:SnowBunting-MtA.jpg  , Autor: Charles J Homler
+Lokalizacja: "Wróblowe\Trznadle\trznadel czarnogłowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:28-090504-black-headed-bunting-at-first-layby.jpg  , Autor: Mark S Jobling
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Черноголовая_овсянка_-_Emberiza_melanocephala_-_Black-headed_Bunting_-_Черноглава_овесарка_-_Kappenammer_-_female_(27415070000).jpg  , Autor: Katya from Moscow, Russia
+Lokalizacja: "Wróblowe\Trznadle\trznadel rudogłowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Red-headed_bunting_-_Timbi_Lake,_Vadodara_2020-01-01.jpg  , Autor: Mahmadanesh
+Lokalizacja: "Wróblowe\Trznadle\potrzeszcz\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Corn_Bunting._Miliaria_calandra_(32291261152).jpg  , Autor: gailhampshire from Cradley, Malvern, U.K
+Lokalizacja: "Wróblowe\Trznadle\głuszek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Rock_bunting.jpg  , Autor: Gary L. Clark
+Lokalizacja: "Wróblowe\Trznadle\ortolan\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Ortolan_bunting_in_Sierra_de_Guara,_Aragon,_Spain.jpg  , Autor: Pierre Dalous
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Hortolà_01_Emberiza_hortulana).jpg  , Autor: phenolog (away for a while)
+Lokalizacja: "Wróblowe\Trznadle\cierlik\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Cirl_bunting_cropped.jpg  , Autor: Cirl_bunting.jpg: Paco Gómez from Castellón, Spainderivative work: Bogbumper (talk)
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Emberiza_cirlus_-Valencian_Community,_Spain_-female-8_(1).jpg  , Autor: Paco Gómez from Castellón, Spain
+Lokalizacja: "Wróblowe\Trznadle\trznadel\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Yellowhammer_-_Emberiza_citrinella_(51896717747).jpg  , Autor: caroline legg
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Yellowhammer_-_Emberiza_citrinella.jpg  , Autor: caroline legg
+Lokalizacja: "Wróblowe\Trznadle\trznadel białogłowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Pine_Bunting_(Emberiza_leucocephalos)_-_Цагааншанаат_хөмрөг_(15617685422).jpg  , Autor: Jargal Lamjav from Ulaanbaatar, Mongolia
+Lokalizacja: "Wróblowe\Trznadle\trznadel szarogłowy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Black_Face_(16077787174).jpg  , Autor: Charles Lam from Hong Kong, China
+Lokalizacja: "Wróblowe\Trznadle\potrzos\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Reed_Bunting_male_and_female.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Wróblowe\Trznadle\trznadel czubaty\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Emberiza_rustica2.jpg  , Autor: M.Nishimura
+Lokalizacja: "Wróblowe\Trznadle\trznadelek\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Zwergammer.jpg  , Autor: Andreas Trepte
+Lokalizacja: "Wróblowe\Trznadle\trznadel złotawy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Еменшіл_сұлыкеш.jpg  , Autor: Madina Arystanova
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Sẻ_đồng_ngực_vàng.jpg  , Autor: Khoitran1957
+Lokalizacja: "Wróblowe\Trznadle\trznadel złotobrewy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/File:Yellow-browed_bunting_(Emberiza_chrysophrys)_Eocheong_Island_Korea_2012.jpg  , Autor: Devonpike
+Lokalizacja: "Wróblowe\Pasówki\junko\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Junco_hyemalis_hyemalis-001.jpg  , Autor: Autor nie został podany w rozpoznawalny automatycznie sposób. Założono, że to Factumquintus (w oparciu o szablon praw autorskich).
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Junco_hyemalis_hyemalis_CT2.jpg  , Autor: Cephas
+Lokalizacja: "Wróblowe\Pasówki\bagiennik żółtobrewy\Obrazy"
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Passerculus_sandwichensis_crop.jpg  , Autor: Cephas

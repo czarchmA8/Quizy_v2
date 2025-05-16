@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Eurasian_teal.jpg  , Autor: Andreas Trepte
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Common_Teal_(Anas_crecca)_near_Hodal,_Haryana_W_IMG_6509.jpg  , Autor: J.M.Garg

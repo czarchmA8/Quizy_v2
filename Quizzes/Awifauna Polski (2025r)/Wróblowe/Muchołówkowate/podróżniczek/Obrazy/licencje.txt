@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Luscinia_svecica_volgae.jpg  , Autor: Bogomolov.PL
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Bluethroat_(Luscinia_svecica)-_Female_at_Bharatpur_I_IMG_5484.jpg  , Autor: J.M.Garg

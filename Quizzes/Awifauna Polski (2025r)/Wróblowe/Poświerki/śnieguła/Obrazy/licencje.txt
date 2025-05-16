@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Snow_Bunting_(Plectrophenax_nivalis),_Thule,_Greenland_1.jpg  , Autor: Drew Avery
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:SnowBunting-MtA.jpg  , Autor: Charles J Homler

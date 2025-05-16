@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Erithacus_rubecula_with_cocked_head.jpg  , Autor: Francis C. Franklin
+ - obraz_2.JPG: https://pl.wikipedia.org/wiki/Plik:Erithacus_rubecula_juvenile.JPG  , Autor: Francis C. Franklin

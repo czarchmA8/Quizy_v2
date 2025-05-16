@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:White_wagtail_(Motacilla_alba).jpg  , Autor: Hobbyfotowiki
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Bachstelze4ib.jpg  , Autor: PeterRohrbeck

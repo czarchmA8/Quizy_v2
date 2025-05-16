@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Velvet_Scoter,_Eyebrook_Reservoir,_Leics.jpg  , Autor: Vince
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Velvet_Scoter,_female,_Musselburgh.jpg  , Autor: D. Gordon E. Robertson

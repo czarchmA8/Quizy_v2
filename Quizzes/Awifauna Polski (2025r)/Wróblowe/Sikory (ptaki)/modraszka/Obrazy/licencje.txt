@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Parus_caeruleus1.jpg  , Autor: Sławek Staszczuk
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Blue_tit_-_Juvenile_-_Cyanistes_caeruleus_(53000661500).jpg  , Autor: caroline legg

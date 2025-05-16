@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Grey_Wagtail_(Breeding_female)_I_IMG_3079.jpg  , Autor: J.M.Garg
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Grey_Wagtail-_Breeding_Male_I_IMG_6705.jpg  , Autor: J.M.Garg

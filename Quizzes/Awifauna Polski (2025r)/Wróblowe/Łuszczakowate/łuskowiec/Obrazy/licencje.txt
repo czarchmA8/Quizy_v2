@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Pinicola-enucleator-001B.jpg  , Autor: mdf
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Pinicola-enucleator-002.jpg  , Autor: Mdf

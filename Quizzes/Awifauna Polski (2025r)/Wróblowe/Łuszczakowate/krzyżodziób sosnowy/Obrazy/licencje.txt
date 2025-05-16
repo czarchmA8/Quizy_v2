@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Furukorsnebb._Hann.jpg  , Autor: Marton Berntsen
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Furukorsnebb.jpg  , Autor: Marton Berntsen

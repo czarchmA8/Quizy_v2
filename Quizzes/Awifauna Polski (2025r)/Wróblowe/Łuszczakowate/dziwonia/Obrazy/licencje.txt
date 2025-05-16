@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Carpodacus_erythrinus_20060623.jpg  , Autor: Adam Kumiszcza
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Common_Rosefinch_Carpodacus_erythrinus_Female_by_Dr_Raju_Kasambe_(1).jpg  , Autor: Dr. Raju Kasambe

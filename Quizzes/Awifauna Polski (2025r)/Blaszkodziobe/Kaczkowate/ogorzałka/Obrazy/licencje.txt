@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Greater-scaup-male2.jpg  , Autor: Calibas
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Greater_scaup_female.jpg  , Autor: Calibas

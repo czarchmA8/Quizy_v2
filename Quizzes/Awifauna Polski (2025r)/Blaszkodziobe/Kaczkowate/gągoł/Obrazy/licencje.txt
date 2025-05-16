@@ -1,0 +1,2 @@
+ - obraz_1.tif: https://pl.wikipedia.org/wiki/Plik:%D0%9E%D0%B1%D1%8B%D0%BA%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D0%BD%D1%8B%D0%B9_%D0%B3%D0%BE%D0%B3%D0%BE%D0%BB%D1%8C_(Bucephala_clangula,_m),_%D0%9A%D0%BE%D0%BB%D0%BE%D0%BC%D0%B5%D0%BD%D1%81%D0%BA%D0%BE%D0%B5.tif  , Autor: Dion Art
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:HD_Wasservogel_4.jpg  , Autor: --Xocolatl (talk) 16:57, 29 November 2009 (UTC)

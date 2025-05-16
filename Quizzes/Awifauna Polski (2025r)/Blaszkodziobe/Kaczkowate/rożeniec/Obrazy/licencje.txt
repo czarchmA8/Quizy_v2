@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:Northern_Pintail.jpg  , Autor: United States Fish and Wildlife Service
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Northern_Pintail_(Female)-_Feeding_I_IMG_0910.jpg  , Autor: J.M.Garg

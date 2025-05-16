@@ -1,0 +1,2 @@
+ - obraz_1.jpg: https://pl.wikipedia.org/wiki/Plik:European_Turtle_Dove_(Streptopelia_turtur)_(cropped).jpg  , Autor: Yuvalr
+ - obraz_2.jpg: https://pl.wikipedia.org/wiki/Plik:Streptopelia_turtur_on_a_branch.jpg  , Autor: David King
