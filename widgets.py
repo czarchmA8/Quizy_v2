@@ -63,6 +63,7 @@ class Music():
                 self.teraz_grana_muzyka = self.lista_odtwarzania[self.teraz_grana_muzyka]
 
             self.kanal = self.lista_muzyk[self.teraz_grana_muzyka].play()
+            self.kanal.set_volume(variables.ustawienia['Głośność']['Ogólne'] * variables.ustawienia['Głośność']['Muzyka'] / 10000)
 
 class GIF():
     def __init__(self, surface, pos, lokalizacja: str, powieksz: float | tuple[int, int]=1):
@@ -111,6 +112,7 @@ class Label():
             self.text = text
             self.text_surface = pygame.Surface((1, 1))
         elif self.text != text:
+            self.text = text
             lines = []
             paragraphs = text.splitlines()
 
@@ -118,9 +120,9 @@ class Label():
                 words = paragraph.split(" ")
                 current_line = ""
                 for word in words:
-                    if word == "":
+                    # if word == "":
                         # Jeśli mamy kilka spacji z rzędu – pomijamy puste elementy
-                        continue
+                        # continue
 
                     # Przygotowujemy testową linię – jeśli current_line nie jest puste, dodajemy spację
                     test_line = current_line + (" " if current_line else "") + word

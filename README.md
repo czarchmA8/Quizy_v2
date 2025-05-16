@@ -1,5 +1,6 @@
 ![language](https://img.shields.io/badge/language-python-239120)
 [![GitHub release](https://img.shields.io/github/v/release/czarchmA8/Quizy_v2)](#)
+![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/czarchmA8/Quizy_v2/total)
 
 ## 💻 Opis Quizy v2
 ![logo](https://github.com/user-attachments/assets/6d0198d8-4622-429a-b3e3-8e8334490a8b)
@@ -13,10 +14,10 @@ Quizy to program edukacyjny stworzony przez czarchmA8 z użyciem biblioteki Pyga
  - (Opcjonalnie) Pobierz quiz o ptakach Polski (około 1,04 GB, 474 pytania) i wypakuj go do folderu Quizzes.
 
 ### 🕹️ Pobierz program bez quizów:
- - [Quizy v2](https://mega.nz/file/ockVnBpb#BWLkAk0Myl9dQZ6BKKnboF3Z6SY6I5zEQbhEpsmMhsQ) (Mega)
+ - [Quizy v2](https://mega.nz/file/Qc8UFarC#t3kfEL27biU0OXs_2Z0z9vUrGTvKjo-1SjJ5h2R7m_Q) (mega.nz)
 
 ### 🦅 Pobierz quiz o ptakach:
- - [Awifauna Polski (2025r)](https://mega.nz/file/tB0zTawZ#8fMR0BCYoGplJ7XrdU4zX-mPqC_mraP0FKT5jp3ZhKI) (Mega)
+ - [Awifauna Polski (2025r)](https://mega.nz/file/pdt1XYRJ#ScCsdsglaM8omVyGX6fPDd_6p081S4ksMKqSd2aPZJA) (mega.nz)
 
 ### ⚙️ Instalacja kodu źródłowego
 
