@@ -21,14 +21,6 @@ class Location_Ustawienia():
         self.pelny_ekran_checkbox = widgets.CheckBox(self.surface, (self.pelny_ekran_label.text_surface.get_width(), 0), [(('assets/Buttons/close.png', (48, 48)), None, None, None, None), (('assets/Buttons/accept.png', (48, 48)), None, None, None, None)])
         self.pelny_ekran_checkbox.value = int(variables.ustawienia['Pełny ekran'])
 
-        self.szerokosc_label = widgets.Label(self.surface, (0, 0), None, f'{variables.jezyk["Ustawienia"]["Szerokość"]} ', 50, (255, 255, 255))
-        self.szerokosc_entry = widgets.Entry(self.surface, (self.szerokosc_label.text_surface.get_width(), 0), (variables.ustawienia['Szerokość'] - 80 * variables.ustawienia['Skalowanie'] - self.szerokosc_label.text_surface.get_width(), 40 * variables.ustawienia['Skalowanie']), None, (255, 255, 255), (100, 100, 100), 5, (0, 0, 0), None, f'{variables.jezyk["Ustawienia"]["Szerokość"]}', (120, 120, 120), (80, 80, 80), (0, 0, 0), (50, 50, 50), (0, 0, 0), white_list='1234567890')
-        self.szerokosc_entry.edit_text(str(variables.ustawienia['Szerokość']))
-
-        self.wysokosc_label = widgets.Label(self.surface, (0, 0), None, f'{variables.jezyk["Ustawienia"]["Wysokość"]} ', 50, (255, 255, 255))
-        self.wysokosc_entry = widgets.Entry(self.surface, (self.wysokosc_label.text_surface.get_width(), 0), (variables.ustawienia['Szerokość'] - 80 * variables.ustawienia['Skalowanie'] - self.wysokosc_label.text_surface.get_width(), 40 * variables.ustawienia['Skalowanie']), None, (255, 255, 255), (100, 100, 100), 5, (0, 0, 0), None, f'{variables.jezyk["Ustawienia"]["Wysokość"]}', (120, 120, 120), (80, 80, 80), (0, 0, 0), (50, 50, 50), (0, 0, 0), white_list='1234567890')
-        self.wysokosc_entry.edit_text(str(variables.ustawienia['Wysokość']))
-
         self.jezyk_label = widgets.Label(self.surface, (0, 0), None, f'{variables.jezyk["Ustawienia"]["Język"]}: {variables.ustawienia["Język"]}', 50, (255, 255, 255))
         self.jezyki = []
         self.maksymalne_miejsca = int(self.surface.get_width() / (74 * variables.ustawienia['Skalowanie']))
