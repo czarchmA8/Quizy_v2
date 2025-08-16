@@ -4,8 +4,8 @@ from threading import Thread
 from math import sqrt, atan2
 from PIL import Image
 import pygame
-from typing import Literal, Union, Optional, List, Tuple
-import clipboard
+from pyperclip import copy as clipboard_copy
+from pyperclip import paste as clipboard_paste
 
 import variables
 
@@ -13,9 +13,17 @@ def zapisz_ustawienia():
     with open('settings.json', 'w', encoding='utf-8') as f:
         json.dump(variables.ustawienia, f, indent=2)
 
-def zaladuj_obraz(lokalizacja: str, rozdzielczosc: float | tuple=1):
+def zaladuj_obraz(lokalizacja: str, rozdzielczosc: float | tuple, convert_alpha: bool=True, skalowanie: bool=True):
     obraz = pygame.image.load(lokalizacja)
-    return pygame.transform.scale(obraz, (rozdzielczosc[0] * variables.ustawienia['Skalowanie'], rozdzielczosc[1] * variables.ustawienia['Skalowanie'])).convert_alpha()
+    if skalowanie:
+        obraz = pygame.transform.scale(obraz, (rozdzielczosc[0] * variables.ustawienia['Skalowanie'], rozdzielczosc[1] * variables.ustawienia['Skalowanie']))
+    else:
+        obraz = pygame.transform.scale(obraz, rozdzielczosc)
+    if convert_alpha:
+        obraz = obraz.convert_alpha()
+    else:
+        obraz = obraz.convert()
+    return obraz
 
 def graj_dzwiek(lokalizacja, glosnosc):
     def dzwiek():
@@ -46,7 +54,7 @@ class Music():
             self.kanal = None
 
     def graj_muzyke(self):
-        if not variables.run:
+        if not variables.running:
             self.kanal.stop()
         elif self.kanal and self.kanal.get_busy():
             self.kanal.set_volume(variables.ustawienia['Głośność']['Ogólne'] * variables.ustawienia['Głośność']['Muzyka'] / 10000)
@@ -90,7 +98,7 @@ class GIF():
         self.surface.blit(self.frames[int(self.frame_index)], self.pos)
 
 class Label():
-    def __init__(self, surface, pos: tuple[int, int], font: str, text: str, text_size: int, text_color: tuple, text_bg: tuple=None, max_width: int=None, wyrownaj_do: Literal["left", "middle", "right"]='left'):
+    def __init__(self, surface, pos: tuple[int, int], font: str, text: str, text_size: int, text_color: tuple, text_bg: tuple=None, max_width: int=None, wyrownaj_do: str='left'):
         self.surface = surface
         self.x, self.y = pos
         self.text = None
@@ -160,10 +168,13 @@ class Label():
                 # Dodajemy linię z akapitu (nawet jeśli jest pusta)
                 lines.append(current_line)
 
+            max_width = 0
             for index, line in enumerate(lines):
                 lines[index] = self.font.render(line, False, self.text_color, self.text_bg)
+                if lines[index].get_width() > max_width:
+                    max_width = lines[index].get_width()
 
-            self.text_surface = pygame.Surface((self.max_width if self.max_width else lines[0].get_width(), self.text_size * len(lines)), pygame.SRCALPHA)
+            self.text_surface = pygame.Surface((self.max_width if self.max_width else max_width, self.text_size * len(lines)), pygame.SRCALPHA)
             if self.text_bg:
                 self.text_surface.fill(self.text_bg)
             for index, line in enumerate(lines):
@@ -250,120 +261,117 @@ class Entry():
             self.real_x, self.real_y = real_pos
         else:
             self.real_x, self.real_y = self.x, self.y
-        self.size = int(size[0]), int(size[1])
-        self.font = font
-        self.font_color = font_color
-        self.bg_color = bg_color
-        self.border_width = border_width * variables.ustawienia['Skalowanie']
-        self.border_color = border_color
-        self.touching_bg_color = touching_bg_color
-        self.touching_border_color = touching_border_color
-        self.clicked_bg_color = clicked_bg_color
-        self.clicked_border_color = clicked_border_color
-        self.max = max
-        self.black_list = black_list
-        self.white_list = white_list
-        self.readonly = readonly
+        self.size: tuple | list = int(size[0]), int(size[1])
+        self.font = pygame.font.Font(font, self.size[1])
+        self.font_color: tuple | list = font_color
+        self.bg_color: tuple | list = bg_color
+        self.border_width: int = border_width * variables.ustawienia["Skalowanie"]
+        self.border_color: tuple | list = border_color
+        self.placeholder_font: str = placeholder_font
+        self.placeholder_text: str = placeholder_text
+        self.placeholder_text_color: tuple | list = placeholder_text_color
+        self.touching_bg_color: tuple | list = touching_bg_color
+        self.touching_border_color: tuple | list = touching_border_color
+        self.clicked_bg_color: tuple | list = clicked_bg_color
+        self.clicked_border_color: tuple | list = clicked_border_color
+        self.max: int = max
+        self.black_list: list = black_list
+        self.white_list: list = white_list
+        self.readonly: bool = readonly
 
-        self.clicked = False
-        self.text = ''
-        self.enter = False
-        self.zaznaczony_tekst = 0
-        self.zaznaczony_tekst2 = 0
-        self.widoczny_tekst = 0
-        self.miganie = 0
-        self.space_width = pygame.font.Font(self.font, self.size[1]).size((' '))[0] // 2
-        if self.space_width < 1:
-            self.space_width = 1
+        self.clicked: bool = False
+        self.text: str = ''
+        self.text_changed: bool = False
+        self.enter: bool = False
+        self.zaznaczony_tekst: list = [0, 0]
+        self.stary_zaznaczony_tekst: list = None
+        self.zaznaczanie_tekstu: bool = False
+        self.widoczny_tekst: int = 0
+        self.miganie_czas = pygame.time.get_ticks()
+        self.cursor_width: int = self.font.size((' '))[0] // 2
+        if self.cursor_width < 1:
+            self.cursor_width = 1
 
-        self.placeholder_text = pygame.Surface((self.size[0], self.size[1]), pygame.SRCALPHA)
-        placeholder_text = pygame.font.Font(placeholder_font, self.size[1]).render(placeholder_text, False, placeholder_text_color)
-        self.placeholder_text.blit(placeholder_text, (0, (self.size[1] - placeholder_text.get_height()) / 2))
+        self.update_placeholder()
 
-        self.text_surface = pygame.Surface((self.size[0], self.size[1]), pygame.SRCALPHA)
-        self.full_text = pygame.Surface((self.size[0], self.size[1]), pygame.SRCALPHA)
+        self.visible_text_surface = pygame.Surface((self.size[0], self.size[1]), pygame.SRCALPHA)
+        self.full_text_surface = pygame.Surface((self.size[0], self.size[1]), pygame.SRCALPHA)
+        self.zaznaczony_tekst_surface = pygame.Surface((self.size[0], self.size[1]), pygame.SRCALPHA)
 
     def draw(self):
+        self.text_changed = False
+        self.enter = False
         clicked = self.clicked
         touching = pygame.Rect(self.real_x, self.real_y, self.size[0] + self.border_width * 2, self.size[1] + self.border_width * 2).collidepoint(variables.mouse_x, variables.mouse_y)
+
+        # Wyświetlanie ramki i tła Entry
         if self.clicked:
             pygame.draw.rect(self.surface, self.clicked_border_color, (self.x, self.y, self.size[0] + self.border_width * 2, self.size[1] + self.border_width * 2))
             pygame.draw.rect(self.surface, self.clicked_bg_color, (self.x + self.border_width, self.y + self.border_width, self.size[0], self.size[1]))
 
+            # Wyświetlanie zaznaczonego tekstu
             if self.text != '':
-                self.miganie += 1
-                if self.miganie < 30 or self.zaznaczony_tekst != self.zaznaczony_tekst2:
-                    if self.zaznaczony_tekst == self.zaznaczony_tekst2:
-                        szerokosc = self.space_width
-                    else:
-                        szerokosc = pygame.font.Font(self.font, self.size[1]).size(self.text[min(self.zaznaczony_tekst, self.zaznaczony_tekst2):max(self.zaznaczony_tekst, self.zaznaczony_tekst2)])[0]
-                        if szerokosc > self.size[0]:
-                            szerokosc = self.size[0]
-                    pygame.draw.rect(self.surface, (0, 0, 0), (self.x + self.border_width + pygame.font.Font(self.font, self.size[1]).size(self.text[:min(self.zaznaczony_tekst, self.zaznaczony_tekst2)])[0] - self.widoczny_tekst, self.y + self.border_width, szerokosc, self.size[1]))
-                elif self.miganie >= 60:
-                    self.miganie = 0
-
-            if not touching and variables.mouse_pressed[0] == 3:
-                self.clicked = False
+                if self.zaznaczony_tekst[0] != self.zaznaczony_tekst[1] or pygame.time.get_ticks() - self.miganie_czas < 500:
+                    self.surface.blit(self.zaznaczony_tekst_surface, (self.x + self.border_width, self.y + self.border_width))
+                elif pygame.time.get_ticks() - self.miganie_czas >= 1000:
+                    self.miganie_czas = pygame.time.get_ticks()
         else:
             if touching:
                 pygame.draw.rect(self.surface, self.touching_border_color, (self.x, self.y, self.size[0] + self.border_width * 2, self.size[1] + self.border_width * 2))
                 pygame.draw.rect(self.surface, self.touching_bg_color, (self.x + self.border_width, self.y + self.border_width, self.size[0], self.size[1]))
-                if variables.mouse_pressed[0] == 3:
-                    self.clicked = True
-                    self.miganie = 0
-                    self.zaznaczony_tekst = len(self.text)
-                    self.zaznaczony_tekst2 = self.zaznaczony_tekst
             else:
                 pygame.draw.rect(self.surface, self.border_color, (self.x, self.y, self.size[0] + self.border_width * 2, self.size[1] + self.border_width * 2))
                 pygame.draw.rect(self.surface, self.bg_color, (self.x + self.border_width, self.y + self.border_width, self.size[0], self.size[1]))
 
+        # Wyświetlanie tekstu lub tekstu podpowiedzi
         if self.text == '':
-            self.surface.blit(self.placeholder_text, (self.x + self.border_width, self.y + self.border_width))
+            self.surface.blit(self.placeholder_text_surface, (self.x + self.border_width, self.y + self.border_width))
         else:
-            self.surface.blit(self.text_surface, (self.x + self.border_width, self.y + self.border_width))
+            self.surface.blit(self.visible_text_surface, (self.x + self.border_width, self.y + self.border_width))
 
         if self.clicked:
-            text_changed = False
-
-            if touching:
-                if variables.mouse_pressed[0] == 1:
-                    self.miganie = 0
-                    for index in range(len(self.text)):
-                        if self.widoczny_tekst + variables.mouse_x - self.real_x <= pygame.font.Font(self.font, self.size[1]).size(self.text[:index])[0]:
-                            self.zaznaczony_tekst = index - 1
+            # Zaznaczanie tekstu za pomocą myszki
+            if self.zaznaczanie_tekstu:
+                if variables.mouse_pressed[0] == 2:
+                    for index in range(len(self.text) + 1):
+                        if self.widoczny_tekst + variables.mouse_x - self.real_x <= self.font.size(self.text[:index])[0]:
+                            self.zaznaczony_tekst[1] = index - 1
                             break
                     else:
-                        self.zaznaczony_tekst = len(self.text) + 1
-                    self.zaznaczony_tekst2 = self.zaznaczony_tekst
-                elif variables.mouse_pressed[0] == 2:
-                    for index in range(len(self.text)+1):
-                        if self.widoczny_tekst + variables.mouse_x - self.real_x <= pygame.font.Font(self.font, self.size[1]).size(self.text[:index])[0]:
-                            self.zaznaczony_tekst2 = index - 1
-                            break
-                    else:
-                        self.zaznaczony_tekst2 = len(self.text) + 1
+                        self.zaznaczony_tekst[1] = len(self.text) + 1
+                elif variables.mouse_pressed[0] == 3:
+                    self.zaznaczanie_tekstu = False
+            elif touching and variables.mouse_pressed[0] == 1:
+                self.zaznaczanie_tekstu = True
+                self.miganie_czas = pygame.time.get_ticks()
+                for index in range(len(self.text)):
+                    if self.widoczny_tekst + variables.mouse_x - self.real_x <= self.font.size(self.text[:index])[0]:
+                        self.zaznaczony_tekst[0] = index - 1
+                        break
+                else:
+                    self.zaznaczony_tekst[0] = len(self.text) + 1
+                self.zaznaczony_tekst[1] = self.zaznaczony_tekst[0]
 
+            # Dodawanie znaków do tekstu
             for key in variables.TextInput:
                 if ((not self.white_list or key in self.white_list) and
                     (not self.black_list or key not in self.black_list) and
                     (self.max == -1 or len(self.text) <= self.max)):
-                    self.text = self.text[:min(self.zaznaczony_tekst, self.zaznaczony_tekst2)] + key + self.text[max(self.zaznaczony_tekst, self.zaznaczony_tekst2):]
-                    text_changed = True
-                    self.zaznaczony_tekst = self.zaznaczony_tekst + 1 if self.zaznaczony_tekst == self.zaznaczony_tekst2 else min(self.zaznaczony_tekst, self.zaznaczony_tekst2) + 1
-                    self.zaznaczony_tekst2 = self.zaznaczony_tekst
+                    self.text = self.text[:min(self.zaznaczony_tekst)] + key + self.text[max(self.zaznaczony_tekst):]
+                    self.text_changed = True
+                    self.zaznaczony_tekst[0] = self.zaznaczony_tekst[1] = self.zaznaczony_tekst[0] + 1 if self.zaznaczony_tekst[0] == self.zaznaczony_tekst[1] else min(self.zaznaczony_tekst) + 1
 
+            # Funkcjonalność klawiszy specjalnych
             for key in variables.pressed_keys:
-                if variables.pressed_keys[key][1] == 3:
+                if variables.pressed_keys[key]["state"] == 1 or (variables.pressed_keys[key]["state"] == 2 and variables.pressed_keys[key]["key_held_triggered"]):
                     if key == 'backspace' or key == 'delete':
-                        if self.zaznaczony_tekst == self.zaznaczony_tekst2:
-                            a = 0 if min(self.zaznaczony_tekst, self.zaznaczony_tekst2) - 1 < 0 else min(self.zaznaczony_tekst, self.zaznaczony_tekst2) - 1
+                        if self.zaznaczony_tekst[0] == self.zaznaczony_tekst[1]:
+                            a = 0 if min(self.zaznaczony_tekst) - 1 < 0 else min(self.zaznaczony_tekst) - 1
                         else:
-                            a = min(self.zaznaczony_tekst, self.zaznaczony_tekst2)
-                        self.text = self.text[:a] + self.text[max(self.zaznaczony_tekst, self.zaznaczony_tekst2):]
-                        text_changed = True
-                        self.zaznaczony_tekst = self.zaznaczony_tekst - 1 if self.zaznaczony_tekst == self.zaznaczony_tekst2 else min(self.zaznaczony_tekst, self.zaznaczony_tekst2)
-                        self.zaznaczony_tekst2 = self.zaznaczony_tekst
+                            a = min(self.zaznaczony_tekst)
+                        self.text = self.text[:a] + self.text[max(self.zaznaczony_tekst):]
+                        self.text_changed = True
+                        self.zaznaczony_tekst[0] = self.zaznaczony_tekst[1] = self.zaznaczony_tekst[0] - 1 if self.zaznaczony_tekst[0] == self.zaznaczony_tekst[1] else min(self.zaznaczony_tekst)
                     elif key == 'return':
                         self.enter = True
                         self.clicked = False
@@ -373,57 +381,43 @@ class Entry():
                         break
                     elif key == 'left':
                         if 'left shift' in variables.pressed_keys:
-                            self.zaznaczony_tekst2 -= 1
+                            self.zaznaczony_tekst[1] -= 1
                         else:
-                            if self.zaznaczony_tekst == self.zaznaczony_tekst2:
-                                self.zaznaczony_tekst -= 1
-                                self.zaznaczony_tekst2 = self.zaznaczony_tekst
+                            if self.zaznaczony_tekst[0] == self.zaznaczony_tekst[1]:
+                                self.zaznaczony_tekst[0] = self.zaznaczony_tekst[1] = self.zaznaczony_tekst[0] - 1
                             else:
-                                self.zaznaczony_tekst = min(self.zaznaczony_tekst, self.zaznaczony_tekst2)
-                                self.zaznaczony_tekst2 = self.zaznaczony_tekst
-                        self.miganie = 0
+                                self.zaznaczony_tekst[0] = self.zaznaczony_tekst[1] = min(self.zaznaczony_tekst)
+                        self.miganie_czas = pygame.time.get_ticks()
                     elif key == 'right':
                         if 'left shift' in variables.pressed_keys:
-                            self.zaznaczony_tekst2 += 1
+                            self.zaznaczony_tekst[1] += 1
                         else:
-                            if self.zaznaczony_tekst == self.zaznaczony_tekst2:
-                                self.zaznaczony_tekst += 1
-                                self.zaznaczony_tekst2 = self.zaznaczony_tekst
+                            if self.zaznaczony_tekst[0] == self.zaznaczony_tekst[1]:
+                                self.zaznaczony_tekst[0] = self.zaznaczony_tekst[1] = self.zaznaczony_tekst[0] + 1
                             else:
-                                self.zaznaczony_tekst = max(self.zaznaczony_tekst, self.zaznaczony_tekst2)
-                                self.zaznaczony_tekst2 = self.zaznaczony_tekst
-                        self.miganie = 0
+                                self.zaznaczony_tekst[0] = self.zaznaczony_tekst[1] = max(self.zaznaczony_tekst)
+                        self.miganie_czas = pygame.time.get_ticks()
                     elif key == 'a' and 'left ctrl' in variables.pressed_keys and 'right alt' not in variables.pressed_keys:
-                        self.zaznaczony_tekst = 0
-                        self.zaznaczony_tekst2 = len(self.text)
+                        self.zaznaczony_tekst[0] = 0
+                        self.zaznaczony_tekst[1] = len(self.text)
                     elif key == 'c' and 'left ctrl' in variables.pressed_keys and 'right alt' not in variables.pressed_keys:
-                        clipboard.copy(self.text[min(self.zaznaczony_tekst, self.zaznaczony_tekst2):max(self.zaznaczony_tekst, self.zaznaczony_tekst2)])
-                    elif key == 'v' and 'left ctrl' in variables.pressed_keys and 'right alt' not in variables.pressed_keys and isinstance(clipboard.paste(), str):
-                        self.text = self.text[:min(self.zaznaczony_tekst, self.zaznaczony_tekst2)] + clipboard.paste() + self.text[max(self.zaznaczony_tekst, self.zaznaczony_tekst2):]
-                        text_changed = True
-                        self.zaznaczony_tekst += len(clipboard.paste())
-                        self.zaznaczony_tekst2 = self.zaznaczony_tekst
+                        clipboard_copy(self.text[min(self.zaznaczony_tekst):max(self.zaznaczony_tekst)])
+                    elif key == 'v' and 'left ctrl' in variables.pressed_keys and 'right alt' not in variables.pressed_keys and isinstance(clipboard_paste(), str):
+                        self.text = self.text[:min(self.zaznaczony_tekst)] + clipboard_paste() + self.text[max(self.zaznaczony_tekst):]
+                        self.text_changed = True
+                        self.zaznaczony_tekst[0] = self.zaznaczony_tekst[1] = self.zaznaczony_tekst[0] + len(clipboard_paste())
 
-            if self.zaznaczony_tekst < 0:
-                self.zaznaczony_tekst = 0
-            if self.zaznaczony_tekst > len(self.text):
-                self.zaznaczony_tekst = len(self.text)
-            if self.zaznaczony_tekst2 < 0:
-                self.zaznaczony_tekst2 = 0
-            if self.zaznaczony_tekst2 > len(self.text):
-                self.zaznaczony_tekst2 = len(self.text)
+            self.update_selected_text()
 
-            szerokosc_zaznaczonego_tekstu = pygame.font.Font(self.font, self.size[1]).size(self.text[:self.zaznaczony_tekst])[0]
-            if szerokosc_zaznaczonego_tekstu + self.space_width > self.widoczny_tekst + self.size[0]:
-                self.widoczny_tekst = szerokosc_zaznaczonego_tekstu + self.space_width - self.size[0]
-                self.render_text()
-            elif szerokosc_zaznaczonego_tekstu < self.widoczny_tekst:
-                self.widoczny_tekst = szerokosc_zaznaczonego_tekstu
-                self.render_text()
-
-            if text_changed:
+            # Aktualizacja wyświetlania tekstu
+            if self.text_changed:
                 self.update_text()
-                self.miganie = 0
+                self.miganie_czas = pygame.time.get_ticks()
+
+            if not touching and variables.mouse_pressed[0] == 1:
+                self.clicked = False
+        elif touching and variables.mouse_pressed[0] == 1:
+            self.clicked = True
 
         if self.clicked != clicked: # Aktywowanie klawiatury ekranowej na telefonie
             if self.clicked:
@@ -431,18 +425,65 @@ class Entry():
             else:
                 pygame.key.stop_text_input()
 
-    def update_text(self):
-        self.full_text = pygame.font.Font(self.font, self.size[1]).render(self.text, False, self.font_color)
-        self.render_text()
+    def update_selected_text(self, check_changes: bool=True):
+        if self.stary_zaznaczony_tekst != self.zaznaczony_tekst or not check_changes:
+            self.stary_zaznaczony_tekst = self.zaznaczony_tekst[:]
+            # regulacja zaznaczonego tekstu
+            if self.zaznaczony_tekst[0] < 0:
+                self.zaznaczony_tekst[0] = 0
+            elif self.zaznaczony_tekst[0] > len(self.text):
+                self.zaznaczony_tekst[0] = len(self.text)
+            if self.zaznaczony_tekst[1] < 0:
+                self.zaznaczony_tekst[1] = 0
+            elif self.zaznaczony_tekst[1] > len(self.text):
+                self.zaznaczony_tekst[1] = len(self.text)
 
-    def render_text(self):
-        self.text_surface.fill((0, 0, 0, 0))
-        self.text_surface.blit(self.full_text, (-self.widoczny_tekst, (self.size[1] - self.full_text.get_height()) // 2))
+            # Aktualizacja widzanego tekstu
+            x_zaznaczonego_tekstu = self.font.size(self.text[:self.zaznaczony_tekst[1]])[0]
+            if x_zaznaczonego_tekstu + self.cursor_width > self.widoczny_tekst + self.size[0]:
+                self.widoczny_tekst = x_zaznaczonego_tekstu + self.cursor_width - self.size[0]
+                self.update_text_position()
+            elif x_zaznaczonego_tekstu < self.widoczny_tekst:
+                self.widoczny_tekst = x_zaznaczonego_tekstu
+                self.update_text_position()
 
-    def edit_text(self, text):
+            # Aktualizacja wyświetlania zaznaczonego tekstu
+            x = self.font.size(self.text[:min(self.zaznaczony_tekst)])[0] - self.widoczny_tekst
+            x = x if x > 0 else 0
+            if self.zaznaczony_tekst[0] == self.zaznaczony_tekst[1]:
+                szerokosc = self.cursor_width
+            else:
+                szerokosc = self.font.size(self.text[min(self.zaznaczony_tekst):max(self.zaznaczony_tekst)])[0]
+                if szerokosc + x > self.size[0]:
+                    szerokosc = self.size[0] - x
+            self.zaznaczony_tekst_surface = pygame.Surface((self.size[0], self.size[1]), pygame.SRCALPHA)
+            pygame.draw.rect(self.zaznaczony_tekst_surface, (0, 0, 0), (x, 0, szerokosc, self.size[1]))
+
+    def update_placeholder(self):
+        self.placeholder_text_surface = pygame.Surface((self.size[0], self.size[1]), pygame.SRCALPHA)
+        placeholder_text = self.font.render(self.placeholder_text, False, self.placeholder_text_color)
+        self.placeholder_text_surface.blit(placeholder_text, (0, (self.size[1] - placeholder_text.get_height()) / 2))
+
+    def update_text(self, check_changes: bool=True):
+        self.full_text = self.font.render(self.text, False, self.font_color)
+        self.update_text_position()
+        self.update_selected_text(check_changes)
+
+    def update_text_position(self):
+        self.visible_text_surface = pygame.Surface((self.size[0], self.size[1]), pygame.SRCALPHA)
+        self.visible_text_surface.blit(self.full_text, (-self.widoczny_tekst, (self.size[1] - self.full_text.get_height()) // 2))
+
+    def set_text(self, text):
         if text != self.text:
             self.text = text
-            self.update_text()
+            self.zaznaczony_tekst[0] = self.zaznaczony_tekst[1] = len(self.text)
+            self.widoczny_tekst = 0
+            self.update_text(False)
+
+    def size_changed(self):
+        self.zaznaczony_tekst[0] = self.zaznaczony_tekst[1] = len(self.text)
+        self.widoczny_tekst = 0
+        self.update_text(False)
 
 class Slider():
     def __init__(self, surface, pos: tuple, size: tuple, bg_color: tuple,
@@ -551,7 +592,18 @@ class Slider_Y():
 
 class CheckBox():
     def __init__(self, surface, pos: tuple,
-                 options: List[Tuple[Tuple[str, Union[int, float, tuple[int, int]]], Optional[str], Optional[int], Optional[str], Optional[Tuple[int, int, int]]]],
+                 options: list,
+                 # options: List[
+                 #     Tuple[
+                 #         Tuple[str, Union[int, float, tuple[int, int]]], # (lokalizacja_obrazu, rozmiar)
+                 #         Optional[str], # czcionka
+                 #         Optional[int], # rozmiar_czcionki
+                 #         Optional[str], # tekst
+                 #         Optional[Tuple[int, int, int]] # kolor_tekstu
+                 #     ]
+                 # ],
+                 # [((lokalizacja_obrazu, rozmiar), czcionka, rozmiar_czcionki, tekst, kolor_tekstu)...]
+                 # [(('assets/Buttons/not_visible.png', (48, 48)), None, None, None, None), (('assets/Buttons/visible2.png', (48, 48)), None, None, None, None)]
                  real_pos: tuple=None):
         self.surface = surface
         self.x, self.y = pos
@@ -596,15 +648,15 @@ class ProgressBar():
             self.real_x, self.real_y = self.x, self.y
         self.size = size
         self.bg_color = bg_color
-        self.border_width = border_width
+        self.border_width = border_width * variables.ustawienia["Skalowanie"]
         self.border_color = border_color
         self.color = color
         self.min = min
         self.max = max
         self.value = (init_value - self.min) / (self.max - self.min) * self.size[0]
-        self.ProgressBar_surface = pygame.Surface((size[0]+border_width*2, size[1]+border_width*2))
+        self.ProgressBar_surface = pygame.Surface((size[0]+self.border_width*2, size[1]+self.border_width*2))
         self.ProgressBar_surface.fill(border_color)
-        pygame.draw.rect(self.ProgressBar_surface, self.bg_color, (border_width, border_width, size[0], size[1]))
+        pygame.draw.rect(self.ProgressBar_surface, self.bg_color, (self.border_width, self.border_width, size[0], size[1]))
 
     def draw(self):
         self.surface.blit(self.ProgressBar_surface, (self.x, self.y))
@@ -720,14 +772,16 @@ class FPS():
         self.fps_text_cien = pygame.Surface((0, 0))
         self.font_fps = pygame.font.Font(None, round(variables.ustawienia['FPS']['Rozmiar FPS'] * variables.ustawienia['Skalowanie']))
         self.font_fps_cien = pygame.font.Font(None, round(variables.ustawienia['FPS']['Rozmiar FPS cienia'] * variables.ustawienia['Skalowanie']))
+        self.start = pygame.time.get_ticks()
 
     def draw(self):
         if variables.ustawienia['FPS']['Pokaż FPS']:
             self.klatki_na_sekunde.append(round(variables.clock.get_fps()))
-            if len(self.klatki_na_sekunde) >= 30:
+            if pygame.time.get_ticks() - self.start >= variables.ustawienia["FPS"]["Odświeżanie"]:
                 self.fps_text = self.font_fps.render(f'FPS: {round(sum(self.klatki_na_sekunde) / len(self.klatki_na_sekunde))}', False, variables.ustawienia['FPS']['Kolor FPS'])
                 self.fps_text_cien = self.font_fps_cien.render(f'FPS: {round(sum(self.klatki_na_sekunde) / len(self.klatki_na_sekunde))}', False, variables.ustawienia['FPS']['Kolor FPS cienia'])
                 self.klatki_na_sekunde = []
+                self.start = pygame.time.get_ticks()
 
             variables.window.blit(self.fps_text_cien, (variables.ustawienia['FPS']['xy FPS cienia'][0] * variables.ustawienia['Skalowanie'], variables.ustawienia['FPS']['xy FPS cienia'][1] * variables.ustawienia['Skalowanie']))
             variables.window.blit(self.fps_text, (variables.ustawienia['FPS']['xy FPS'][0] * variables.ustawienia['Skalowanie'], variables.ustawienia['FPS']['xy FPS'][1] * variables.ustawienia['Skalowanie']))

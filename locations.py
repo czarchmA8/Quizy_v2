@@ -1,4 +1,6 @@
 import json
+import math
+from difflib import get_close_matches
 import os
 import pygame
 from datetime import datetime
@@ -74,7 +76,7 @@ class Location_Ustawienia():
             if button.draw():
                 variables.ustawienia['Język'] = jezyk
                 widgets.zapisz_ustawienia()
-                variables.run = 0
+                variables.running = 0
 
         self.glosnosc_ogolna_label.y = self.jezyki[-1][0].y + 74 * variables.ustawienia['Skalowanie']
         self.glosnosc_ogolna_label.draw()
@@ -138,13 +140,22 @@ class Location_Lista():
         self.info_button = widgets.Button(variables.window, (84 * variables.ustawienia['Skalowanie'], 10 * variables.ustawienia['Skalowanie']), ('assets/Buttons/info.png', (64, 64)))
         self.lista_quizow_button = widgets.Button(variables.window, (168 * variables.ustawienia['Skalowanie'], 10 * variables.ustawienia['Skalowanie']), ('assets/Buttons/list.png', (64, 64)))
         self.stworz_quiz_button = widgets.Button(variables.window, (242 * variables.ustawienia['Skalowanie'], 10 * variables.ustawienia['Skalowanie']), ('assets/Buttons/create.png', (64, 64)))
-        self.surface = pygame.Surface((variables.ustawienia['Szerokość'] - 60 * variables.ustawienia['Skalowanie'], variables.ustawienia['Wysokość'] - 204 * variables.ustawienia['Skalowanie']))
-        self.slider_y = widgets.Slider_Y(variables.window, (variables.ustawienia['Szerokość'] - 50 * variables.ustawienia['Skalowanie'], 84 * variables.ustawienia['Skalowanie']), (30 * variables.ustawienia['Skalowanie'], self.surface.get_height()), (100, 100, 100), 5, (0, 0, 0), (50, 50, 50))
+        self.wyszukiwarka_entry = widgets.Entry(variables.window, (10 * variables.ustawienia["Skalowanie"], 84 * variables.ustawienia["Skalowanie"]), (variables.ustawienia['Szerokość'] - 178 * variables.ustawienia['Skalowanie'], 40 * variables.ustawienia["Skalowanie"]), None, (255, 255, 255), (100, 100, 100), 5, (0, 0, 0), None, f'{variables.jezyk["Lista pytań"]["Szukaj"]}', (120, 120, 120), (80, 80, 80), (0, 0, 0), (50, 50, 50), (0, 0, 0))
+        self.znalezione_wczesniej = widgets.Button(variables.window, (variables.ustawienia["Szerokość"] - 154 * variables.ustawienia['Skalowanie'], 79 * variables.ustawienia['Skalowanie']), ('assets/Buttons/up.png', (48, 48)))
+        self.znalezione_dalej = widgets.Button(variables.window, (variables.ustawienia["Szerokość"] - 106 * variables.ustawienia['Skalowanie'], 79 * variables.ustawienia['Skalowanie']), ('assets/Buttons/down.png', (48, 48)))
+        self.wyszukiwarka_filtry = widgets.Button(variables.window, (variables.ustawienia["Szerokość"] - 58 * variables.ustawienia['Skalowanie'], 79 * variables.ustawienia['Skalowanie']), ('assets/Buttons/filter.png', (48, 48)))
+        self.surface = pygame.Surface((variables.ustawienia['Szerokość'] - 60 * variables.ustawienia['Skalowanie'], variables.ustawienia['Wysokość'] - 254 * variables.ustawienia['Skalowanie']))
+        self.numer_znalezionego_label = widgets.Label(self.surface, (5 * variables.ustawienia['Skalowanie'], self.surface.get_height() - 45 * variables.ustawienia['Skalowanie']), None, '', 40, (255, 255, 255), (80, 80, 80))
+        self.slider_y = widgets.Slider_Y(variables.window, (variables.ustawienia['Szerokość'] - 50 * variables.ustawienia['Skalowanie'], 129 * variables.ustawienia['Skalowanie']), (30 * variables.ustawienia['Skalowanie'], self.surface.get_height()), (100, 100, 100), 5, (0, 0, 0), (50, 50, 50))
         self.slider_x = widgets.Slider(variables.window, (10 * variables.ustawienia['Skalowanie'], variables.ustawienia['Wysokość'] - 120 * variables.ustawienia['Skalowanie']), (self.surface.get_width() + 30 * variables.ustawienia['Skalowanie'], 30 * variables.ustawienia['Skalowanie']), (100, 100, 100), 5, (0, 0, 0), (50, 50, 50))
         self.mouse_motion = None
 
         self.widoczne_checkbox = widgets.CheckBox(self.surface, (0, 0), [(('assets/Buttons/not_visible.png', (48, 48)), None, None, None, None), (('assets/Buttons/visible2.png', (48, 48)), None, None, None, None)])
         self.dodaj_checkbox = widgets.CheckBox(self.surface, (0, 0), [(('assets/Buttons/close.png', (48, 48)), None, None, None, None), (('assets/Buttons/accept.png', (48, 48)), None, None, None, None)])
+
+        self.znalezione_podobne: list = []
+        self.wybrany_znaleziony = 0
+        self.rozwiniete_znalezione = []
 
         self.widoczne_quizy: list = []
         self.dodane_quizy: dict = {}
@@ -162,12 +173,11 @@ class Location_Lista():
                         self.all_folders[root] = [full_path]
         self.widoczne_quizy.append('Quizzes')
         self.ustawienia_quizow['Quizzes'] = {
-            "Widoczne": False,
             "Label": widgets.Label(self.surface, (0, 0), None, 'Quizzes', 45, (255, 255, 255))
         }
 
         self.ilosc_pytan: int = 0
-        self.zaznaczono_pytan_label = widgets.Label(variables.window, (15 * variables.ustawienia['Skalowanie'], variables.ustawienia['Wysokość'] - 60 * variables.ustawienia['Skalowanie']), None, f'{variables.jezyk["Lista pytań"]["Zaznaczono"]} 0 {variables.jezyk["Lista pytań"]["Pytań"]}', 50, (255, 255, 255))
+        self.zaznaczono_pytan_label = widgets.Label(variables.window, (15 * variables.ustawienia['Skalowanie'], variables.ustawienia['Wysokość'] - 60 * variables.ustawienia['Skalowanie']), None, f'{variables.jezyk["Lista pytań"]["Zaznaczono % pytań"]}'.replace("{%}", "0"), 50, (255, 255, 255))
         self.dalej_button = widgets.Button(variables.window, (variables.ustawienia['Szerokość'] - 74 * variables.ustawienia['Skalowanie'], variables.ustawienia['Wysokość'] - 74 * variables.ustawienia['Skalowanie']), ('assets/Buttons/play.png', (64, 64)))
 
         self.zapisz_button = widgets.Button(variables.window, (variables.ustawienia['Szerokość'] - 138 * variables.ustawienia['Skalowanie'], 10 * variables.ustawienia['Skalowanie']), ('assets/Buttons/save.png', (64, 64)))
@@ -187,39 +197,114 @@ class Location_Lista():
         if self.wczytaj_button.draw():
             variables.lokalizacja = 'Wczytywanie'
 
-        pygame.draw.rect(variables.window, (0, 0, 0), (10 * variables.ustawienia['Skalowanie'], 84 * variables.ustawienia['Skalowanie'], variables.ustawienia['Szerokość'] - 60 * variables.ustawienia['Skalowanie'], variables.ustawienia['Wysokość'] - 194 * variables.ustawienia['Skalowanie']))
+        def rozwin_znalezione():
+            for lokalizacja in self.rozwiniete_znalezione:
+                self.widoczne_quizy.remove(lokalizacja)
+            self.rozwiniete_znalezione = []
+
+            if self.znalezione_podobne:
+                lokalizacje = os.path.normpath(self.znalezione_podobne[self.wybrany_znaleziony]).split(os.sep)
+                for index in range(1, len(lokalizacje) + 1):
+                    if os.sep.join(lokalizacje[:index]) not in self.widoczne_quizy:
+                        lokalizacja = os.sep.join(lokalizacje[:index - 1])
+                        index = self.widoczne_quizy.index(lokalizacja)
+                        for index2, pelna_lokalizacja in enumerate(self.all_folders[lokalizacja]):
+                            self.widoczne_quizy.insert(index + index2 + 1, pelna_lokalizacja)
+                            self.rozwiniete_znalezione.append(pelna_lokalizacja)
+
+                v = self.widoczne_quizy.index(self.znalezione_podobne[self.wybrany_znaleziony]) * 50 * variables.ustawienia['Skalowanie']
+                self.slider_y.max = 1 if v <= 0 else v
+                self.slider_y.set_value(v)
+
+        self.wyszukiwarka_entry.draw()
+        if self.wyszukiwarka_entry.text_changed:
+            self.znalezione_podobne = []
+            if self.wyszukiwarka_entry.text == '':
+                rozwin_znalezione()
+            else:
+                text = self.wyszukiwarka_entry.text
+                if variables.Locations.Location_Filtry.wielkosc_liter_checkbox.value == 0:
+                    text = text.lower()
+
+                pytania_i_foldery = []
+                for lokalizacja in list(self.all_folders.keys()):
+                    if variables.Locations.Location_Filtry.tylko_pytania_checkbox.value == 0 or self.all_folders[lokalizacja] is None:
+                        x = lokalizacja.lower() if variables.Locations.Location_Filtry.wielkosc_liter_checkbox.value == 0 else lokalizacja
+                        if all([True if l in x else False for l in text.split('\\')]):
+                            pytania_i_foldery.append(lokalizacja)
+
+                if len(pytania_i_foldery) > 0:
+                    self.znalezione_podobne = get_close_matches(self.wyszukiwarka_entry.text, pytania_i_foldery, n=len(pytania_i_foldery), cutoff=0)
+                    if variables.Locations.Location_Filtry.kolejnosc_checkbox.value == 0:
+                        self.znalezione_podobne.sort()
+                    self.wybrany_znaleziony = 0
+                rozwin_znalezione()
+
+        if (self.znalezione_wczesniej.draw() or ("up" in variables.pressed_keys and variables.pressed_keys["up"]["state"] == 1)) and len(self.znalezione_podobne) > 0:
+            self.wybrany_znaleziony -= 1
+            if self.wybrany_znaleziony < 0:
+                self.wybrany_znaleziony = len(self.znalezione_podobne)-1
+            rozwin_znalezione()
+        if (self.znalezione_dalej.draw() or ("down" in variables.pressed_keys and variables.pressed_keys["down"]["state"] == 1)) and len(self.znalezione_podobne) > 0:
+            self.wybrany_znaleziony += 1
+            if self.wybrany_znaleziony >= len(self.znalezione_podobne):
+                self.wybrany_znaleziony = 0
+            rozwin_znalezione()
+        if self.wyszukiwarka_filtry.draw():
+            variables.lokalizacja = "Lista_Filtry"
+
+        pygame.draw.rect(variables.window, (0, 0, 0), (10 * variables.ustawienia['Skalowanie'], 129 * variables.ustawienia['Skalowanie'], variables.ustawienia['Szerokość'] - 60 * variables.ustawienia['Skalowanie'], variables.ustawienia['Wysokość'] - 244 * variables.ustawienia['Skalowanie']))
         self.surface.fill((80, 80, 80))
         max_szerokosc = 0
         for index, lokalizacja in enumerate(self.widoczne_quizy):
             self.dodaj_checkbox.x, self.dodaj_checkbox.y = (55 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, (5 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
-            self.dodaj_checkbox.real_x, self.dodaj_checkbox.real_y = (70 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, (94 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
+            if self.dodaj_checkbox.y < -48 * variables.ustawienia["Skalowanie"]:
+                continue
+            elif self.dodaj_checkbox.y > self.surface.get_height():
+                break
+            self.dodaj_checkbox.real_x, self.dodaj_checkbox.real_y = (70 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, (139 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
             self.dodaj_checkbox.value = True if lokalizacja in self.dodane_quizy else False
+            if lokalizacja not in self.ustawienia_quizow:
+                self.ustawienia_quizow[lokalizacja] = {
+                    "Label": widgets.Label(self.surface, (0, 0), None, os.path.basename(lokalizacja), 45,(255, 255, 255))
+                }
             self.ustawienia_quizow[lokalizacja]['Label'].x, self.ustawienia_quizow[lokalizacja]['Label'].y = (105 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, (5 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
             szerokosc = self.ustawienia_quizow[lokalizacja]['Label'].x + self.slider_x.value + self.ustawienia_quizow[lokalizacja]['Label'].text_surface.get_width()
             if szerokosc > max_szerokosc:
                 max_szerokosc = szerokosc
 
+            if self.znalezione_podobne:
+                if lokalizacja == self.znalezione_podobne[0]:
+                    if self.wybrany_znaleziony == 0:
+                        pygame.draw.rect(self.surface, (80, 100, 80 + math.sin(pygame.time.get_ticks() % 1000 / 1000 * math.pi) * 30), (0, self.dodaj_checkbox.y + 5 * variables.ustawienia['Skalowanie'], self.surface.get_width(), 40 * variables.ustawienia['Skalowanie']))
+                    else:
+                        pygame.draw.rect(self.surface, (80, 100, 80), (0, self.dodaj_checkbox.y + 5 * variables.ustawienia["Skalowanie"], self.surface.get_width(), 40 * variables.ustawienia["Skalowanie"]))
+                elif lokalizacja in self.znalezione_podobne:
+                    if lokalizacja == self.znalezione_podobne[self.wybrany_znaleziony]:
+                        pygame.draw.rect(self.surface, (100, 80, 80 + math.sin(pygame.time.get_ticks() % 1000 / 1000 * math.pi) * 30), (0, self.dodaj_checkbox.y + 5 * variables.ustawienia['Skalowanie'], self.surface.get_width(), 40 * variables.ustawienia['Skalowanie']))
+                    else:
+                        pygame.draw.rect(self.surface, (100, 80, 80), (0, self.dodaj_checkbox.y + 5 * variables.ustawienia['Skalowanie'], self.surface.get_width(), 40 * variables.ustawienia['Skalowanie']))
+
             if self.all_folders[lokalizacja] is not None:
                 self.widoczne_checkbox.x, self.widoczne_checkbox.y = (5 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, (5 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
-                self.widoczne_checkbox.real_x, self.widoczne_checkbox.real_y = (20 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, (94 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
-                self.widoczne_checkbox.value = self.ustawienia_quizow[lokalizacja]['Widoczne']
-                if self.widoczne_checkbox.draw():
-                    self.ustawienia_quizow[lokalizacja]['Widoczne'] = not self.ustawienia_quizow[lokalizacja]['Widoczne']
-                    if self.ustawienia_quizow[lokalizacja]['Widoczne']:
+                self.widoczne_checkbox.real_x, self.widoczne_checkbox.real_y = (20 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, (139 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
+                self.widoczne_checkbox.value = True if len(self.widoczne_quizy) >= index+2 and self.widoczne_quizy[index+1].count(os.sep) > lokalizacja.count(os.sep) else False
+                if self.widoczne_checkbox.draw() and 0 < variables.mouse_y - 134 * variables.ustawienia["Skalowanie"] < self.surface.get_height():
+                    if self.widoczne_checkbox.value:
                         for index2, pelna_lokalizacja in enumerate(self.all_folders[lokalizacja]):
                             self.widoczne_quizy.insert(index+index2+1, pelna_lokalizacja)
-                            self.ustawienia_quizow[pelna_lokalizacja] = {
-                                "Widoczne": False,
-                                "Label": widgets.Label(self.surface, (0, 0), None, os.path.basename(pelna_lokalizacja), 45, (255, 255, 255))
-                            }
                     else:
                         for pelna_lokalizacja in self.all_folders:
                             if lokalizacja+os.sep in pelna_lokalizacja and pelna_lokalizacja != lokalizacja:
                                 if pelna_lokalizacja in self.widoczne_quizy:
-                                    del self.ustawienia_quizow[pelna_lokalizacja]
+                                    try:
+                                        del self.ustawienia_quizow[pelna_lokalizacja]
+                                    except KeyError:
+                                        pass
                                     self.widoczne_quizy.remove(pelna_lokalizacja)
+                    self.rozwiniete_znalezione = []
 
-            if self.dodaj_checkbox.draw():
+            if self.dodaj_checkbox.draw() and 0 < variables.mouse_y - 134 * variables.ustawienia["Skalowanie"] < self.surface.get_height():
                 if self.dodaj_checkbox.value:
                     self.dodane_quizy[lokalizacja] = None
                 else:
@@ -237,7 +322,7 @@ class Location_Lista():
                         if pelna_lokalizacja+os.sep in lokalizacja:
                             self.dodane_quizy[pelna_lokalizacja] = None
                 else:
-                    while variables.run:
+                    while variables.running:
                         lokalizacja_rodzica = os.path.dirname(lokalizacja)
                         if lokalizacja_rodzica != '':
                             wszystkie_false = True
@@ -255,7 +340,10 @@ class Location_Lista():
                             break
             self.ustawienia_quizow[lokalizacja]['Label'].draw()
 
-        variables.window.blit(self.surface, (15 * variables.ustawienia['Skalowanie'], 89 * variables.ustawienia['Skalowanie']))
+        if self.znalezione_podobne:
+            self.numer_znalezionego_label.edit_text(f"({self.wybrany_znaleziony+1}/{len(self.znalezione_podobne)})")
+            self.numer_znalezionego_label.draw()
+        variables.window.blit(self.surface, (15 * variables.ustawienia['Skalowanie'], 134 * variables.ustawienia['Skalowanie']))
         max = (len(self.widoczne_quizy) * 50 + 50) * variables.ustawienia['Skalowanie'] - self.surface.get_height()
         if max < 1:
             max = 1
@@ -299,7 +387,7 @@ class Location_Lista():
             self.mouse_motion = None
 
         self.ilosc_pytan = sum(self.all_folders[lokalizacja] is None for lokalizacja in self.dodane_quizy)
-        self.zaznaczono_pytan_label.edit_text(f'{variables.jezyk["Lista pytań"]["Zaznaczono"]} {self.ilosc_pytan} {variables.jezyk["Lista pytań"]["Pytań"]}')
+        self.zaznaczono_pytan_label.edit_text(f'{variables.jezyk["Lista pytań"]["Zaznaczono % pytań"]}'.replace("{%}", str(self.ilosc_pytan)))
         self.zaznaczono_pytan_label.draw()
         if self.dalej_button.draw() and self.ilosc_pytan > 0:
             variables.lokalizacja = 'Kolejność'
@@ -308,7 +396,6 @@ class Location_Lista():
             for lokalizacja in variables.Locations.Location_Lista.dodane_quizy:
                 if lokalizacja == 'Quizzes':
                     variables.Locations.Location_Kolejnosc.ustawienia_quizow['Quizzes'] = {
-                        "Widoczne": False,
                         "Kolejność": "Losowa",
                         "Label": widgets.Label(variables.Locations.Location_Kolejnosc.surface, (0, 0), None, 'Quizzes', 45, (255, 255, 255))
                     }
@@ -319,7 +406,6 @@ class Location_Lista():
                         with open(os.path.join(lokalizacja, 'ustawienia.json'), 'r', encoding='utf-8') as f:
                             ustawienia = json.load(f)
                     variables.Locations.Location_Kolejnosc.ustawienia_quizow[lokalizacja] = {
-                        "Widoczne": False,
                         "Kolejność": ustawienia["Kolejność"],
                         "Label": None
                     }
@@ -327,16 +413,21 @@ class Location_Lista():
 class Location_Kolejnosc():
     def __init__(self):
         self.powrot_button = widgets.Button(variables.window, (10 * variables.ustawienia['Skalowanie'], 10 * variables.ustawienia['Skalowanie']), ('assets/Buttons/back.png', (64, 64)))
-
+        self.wyszukiwarka_entry = widgets.Entry(variables.window, (10 * variables.ustawienia["Skalowanie"], 84 * variables.ustawienia["Skalowanie"]), (variables.ustawienia['Szerokość'] - 178 * variables.ustawienia['Skalowanie'], 40 * variables.ustawienia["Skalowanie"]), None, (255, 255, 255), (100, 100, 100), 5, (0, 0, 0), None, f'{variables.jezyk["Lista pytań"]["Szukaj"]}', (120, 120, 120), (80, 80, 80), (0, 0, 0), (50, 50, 50), (0, 0, 0))
         self.zapisz_button = widgets.Button(variables.window, (variables.ustawienia['Szerokość'] - 74 * variables.ustawienia['Skalowanie'], 10 * variables.ustawienia['Skalowanie']), ('assets/Buttons/save.png', (64, 64)))
 
-        self.surface = pygame.Surface((variables.ustawienia['Szerokość'] - 60 * variables.ustawienia['Skalowanie'], variables.ustawienia['Wysokość'] - 204 * variables.ustawienia['Skalowanie']))
-        self.slider_y = widgets.Slider_Y(variables.window, (variables.ustawienia['Szerokość'] - 50 * variables.ustawienia['Skalowanie'], 84 * variables.ustawienia['Skalowanie']), (30 * variables.ustawienia['Skalowanie'], self.surface.get_height()), (100, 100, 100), 5, (0, 0, 0), (50, 50, 50))
+        self.surface = pygame.Surface((variables.ustawienia['Szerokość'] - 60 * variables.ustawienia['Skalowanie'], variables.ustawienia['Wysokość'] - 254 * variables.ustawienia['Skalowanie']))
+        self.numer_znalezionego_label = widgets.Label(self.surface, (5 * variables.ustawienia['Skalowanie'], self.surface.get_height() - 45 * variables.ustawienia['Skalowanie']), None, '', 40, (255, 255, 255), (80, 80, 80))
+        self.slider_y = widgets.Slider_Y(variables.window, (variables.ustawienia['Szerokość'] - 50 * variables.ustawienia['Skalowanie'], 129 * variables.ustawienia['Skalowanie']), (30 * variables.ustawienia['Skalowanie'], self.surface.get_height()), (100, 100, 100), 5, (0, 0, 0), (50, 50, 50))
         self.slider_x = widgets.Slider(variables.window, (10 * variables.ustawienia['Skalowanie'], variables.ustawienia['Wysokość'] - 120 * variables.ustawienia['Skalowanie']), (self.surface.get_width() + 30 * variables.ustawienia['Skalowanie'], 30 * variables.ustawienia['Skalowanie']), (100, 100, 100), 5, (0, 0, 0), (50, 50, 50))
         self.mouse_motion = None
 
         self.widoczne_checkbox = widgets.CheckBox(self.surface, (0, 0), [(('assets/Buttons/not_visible.png', (48, 48)), None, None, None, None), (('assets/Buttons/visible2.png', (48, 48)), None, None, None, None)])
         self.losowe_checkbox = widgets.CheckBox(self.surface, (0, 0), [(('assets/Buttons/not_random.png', (48, 48)), None, None, None, None), (('assets/Buttons/random.png', (48, 48)), None, None, None, None), (('assets/Buttons/unimportant.png', (48, 48)), None, None, None, None)])
+
+        self.znalezione_podobne: list = []
+        self.wybrany_znaleziony = 0
+        self.rozwiniete_znalezione = []
 
         self.widoczne_quizy: list = []
         self.ustawienia_quizow: dict = {}
@@ -349,29 +440,108 @@ class Location_Kolejnosc():
         if self.zapisz_button.draw():
             variables.lokalizacja = 'Zapisywanie_Kolejności'
 
-        pygame.draw.rect(variables.window, (0, 0, 0), (10 * variables.ustawienia['Skalowanie'], 84 * variables.ustawienia['Skalowanie'], variables.ustawienia['Szerokość'] - 60 * variables.ustawienia['Skalowanie'], variables.ustawienia['Wysokość'] - 194 * variables.ustawienia['Skalowanie']))
+        def rozwin_znalezione():
+            for lokalizacja in self.rozwiniete_znalezione:
+                self.widoczne_quizy.remove(lokalizacja)
+            self.rozwiniete_znalezione = []
+
+            if self.znalezione_podobne:
+                lokalizacje = os.path.normpath(self.znalezione_podobne[self.wybrany_znaleziony]).split(os.sep)
+                for index in range(1, len(lokalizacje) + 1):
+                    if os.sep.join(lokalizacje[:index]) not in self.widoczne_quizy:
+                        lokalizacja = os.sep.join(lokalizacje[:index - 1])
+                        index = self.widoczne_quizy.index(lokalizacja)
+                        for index2, pelna_lokalizacja in enumerate(variables.Locations.Location_Lista.all_folders[lokalizacja]):
+                            if pelna_lokalizacja in variables.Locations.Location_Lista.dodane_quizy:
+                                self.widoczne_quizy.insert(index + index2 + 1, pelna_lokalizacja)
+                                self.rozwiniete_znalezione.append(pelna_lokalizacja)
+
+                v = self.widoczne_quizy.index(self.znalezione_podobne[self.wybrany_znaleziony]) * 50 * variables.ustawienia['Skalowanie']
+                self.slider_y.max = 1 if v <= 0 else v
+                self.slider_y.set_value(v)
+
+        self.wyszukiwarka_entry.draw()
+        if self.wyszukiwarka_entry.text_changed:
+            self.znalezione_podobne = []
+            if self.wyszukiwarka_entry.text == '':
+                rozwin_znalezione()
+            else:
+                text = self.wyszukiwarka_entry.text
+                if variables.Locations.Location_Filtry.wielkosc_liter_checkbox.value == 0:
+                    text = text.lower()
+
+                pytania_i_foldery = []
+                for lokalizacja in list(variables.Locations.Location_Lista.dodane_quizy.keys()):
+                    if variables.Locations.Location_Filtry.tylko_pytania_checkbox.value == 0 or variables.Locations.Location_Lista.all_folders[lokalizacja] is None:
+                        x = lokalizacja.lower() if variables.Locations.Location_Filtry.wielkosc_liter_checkbox.value == 0 else lokalizacja
+                        if all([True if l in x else False for l in text.split('\\')]):
+                            pytania_i_foldery.append(lokalizacja)
+
+                if len(pytania_i_foldery) > 0:
+                    self.znalezione_podobne = get_close_matches(self.wyszukiwarka_entry.text, pytania_i_foldery, n=len(pytania_i_foldery), cutoff=0)
+                    if variables.Locations.Location_Filtry.kolejnosc_checkbox.value == 0:
+                        self.znalezione_podobne.sort()
+                    self.wybrany_znaleziony = 0
+                rozwin_znalezione()
+
+        if (variables.Locations.Location_Lista.znalezione_wczesniej.draw() or ("up" in variables.pressed_keys and variables.pressed_keys["up"]["state"] == 1)) and len(self.znalezione_podobne) > 0:
+            self.wybrany_znaleziony -= 1
+            if self.wybrany_znaleziony < 0:
+                self.wybrany_znaleziony = len(self.znalezione_podobne)-1
+            rozwin_znalezione()
+        if (variables.Locations.Location_Lista.znalezione_dalej.draw() or ("down" in variables.pressed_keys and variables.pressed_keys["down"]["state"] == 1)) and len(self.znalezione_podobne) > 0:
+            self.wybrany_znaleziony += 1
+            if self.wybrany_znaleziony >= len(self.znalezione_podobne):
+                self.wybrany_znaleziony = 0
+            rozwin_znalezione()
+        if variables.Locations.Location_Lista.wyszukiwarka_filtry.draw():
+            variables.lokalizacja = "Lista_Filtry_Kolejności"
+
+        pygame.draw.rect(variables.window, (0, 0, 0), (10 * variables.ustawienia['Skalowanie'], 129 * variables.ustawienia['Skalowanie'], variables.ustawienia['Szerokość'] - 60 * variables.ustawienia['Skalowanie'], variables.ustawienia['Wysokość'] - 244 * variables.ustawienia['Skalowanie']))
         self.surface.fill((80, 80, 80))
         max_szerokosc = 0
         for index, lokalizacja in enumerate(self.widoczne_quizy):
+            y = (5 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
+            if y < -48 * variables.ustawienia["Skalowanie"]:
+                continue
+            elif y > self.surface.get_height():
+                break
+
+            if self.ustawienia_quizow[lokalizacja]["Label"] is None:
+                self.ustawienia_quizow[lokalizacja]["Label"] = widgets.Label(self.surface, (0, 0), None, os.path.basename(lokalizacja), 45,(255, 255, 255))
+            self.ustawienia_quizow[lokalizacja]['Label'].x, self.ustawienia_quizow[lokalizacja]['Label'].y = (105 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, (5 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
+            szerokosc = self.ustawienia_quizow[lokalizacja]['Label'].x + self.slider_x.value + self.ustawienia_quizow[lokalizacja]['Label'].text_surface.get_width()
+            if szerokosc > max_szerokosc:
+                max_szerokosc = szerokosc
+
+            if self.znalezione_podobne:
+                if lokalizacja == self.znalezione_podobne[0]:
+                    if self.wybrany_znaleziony == 0:
+                        pygame.draw.rect(self.surface, (80, 100, 80 + math.sin(pygame.time.get_ticks() % 1000 / 1000 * math.pi) * 30), (0, y + 5 * variables.ustawienia["Skalowanie"], self.surface.get_width(), 40 * variables.ustawienia["Skalowanie"]))
+                    else:
+                        pygame.draw.rect(self.surface, (80, 100, 80), (0, y + 5 * variables.ustawienia["Skalowanie"], self.surface.get_width(), 40 * variables.ustawienia["Skalowanie"]))
+                elif lokalizacja in self.znalezione_podobne:
+                    if lokalizacja == self.znalezione_podobne[self.wybrany_znaleziony]:
+                        pygame.draw.rect(self.surface, (100, 80, 80 + math.sin(pygame.time.get_ticks() % 1000 / 1000 * math.pi) * 30), (0, y + 5 * variables.ustawienia["Skalowanie"], self.surface.get_width(), 40 * variables.ustawienia["Skalowanie"]))
+                    else:
+                        pygame.draw.rect(self.surface, (100, 80, 80), (0, y + 5 * variables.ustawienia["Skalowanie"], self.surface.get_width(), 40 * variables.ustawienia["Skalowanie"]))
+
             if variables.Locations.Location_Lista.all_folders[lokalizacja] is not None:
-                self.losowe_checkbox.x, self.losowe_checkbox.y = (55 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, (5 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
-                self.losowe_checkbox.real_x, self.losowe_checkbox.real_y = (70 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, (94 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
+                self.losowe_checkbox.x, self.losowe_checkbox.y = (55 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, y
+                self.losowe_checkbox.real_x, self.losowe_checkbox.real_y = (70 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, (139 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
                 self.losowe_checkbox.value = ("Uporządkowana", "Losowa", "Ignorowana").index(self.ustawienia_quizow[lokalizacja]['Kolejność'])
                 if self.losowe_checkbox.draw():
                     self.ustawienia_quizow[lokalizacja]['Kolejność'] = "Losowa" if self.ustawienia_quizow[lokalizacja]['Kolejność'] == "Uporządkowana" else ("Ignorowana" if self.ustawienia_quizow[lokalizacja]['Kolejność'] == "Losowa" and lokalizacja != 'Quizzes' else "Uporządkowana")
 
                 self.widoczne_checkbox.x, self.widoczne_checkbox.y = (5 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, (5 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
-                self.widoczne_checkbox.real_x, self.widoczne_checkbox.real_y = (20 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, (94 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
-                self.widoczne_checkbox.value = self.ustawienia_quizow[lokalizacja]['Widoczne']
+                self.widoczne_checkbox.real_x, self.widoczne_checkbox.real_y = (20 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, (139 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
+                self.widoczne_checkbox.value = True if len(self.widoczne_quizy) >= index+2 and self.widoczne_quizy[index+1].count(os.sep) > lokalizacja.count(os.sep) else False
                 if self.widoczne_checkbox.draw():
-                    self.ustawienia_quizow[lokalizacja]['Widoczne'] = not self.ustawienia_quizow[lokalizacja]['Widoczne']
-                    if self.ustawienia_quizow[lokalizacja]['Widoczne']:
+                    if self.widoczne_checkbox.value:
                         minus = 0
                         for index2, pelna_lokalizacja in enumerate(variables.Locations.Location_Lista.all_folders[lokalizacja]):
                             if pelna_lokalizacja in variables.Locations.Location_Lista.dodane_quizy:
                                 self.widoczne_quizy.insert(index+index2-minus+1, pelna_lokalizacja)
-                                self.ustawienia_quizow[pelna_lokalizacja]['Widoczne'] = False
-                                self.ustawienia_quizow[pelna_lokalizacja]['Label'] = widgets.Label(self.surface, (0, 0), None, os.path.basename(pelna_lokalizacja), 45, (255, 255, 255))
                             else:
                                 minus += 1
                     else:
@@ -380,14 +550,14 @@ class Location_Kolejnosc():
                                 if pelna_lokalizacja in self.widoczne_quizy:
                                     self.ustawienia_quizow[pelna_lokalizacja]['Label'] = None
                                     self.widoczne_quizy.remove(pelna_lokalizacja)
+                    self.rozwiniete_znalezione = []
 
-            self.ustawienia_quizow[lokalizacja]['Label'].x, self.ustawienia_quizow[lokalizacja]['Label'].y = (105 + 20 * lokalizacja.count(os.sep)) * variables.ustawienia['Skalowanie'] - self.slider_x.value, (5 + 50 * index) * variables.ustawienia['Skalowanie'] - self.slider_y.value
             self.ustawienia_quizow[lokalizacja]['Label'].draw()
-            szerokosc = self.ustawienia_quizow[lokalizacja]['Label'].x + self.slider_x.value + self.ustawienia_quizow[lokalizacja]['Label'].text_surface.get_width()
-            if szerokosc > max_szerokosc:
-                max_szerokosc = szerokosc
 
-        variables.window.blit(self.surface, (15 * variables.ustawienia['Skalowanie'], 89 * variables.ustawienia['Skalowanie']))
+        if self.znalezione_podobne:
+            self.numer_znalezionego_label.edit_text(f"({self.wybrany_znaleziony+1}/{len(self.znalezione_podobne)})")
+            self.numer_znalezionego_label.draw()
+        variables.window.blit(self.surface, (15 * variables.ustawienia['Skalowanie'], 134 * variables.ustawienia['Skalowanie']))
         max = (len(self.widoczne_quizy) * 50 + 50) * variables.ustawienia['Skalowanie'] - self.surface.get_height()
         if max < 1:
             max = 1
@@ -430,7 +600,7 @@ class Location_Kolejnosc():
         elif variables.mouse_pressed[0] == 3:
             self.mouse_motion = None
 
-        variables.Locations.Location_Lista.zaznaczono_pytan_label.edit_text(f'{variables.Locations.Location_Lista.ilosc_pytan} {variables.jezyk["Lista pytań"]["Pytań"]}')
+        variables.Locations.Location_Lista.zaznaczono_pytan_label.edit_text(f'{variables.jezyk["Lista pytań"]["Zaznaczono % pytań"]}'.replace("{%}", str(variables.Locations.Location_Lista.ilosc_pytan)))
         variables.Locations.Location_Lista.zaznaczono_pytan_label.draw()
 
         if self.rozpocznij_button.draw():
@@ -443,48 +613,42 @@ class Location_Kolejnosc():
         # print("Dodane quizy:", variables.Locations.Location_Lista.dodane_quizy) # "lokalizacja": None
         # print("Ustawienia quizów:", self.ustawienia_quizow) # "lokalizacja": {ustawienia}
 
+        # Tworzenie listy folderów i pytań które zawera folder
+        for lokalizacja in variables.Locations.Location_Lista.dodane_quizy:
+            if variables.Locations.Location_Lista.all_folders[lokalizacja] is not None:
+                variables.Locations.Location_Lista.dodane_quizy[lokalizacja] = []
+                for l in variables.Locations.Location_Lista.all_folders[lokalizacja]:
+                    if l in variables.Locations.Location_Lista.dodane_quizy:
+                        variables.Locations.Location_Lista.dodane_quizy[lokalizacja].append(l)
+
         # Ignorowanie folderów z pytaniami
         for lokalizacja in variables.Locations.Location_Lista.dodane_quizy:
             if self.ustawienia_quizow[lokalizacja]["Kolejność"] == "Ignorowana":
                 nadfolder = os.path.dirname(lokalizacja)
-                while variables.run:
+                while variables.running:
                     if self.ustawienia_quizow[nadfolder]["Kolejność"] == "Ignorowana":
                         nadfolder = os.path.dirname(nadfolder)
                     else:
                         break
 
-                for l in variables.Locations.Location_Lista.all_folders[lokalizacja]:
-                    if l in variables.Locations.Location_Lista.dodane_quizy:
-                        if variables.Locations.Location_Lista.dodane_quizy[nadfolder] is None:
-                            variables.Locations.Location_Lista.dodane_quizy[nadfolder] = []
-                        variables.Locations.Location_Lista.dodane_quizy[nadfolder].append(l)
+                for l in variables.Locations.Location_Lista.dodane_quizy[lokalizacja]:
+                    variables.Locations.Location_Lista.dodane_quizy[nadfolder].append(l)
+                variables.Locations.Location_Lista.dodane_quizy[lokalizacja] = None
         # print('Zignorowane:', variables.Locations.Location_Lista.dodane_quizy)
 
         # Mieszanie pytań
         for lokalizacja in variables.Locations.Location_Lista.dodane_quizy:
-            if self.ustawienia_quizow[lokalizacja]['Kolejność'] == "Losowa":
-                if variables.Locations.Location_Lista.dodane_quizy[lokalizacja] is None:
-                    cos = []
-                    for l in variables.Locations.Location_Lista.all_folders[lokalizacja]:
-                        if l in variables.Locations.Location_Lista.dodane_quizy:
-                            cos.append(l)
-                    variables.Locations.Location_Lista.dodane_quizy[lokalizacja] = random.sample(cos, len(cos))
-                else:
-                    variables.Locations.Location_Lista.dodane_quizy[lokalizacja] = random.sample(variables.Locations.Location_Lista.dodane_quizy[lokalizacja], len(variables.Locations.Location_Lista.dodane_quizy[lokalizacja]))
+            if self.ustawienia_quizow[lokalizacja]['Kolejność'] == "Losowa" and variables.Locations.Location_Lista.dodane_quizy[lokalizacja] is not None:
+                variables.Locations.Location_Lista.dodane_quizy[lokalizacja] = random.sample(variables.Locations.Location_Lista.dodane_quizy[lokalizacja], len(variables.Locations.Location_Lista.dodane_quizy[lokalizacja]))
 
-            elif self.ustawienia_quizow[lokalizacja]['Kolejność'] == "Uporządkowana" and variables.Locations.Location_Lista.dodane_quizy[lokalizacja] is None:
-                variables.Locations.Location_Lista.dodane_quizy[lokalizacja] = []
-                for l in variables.Locations.Location_Lista.all_folders[lokalizacja]:
-                    if l in variables.Locations.Location_Lista.dodane_quizy:
-                        variables.Locations.Location_Lista.dodane_quizy[lokalizacja].append(l)
         # print('Wymieszane:', variables.Locations.Location_Lista.dodane_quizy)
 
         pytania = []
         dokoncz = ['Quizzes']
-        while variables.run:
+        while variables.running:
             if variables.Locations.Location_Lista.dodane_quizy[dokoncz[0]] is not None:
-                for lokalizacja in variables.Locations.Location_Lista.dodane_quizy[dokoncz[0]]:
-                    dokoncz.append(lokalizacja)
+                for index, lokalizacja in enumerate(variables.Locations.Location_Lista.dodane_quizy[dokoncz[0]]):
+                    dokoncz.insert(1+index, lokalizacja)
             elif self.ustawienia_quizow[dokoncz[0]]['Kolejność'] is None:
                 pytania.append(dokoncz[0])
             dokoncz.pop(0)
@@ -555,12 +719,12 @@ class Location_Quiz_Pytanie():
         if self.zdjecie <= len(self.zdjecia) - 2:
             self.nastepne_zdjecie_button.y = self.zdjecie_y
             self.nastepne_zdjecie_button.real_y = self.zdjecie_y
-            if self.nastepne_zdjecie_button.draw() or (not self.odpowiedz_entry.clicked and 'right' in variables.pressed_keys and variables.pressed_keys['right'][1] == 1):
+            if self.nastepne_zdjecie_button.draw() or (not self.odpowiedz_entry.clicked and 'right' in variables.pressed_keys and variables.pressed_keys['right']["state"] == 1):
                 self.zdjecie += 1
         if self.zdjecie > 0:
             self.poprzednie_zdjecie_button.y = self.zdjecie_y
             self.poprzednie_zdjecie_button.real_y = self.zdjecie_y
-            if self.poprzednie_zdjecie_button.draw() or (not self.odpowiedz_entry.clicked and 'left' in variables.pressed_keys and variables.pressed_keys['left'][1] == 1):
+            if self.poprzednie_zdjecie_button.draw() or (not self.odpowiedz_entry.clicked and 'left' in variables.pressed_keys and variables.pressed_keys['left']["state"] == 1):
                 self.zdjecie -= 1
 
         if perf_counter() < self.minutnik + self.ustawienia_pytania["Czas na reakcje (s)"]:
@@ -577,7 +741,7 @@ class Location_Quiz_Pytanie():
                 self.odpowiedz_entry.y = self.zdjecie_y + 74 * variables.ustawienia['Skalowanie']
                 self.odpowiedz_entry.real_y = self.odpowiedz_entry.y
                 self.odpowiedz_entry.draw()
-                zatwierdz = variables.Locations.Location_Lista.dalej_button.draw() or 'return' in variables.pressed_keys and variables.pressed_keys['return'][1] == 3
+                zatwierdz = variables.Locations.Location_Lista.dalej_button.draw() or 'return' in variables.pressed_keys and variables.pressed_keys['return']["state"] == 3
 
             if zatwierdz:
                 if self.ustawienia_pytania['Typ odpowiedzi'] == 'Wpisz tekst':
@@ -651,7 +815,7 @@ class Location_Quiz_Pytanie():
         self.nastepne_zdjecie_button.real_x = self.nastepne_zdjecie_button.x
 
         self.minutnik = perf_counter()
-        self.odpowiedz_entry.edit_text('')
+        self.odpowiedz_entry.set_text('')
         if self.ustawienia_pytania['Czas na reakcje (s)'] > 0:
             self.minutnik_progressbar.max = self.ustawienia_pytania['Czas na reakcje (s)']
         else:
@@ -693,12 +857,12 @@ class Location_Quiz_Odpowiedz():
         if variables.Locations.Location_Quiz_Pytanie.zdjecie <= len(variables.Locations.Location_Quiz_Pytanie.zdjecia) - 2:
             variables.Locations.Location_Quiz_Pytanie.nastepne_zdjecie_button.y = variables.Locations.Location_Quiz_Pytanie.zdjecie_y - self.slider_y.value
             variables.Locations.Location_Quiz_Pytanie.nastepne_zdjecie_button.real_y = variables.Locations.Location_Quiz_Pytanie.zdjecie_y + 144 * variables.ustawienia['Skalowanie'] - self.slider_y.value
-            if variables.Locations.Location_Quiz_Pytanie.nastepne_zdjecie_button.draw() or ('right' in variables.pressed_keys and variables.pressed_keys['right'][1] == 1):
+            if variables.Locations.Location_Quiz_Pytanie.nastepne_zdjecie_button.draw() or ('right' in variables.pressed_keys and variables.pressed_keys['right']["state"] == 1):
                 variables.Locations.Location_Quiz_Pytanie.zdjecie += 1
         if variables.Locations.Location_Quiz_Pytanie.zdjecie > 0:
             variables.Locations.Location_Quiz_Pytanie.poprzednie_zdjecie_button.y = variables.Locations.Location_Quiz_Pytanie.zdjecie_y - self.slider_y.value
             variables.Locations.Location_Quiz_Pytanie.poprzednie_zdjecie_button.real_y = variables.Locations.Location_Quiz_Pytanie.zdjecie_y + 144 * variables.ustawienia['Skalowanie'] - self.slider_y.value
-            if variables.Locations.Location_Quiz_Pytanie.poprzednie_zdjecie_button.draw() or ('left' in variables.pressed_keys and variables.pressed_keys['left'][1] == 1):
+            if variables.Locations.Location_Quiz_Pytanie.poprzednie_zdjecie_button.draw() or ('left' in variables.pressed_keys and variables.pressed_keys['left']["state"] == 1):
                 variables.Locations.Location_Quiz_Pytanie.zdjecie -= 1
 
         if variables.Locations.Location_Quiz_Pytanie.ustawienia_pytania['Typ odpowiedzi'] == 'Wpisz tekst':
@@ -718,7 +882,7 @@ class Location_Quiz_Odpowiedz():
         else:
             self.odpowiedz_nie_poprawna_label.draw()
 
-        if variables.Locations.Location_Lista.dalej_button.draw() or 'return' in variables.pressed_keys and variables.pressed_keys['return'][1] == 3:
+        if variables.Locations.Location_Lista.dalej_button.draw() or 'return' in variables.pressed_keys and variables.pressed_keys['return']["state"] == 3:
             variables.lokalizacja = 'Quiz_Pytanie'
             variables.Locations.Location_Quiz_Pytanie.nastepne_pytanie()
 
@@ -786,6 +950,33 @@ class Location_Wczytywanie():
         if variables.Locations.Location_Kolejnosc.powrot_button.draw():
             variables.lokalizacja = 'Lista'
 
+class Location_Filtry():
+    def __init__(self):
+        self.wielkosc_liter_checkbox = widgets.CheckBox(variables.window, (10 * variables.ustawienia['Skalowanie'], 100 * variables.ustawienia['Skalowanie']), [(('assets/Buttons/close.png', (48, 48)), None, None, None, None), (('assets/Buttons/accept.png', (48, 48)), None, None, None, None)])
+        self.wielkosc_liter_label = widgets.Label(variables.window, (70 * variables.ustawienia['Skalowanie'], 104 * variables.ustawienia['Skalowanie']), None, f'{variables.jezyk["Lista pytań"]["Filtry"]["Wielkość liter ma znaczenie"]}', 40, (255, 255, 255), max_width=variables.ustawienia['Szerokość'] - 20 * variables.ustawienia['Skalowanie'])
+        self.tylko_pytania_checkbox = widgets.CheckBox(variables.window, (10 * variables.ustawienia['Skalowanie'], 150 * variables.ustawienia['Skalowanie']), [(('assets/Buttons/close.png', (48, 48)), None, None, None, None), (('assets/Buttons/accept.png', (48, 48)), None, None, None, None)])
+        self.tylko_pytania_label = widgets.Label(variables.window, (70 * variables.ustawienia['Skalowanie'], 154 * variables.ustawienia['Skalowanie']), None, f'{variables.jezyk["Lista pytań"]["Filtry"]["Tylko pytania"]}', 40, (255, 255, 255), max_width=variables.ustawienia['Szerokość'] - 20 * variables.ustawienia['Skalowanie'])
+        self.kolejnosc_checkbox = widgets.CheckBox(variables.window, (10 * variables.ustawienia['Skalowanie'], 200 * variables.ustawienia['Skalowanie']), [(('assets/Buttons/alphabet.png', (48, 48)), None, None, None, None), (('assets/Buttons/shapes.png', (48, 48)), None, None, None, None)])
+        self.kolejnosc_alfabetycznie_label = widgets.Label(variables.window, (70 * variables.ustawienia['Skalowanie'], 204 * variables.ustawienia['Skalowanie']), None, f'{variables.jezyk["Lista pytań"]["Filtry"]["Kolejność alfabetyczna"]}', 40, (255, 255, 255), max_width=variables.ustawienia['Szerokość'] - 20 * variables.ustawienia['Skalowanie'])
+        self.kolejnosc_podobienstwa_label = widgets.Label(variables.window, (70 * variables.ustawienia['Skalowanie'], 204 * variables.ustawienia['Skalowanie']), None, f'{variables.jezyk["Lista pytań"]["Filtry"]["Kolejność podobieństwa"]}', 40, (255, 255, 255), max_width=variables.ustawienia['Szerokość'] - 20 * variables.ustawienia['Skalowanie'])
+
+    def draw(self):
+        if variables.Locations.Location_Kolejnosc.powrot_button.draw():
+            if variables.lokalizacja == "Lista_Filtry_Kolejności":
+                variables.lokalizacja = 'Kolejność'
+            else:
+                variables.lokalizacja = 'Lista'
+
+        self.wielkosc_liter_checkbox.draw()
+        self.wielkosc_liter_label.draw()
+        self.tylko_pytania_checkbox.draw()
+        self.tylko_pytania_label.draw()
+        self.kolejnosc_checkbox.draw()
+        if self.kolejnosc_checkbox.value:
+            self.kolejnosc_podobienstwa_label.draw()
+        else:
+            self.kolejnosc_alfabetycznie_label.draw()
+
 class Locations():
     def __init__(self):
         self.FPS = widgets.FPS()
@@ -802,7 +993,7 @@ class Locations():
         self.Location_Stworz_gre = Location_Stworz_gre()
         self.Location_Zapisywanie = Location_Zapisywanie()
         self.Location_Wczytywanie = Location_Wczytywanie()
-
+        self.Location_Filtry = Location_Filtry()
 
     def draw(self):
         if variables.lokalizacja == 'Ustawienia':
@@ -825,6 +1016,8 @@ class Locations():
             self.Location_Zapisywanie.draw()
         elif variables.lokalizacja == 'Wczytywanie':
             self.Location_Wczytywanie.draw()
+        elif variables.lokalizacja in ("Lista_Filtry", "Lista_Filtry_Kolejności"):
+            self.Location_Filtry.draw()
 
         self.FPS.draw()
         self.Music.graj_muzyke()

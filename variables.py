@@ -1,6 +1,6 @@
-wersja = '1.0.9'
-data_aktualizacji = "2025-05-16, 19:45:10"
-run: bool = None
+wersja: str = '1.0.10'
+data_aktualizacji: str = "2025-08-16, 15:34:06"
+running: bool | int = None
 lokalizacja: str = None
 clock = None
 ustawienia: dict = None
@@ -11,5 +11,5 @@ mouse_x: int = None
 mouse_y: int = None
 mouse_pressed: list = None
 mouse_scroll: int = None
-pressed_keys: list = None
+pressed_keys: dict = None
 TextInput: list = None

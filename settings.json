@@ -1,11 +1,13 @@
 {
   "J\u0119zyk": "Polski",
-  "Szeroko\u015b\u0107": 562,
-  "Wysoko\u015b\u0107": 1000,
-  "Pe\u0142ny ekran": false,
-  "Skalowanie": 0.9,
+  "Szeroko\u015b\u0107": null,
+  "Wysoko\u015b\u0107": null,
+  "Pe\u0142ny ekran": true,
+  "Skalowanie": null,
   "FPS": {
+    "Max FPS": 60,
     "Poka\u017c FPS": false,
+    "Od\u015bwie\u017canie": 150,
     "Rozmiar FPS": 40,
     "Rozmiar FPS cienia": 41,
     "xy FPS": [
