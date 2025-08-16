@@ -1,6 +1,5 @@
 ![language](https://img.shields.io/badge/language-python-239120)
 [![GitHub release](https://img.shields.io/github/v/release/czarchmA8/Quizy_v2)](#)
-![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/czarchmA8/Quizy_v2/total)
 
 ## 💻 Opis Quizy v2
 ![logo](https://github.com/user-attachments/assets/6d0198d8-4622-429a-b3e3-8e8334490a8b)
@@ -14,7 +13,7 @@ Quizy to program edukacyjny stworzony przez czarchmA8 z użyciem biblioteki Pyga
  - (Opcjonalnie) Pobierz quiz o ptakach Polski (około 1,04 GB, 474 pytania) i wypakuj go do folderu Quizzes.
 
 ### 🕹️ Pobierz program bez quizów:
- - [Quizy v2](https://mega.nz/file/Qc8UFarC#t3kfEL27biU0OXs_2Z0z9vUrGTvKjo-1SjJ5h2R7m_Q) (mega.nz)
+ - [Quizy v2](https://mega.nz/file/tEVWRZpA#CpVXv5MfF1qkGC_rNSo-eaw2WuIeWXyGSut9LN93UKU) (mega.nz)
 
 ### 🦅 Pobierz quiz o ptakach:
  - [Awifauna Polski (2025r)](https://mega.nz/file/pdt1XYRJ#ScCsdsglaM8omVyGX6fPDd_6p081S4ksMKqSd2aPZJA) (mega.nz)
@@ -30,10 +29,11 @@ pip install -r requirements.txt
 ### Tworzenie pliku .exe (Windows)
 Jeśli chcesz stworzyć plik wykonywalny .exe, użyj poniższej komendy:
 ```bash
-pyinstaller main.py --onefile --windowed --icon=icon.ico --name=Quizy_v2 
+pyinstaller main.py --onedir --windowed --icon=icon.ico --name=Quizy_v2 
 ```
 
 ## Zdjęcia
 
-![obraz](https://github.com/user-attachments/assets/b44c50ad-ba9e-4a70-9324-501ab8a592ef)
-![obraz](https://github.com/user-attachments/assets/6be061f9-56d5-4be8-9d67-f5f0b8e9f90c)
+<img width="2265" height="1132" alt="Bez tytułu" src="https://github.com/user-attachments/assets/1ef089c9-d589-470f-acbe-17ec921ac782" />
+<img width="2265" height="1132" alt="Bez tytułu2" src="https://github.com/user-attachments/assets/1b3d9159-384c-4787-b285-d8dadfe2b7bc" />
+<img width="2265" height="1132" alt="Bez tytułu3" src="https://github.com/user-attachments/assets/3e78b2ce-f2ab-4e12-a04d-21ed30d21c47" />
